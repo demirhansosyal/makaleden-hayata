@@ -53,6 +53,22 @@
       "due": "2026-10-26T17:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ade4934e4be8a4d86be6ff2"
+    },
+    {
+      "tweet": "ChAdOx1 nCoV-19 aşısının B.1.351 varyantına karşı hafif-orta şiddette Covid-19'a koruyuculuğu %21,9 olarak saptandı. Bu bulgu, yeni varyantlara karşı aşı etkinliklerinin yakından izlenmesi gerektiğini gösteriyor.",
+      "title": "Aşının B.1.351 Varyantına Etkisi",
+      "stat": "%21,9",
+      "stat_label": "Hafif-orta şiddette Covid-19'a karşı aşı etkinlik oranı",
+      "finding": "ChAdOx1 nCoV-19 aşısının hafif-orta şiddette Covid-19'a karşı etkinliği %21,9 olarak belirlendi.",
+      "interpretation": "Yorum: Bu tür veriler, varyantlara karşı bağışıklık yanıtlarının takip edilmesinin önemini vurgular.",
+      "limitation": "Çok merkezli, çift kör, randomize kontrollü bir çalışmadır; sonuçlar belirli bir varyant ve popülasyon için geçerlidir.",
+      "skip": false,
+      "pmid": "33725432",
+      "source_title": "Efficacy of the ChAdOx1 nCoV-19 Covid-19 Vaccine against the B.1.351 Variant.",
+      "year": "2021",
+      "text": "ChAdOx1 nCoV-19 aşısının B.1.351 varyantına karşı hafif-orta şiddette Covid-19'a koruyuculuğu %21,9 olarak saptandı. Bu bulgu, yeni varyantlara karşı aşı etkinliklerinin yakından izlenmesi gerektiğini gösteriyor.\nhttps://pubmed.ncbi.nlm.nih.gov/33725432/",
+      "due": "2026-10-26T20:00:00+03:00",
+      "status": "prepared"
     }
   ]
 }
