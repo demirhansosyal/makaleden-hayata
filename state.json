@@ -71,5 +71,9 @@
       "status": "scheduled",
       "post_id": "6ade493f3d5b27036be77fd3"
     }
-  ]
+  ],
+  "health": {
+    "checked_at": "2026-10-25T21:34:52.907598+03:00",
+    "active_problems": []
+  }
 }
