@@ -50,7 +50,7 @@ def request(method, url, **kwargs):
         headers['Content-Type']='application/json'
     req=urllib.request.Request(url,data=body,headers=headers,method=method)
     try:
-        with urllib.request.urlopen(req,timeout=90) as response:
+        with urllib.request.urlopen(req,timeout=240 if 'generativelanguage.googleapis.com' in url else 90) as response:
             data=response.read(); response_headers=response.headers
     except urllib.error.HTTPError as error:
         detail=''
@@ -118,7 +118,7 @@ def gemini(prompt):
     result = request('POST', f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
         headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}, json={
           'contents':[{'parts':[{'text':prompt}]}],
-          'generationConfig':{'temperature':0.3,'responseMimeType':'application/json','maxOutputTokens':8192}
+          'generationConfig':{'responseMimeType':'application/json','maxOutputTokens':4096,'thinkingConfig':{'thinkingLevel':'LOW'}}
         }).json()
     candidates = result.get('candidates', [])
     if not candidates or candidates[0].get('finishReason') != 'STOP':
