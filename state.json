@@ -68,7 +68,8 @@
       "year": "2021",
       "text": "ChAdOx1 nCoV-19 aşısının B.1.351 varyantına karşı hafif-orta şiddette Covid-19'a koruyuculuğu %21,9 olarak saptandı. Bu bulgu, yeni varyantlara karşı aşı etkinliklerinin yakından izlenmesi gerektiğini gösteriyor.\nhttps://pubmed.ncbi.nlm.nih.gov/33725432/",
       "due": "2026-10-26T20:00:00+03:00",
-      "status": "submitting"
+      "status": "scheduled",
+      "post_id": "6ade493f3d5b27036be77fd3"
     }
   ]
 }
