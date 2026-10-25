@@ -20,6 +20,7 @@ CHANNEL = '6addb0152f1f5ed648c5b8f7'
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / 'state.json'
 MEDIA = ROOT / 'media'
+SELECTED_MODEL = None
 
 def read_json(path, default):
     return json.loads(path.read_text()) if path.exists() else default
@@ -52,7 +53,13 @@ def request(method, url, **kwargs):
         with urllib.request.urlopen(req,timeout=90) as response:
             data=response.read(); response_headers=response.headers
     except urllib.error.HTTPError as error:
-        raise RuntimeError(f'HTTP {error.code} from {url.split("?")[0]}') from None
+        detail=''
+        if 'generativelanguage.googleapis.com' in url:
+            try:detail=json.loads(error.read()).get('error',{}).get('message','')[:1000]
+            except (ValueError,TypeError):pass
+            for key in ('GEMINI_API_KEY','BUFFER_API_KEY'):
+                if os.getenv(key):detail=detail.replace(os.environ[key],'[redacted]')
+        raise RuntimeError(f'HTTP {error.code} from {url.split("?")[0]}: {detail}') from None
     class Response:
         content=data
         headers=response_headers
@@ -95,7 +102,19 @@ def posts(org, status):
     raise RuntimeError('Incomplete Buffer pagination; refusing to schedule')
 
 def gemini(prompt):
-    model = os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash'
+    global SELECTED_MODEL
+    if SELECTED_MODEL is None:
+        available=request('GET','https://generativelanguage.googleapis.com/v1beta/models',
+            headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}).json().get('models',[])
+        names={m['name'].removeprefix('models/') for m in available if 'generateContent' in m.get('supportedGenerationMethods',[])}
+        # Only models whose official pricing lists a free text tier. Never choose a paid fallback.
+        preferred=[os.getenv('GEMINI_MODEL'),'gemini-3.5-flash-lite','gemini-3.1-flash-lite','gemini-2.5-flash']
+        allowed={'gemini-3.5-flash-lite','gemini-3.1-flash-lite','gemini-2.5-flash'}
+        SELECTED_MODEL=next((m for m in preferred if m in names and m in allowed),None)
+        if not SELECTED_MODEL:
+            raise RuntimeError('No approved free-tier model available; available model names: '+', '.join(sorted(names)))
+        print('Selected documented free-tier model: '+SELECTED_MODEL)
+    model = SELECTED_MODEL
     result = request('POST', f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
         headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}, json={
           'contents':[{'parts':[{'text':prompt}]}],
