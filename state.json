@@ -36,6 +36,22 @@
       "due": "2026-10-26T13:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ade49278b3d437ddc1fb1a2"
+    },
+    {
+      "tweet": "COVID-19 pandemisi döneminde genel popülasyonda depresyon yaygınlığı %33,7 olarak saptandı. Bu bulgu, salgın gibi kriz dönemlerinde ruh sağlığının yakından izlenmesinin önemini hatırlatıyor.",
+      "title": "Pandemide ruh sağlığı: Depresyon yaygınlığı",
+      "stat": "%33,7",
+      "stat_label": "14 çalışmada toplam 44.531 kişide depresyon yaygınlığı",
+      "finding": "Salgın döneminde genel popülasyonda depresyon yaygınlığı %33,7 olarak belirlendi.",
+      "interpretation": "Yorum: Kriz dönemlerinde ruh sağlığını korumak için psikolojik destek mekanizmalarına başvurulabilir.",
+      "limitation": "Sistematik derleme ve meta-analiz çalışmasıdır; dahil edilen çalışmaların heterojenliği göz önünde bulundurulmalıdır.",
+      "skip": false,
+      "pmid": "32631403",
+      "source_title": "Prevalence of stress, anxiety, depression among the general population during the COVID-19 pandemic: a systematic review and meta-analysis.",
+      "year": "2020",
+      "text": "COVID-19 pandemisi döneminde genel popülasyonda depresyon yaygınlığı %33,7 olarak saptandı. Bu bulgu, salgın gibi kriz dönemlerinde ruh sağlığının yakından izlenmesinin önemini hatırlatıyor.\nhttps://pubmed.ncbi.nlm.nih.gov/32631403/",
+      "due": "2026-10-26T17:00:00+03:00",
+      "status": "prepared"
     }
   ]
 }
