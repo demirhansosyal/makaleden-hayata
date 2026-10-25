@@ -111,10 +111,10 @@ def clean(text):
     return ' '.join(html.unescape(re.sub('<[^>]+>', ' ', text)).split())
 
 TOPICS = {
-  10: '(dietary fibre OR whole grains OR nutrition) AND (META_ANALYSIS:Y OR PUB_TYPE:"Randomized Controlled Trial")',
-  13: '(physical activity OR walking OR resistance training) AND (META_ANALYSIS:Y OR PUB_TYPE:"Randomized Controlled Trial")',
-  17: '(sleep OR attention OR habit) AND (META_ANALYSIS:Y OR PUB_TYPE:"Randomized Controlled Trial")',
-  20: '(micro breaks OR social connection OR wellbeing OR sedentary) AND (META_ANALYSIS:Y OR PUB_TYPE:"Randomized Controlled Trial")'
+  10: '(dietary fibre OR whole grains OR nutrition) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")',
+  13: '(physical activity OR walking OR resistance training) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")',
+  17: '(sleep OR attention OR habit) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")',
+  20: '(micro breaks OR social connection OR wellbeing OR sedentary) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")'
 }
 
 def articles(hour):
@@ -222,14 +222,16 @@ def main():
     state=read_json(STATE,{'records':[]})
     MEDIA.mkdir(exist_ok=True)
     org=organization()
-    queue=posts(org,'scheduled')
+    queue=posts(org,'scheduled')+posts(org,'sending')
     sent=posts(org,'sent')
-    failed=posts(org,'failed')
+    failed=posts(org,'error')
     print(f'X channel verified. Scheduled: {len(queue)}; sent: {len(sent)}; failed: {len(failed)}')
     # A minimal live model request verifies the key/model without using private data.
     if args.mode=='check':
         if gemini('Return only JSON {"connection":"ok"}.').get('connection')!='ok':raise RuntimeError('Model check failed')
-        print('Gemini connection verified. No posts created.')
+        discovered=articles(10)
+        if not discovered:raise RuntimeError('No source abstracts found')
+        print('Gemini and source discovery verified. No posts created.')
         return
     if failed:raise RuntimeError('Buffer has failed posts; review before adding more')
     now=datetime.now(TZ)
