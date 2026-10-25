@@ -21,6 +21,12 @@ ROOT = Path(__file__).resolve().parent
 STATE = ROOT / 'state.json'
 MEDIA = ROOT / 'media'
 SELECTED_MODEL = None
+AVAILABLE_MODELS = []
+
+class APIError(RuntimeError):
+    def __init__(self, status, message):
+        super().__init__(message)
+        self.status = status
 
 def read_json(path, default):
     return json.loads(path.read_text()) if path.exists() else default
@@ -59,7 +65,7 @@ def request(method, url, **kwargs):
             except (ValueError,TypeError):pass
             for key in ('GEMINI_API_KEY','BUFFER_API_KEY'):
                 if os.getenv(key):detail=detail.replace(os.environ[key],'[redacted]')
-        raise RuntimeError(f'HTTP {error.code} from {url.split("?")[0]}: {detail}') from None
+        raise APIError(error.code, f'HTTP {error.code} from {url.split("?")[0]}: {detail}') from None
     class Response:
         content=data
         headers=response_headers
@@ -102,24 +108,40 @@ def posts(org, status):
     raise RuntimeError('Incomplete Buffer pagination; refusing to schedule')
 
 def gemini(prompt):
-    global SELECTED_MODEL
+    global SELECTED_MODEL, AVAILABLE_MODELS
     if SELECTED_MODEL is None:
         available=request('GET','https://generativelanguage.googleapis.com/v1beta/models',
             headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}).json().get('models',[])
         names={m['name'].removeprefix('models/') for m in available if 'generateContent' in m.get('supportedGenerationMethods',[])}
         # Only models whose official pricing lists a free text tier. Never choose a paid fallback.
-        preferred=['gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash-lite','gemini-3.1-flash-lite']
+        preferred=['gemini-3.5-flash-lite','gemini-3.1-flash-lite','gemini-3.8-flash','gemini-3.6-flash']
         allowed=set(preferred)
-        SELECTED_MODEL=next((m for m in preferred if m in names and m in allowed),None)
+        AVAILABLE_MODELS=[m for m in preferred if m in names and m in allowed]
+        SELECTED_MODEL=next(iter(AVAILABLE_MODELS),None)
         if not SELECTED_MODEL:
             raise RuntimeError('No approved free-tier model available; available model names: '+', '.join(sorted(names)))
         print('Selected documented free-tier model: '+SELECTED_MODEL)
-    model = SELECTED_MODEL
-    result = request('POST', f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-        headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}, json={
-          'contents':[{'parts':[{'text':prompt}]}],
-          'generationConfig':{'responseMimeType':'application/json','maxOutputTokens':4096,'thinkingConfig':{'thinkingLevel':'LOW'}}
-        }).json()
+    result = None
+    for model in [SELECTED_MODEL]+[m for m in AVAILABLE_MODELS if m != SELECTED_MODEL]:
+        for attempt in range(3):
+            try:
+                result = request('POST', f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
+                    headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}, json={
+                      'contents':[{'parts':[{'text':prompt}]}],
+                      'generationConfig':{'responseMimeType':'application/json','maxOutputTokens':8192,'thinkingConfig':{'thinkingLevel':'LOW'}}
+                    }).json()
+                SELECTED_MODEL = model
+                break
+            except (APIError, TimeoutError, urllib.error.URLError) as error:
+                if isinstance(error, APIError) and error.status not in (404,429,500,502,503,504):
+                    raise
+                print(f'Temporary generation failure on {model}, attempt {attempt+1}')
+                if attempt < 2:
+                    time.sleep(15 * (attempt+1))
+        if result is not None:
+            break
+    if result is None:
+        raise RuntimeError('Free generation services unavailable after bounded retries; no unverified post created')
     candidates = result.get('candidates', [])
     if not candidates or candidates[0].get('finishReason') != 'STOP':
         raise RuntimeError('Gemini returned an incomplete/blocked response')
