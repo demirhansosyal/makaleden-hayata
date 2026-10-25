@@ -151,12 +151,13 @@ def gemini(prompt):
 def clean(text):
     return ' '.join(html.unescape(re.sub('<[^>]+>', ' ', text)).split())
 
-TOPICS = {
-  10: '("dietary fibre" OR "whole grains" OR nutrition) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")',
-  13: '("physical activity" OR walking OR "resistance training") AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")',
-  17: '(sleep OR attention OR habit) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")',
-  20: '("micro breaks" OR "social connection" OR wellbeing OR sedentary) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")'
+TOPIC_TERMS = {
+  10: ['dietary fibre','dietary fiber','whole grains','nutrition','diet','protein','food'],
+  13: ['physical activity','walking','resistance training','exercise','daily steps','sedentary'],
+  17: ['sleep','circadian','attention','habit','recovery'],
+  20: ['micro breaks','social connection','wellbeing','well-being','sedentary','mindfulness']
 }
+TOPICS = {hour:'('+ ' OR '.join('TITLE:'+literal(term) for term in terms)+') AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")' for hour,terms in TOPIC_TERMS.items()}
 
 def everyday_source(article):
     title = clean(article.get('title','')).lower()
@@ -168,7 +169,7 @@ def everyday_source(article):
 def articles(hour):
     query = '('+TOPICS[hour]+') AND HAS_ABSTRACT:Y AND SRC:MED AND FIRST_PDATE:[2020-01-01 TO '+datetime.now(TZ).date().isoformat()+'] NOT PUB_TYPE:"Preprint" NOT PUB_TYPE:"Retracted Publication"'
     data = request('GET','https://www.ebi.ac.uk/europepmc/webservices/rest/search',params={
-       'query':query,'format':'json','resultType':'core','pageSize':30,'sort':'CITED desc'}).json()
+       'query':query,'format':'json','resultType':'core','pageSize':100,'sort':'CITED desc'}).json()
     return [r for r in data.get('resultList',{}).get('result',[]) if r.get('abstractText') and r.get('id') and not r.get('isRetracted') == 'Y' and everyday_source(r)]
 
 def create_content(article, recent):
@@ -363,8 +364,8 @@ def main():
             for article in articles(hour)[:12]:
                 if article['id'] in used:continue
                 try:content=create_content(article,all_text)
-                except ValueError:
-                    print('Skipped unsuitable source '+article['id']);continue
+                except ValueError as error:
+                    print('Skipped unsuitable source '+article['id']+': '+str(error));continue
                 break
             if not content:raise RuntimeError('No scientifically verified content for '+str(due))
             content['due']=due.isoformat()
