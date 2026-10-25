@@ -108,8 +108,8 @@ def gemini(prompt):
             headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}).json().get('models',[])
         names={m['name'].removeprefix('models/') for m in available if 'generateContent' in m.get('supportedGenerationMethods',[])}
         # Only models whose official pricing lists a free text tier. Never choose a paid fallback.
-        preferred=[os.getenv('GEMINI_MODEL'),'gemini-3.5-flash-lite','gemini-3.1-flash-lite','gemini-2.5-flash']
-        allowed={'gemini-3.5-flash-lite','gemini-3.1-flash-lite','gemini-2.5-flash'}
+        preferred=['gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash-lite','gemini-3.1-flash-lite']
+        allowed=set(preferred)
         SELECTED_MODEL=next((m for m in preferred if m in names and m in allowed),None)
         if not SELECTED_MODEL:
             raise RuntimeError('No approved free-tier model available; available model names: '+', '.join(sorted(names)))
