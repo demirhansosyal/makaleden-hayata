@@ -19,6 +19,22 @@
       "pmid": "30638909",
       "due": "2026-10-26T10:00:00+03:00",
       "status": "scheduled"
+    },
+    {
+      "tweet": "COVID-19 salgınında sağlık çalışanlarının ruh sağlığı incelendi: Araştırmada uykusuzluk yaygınlığı %38,9 olarak belirlendi. Bu bulgu, zorlu süreçlerde destek mekanizmalarının önemine işaret ediyor.",
+      "title": "Sağlık çalışanlarında salgın stresi",
+      "stat": "%38,9",
+      "stat_label": "5 çalışmada değerlendirilen sağlık çalışanlarında uykusuzluk yaygınlığı",
+      "finding": "Salgın döneminde sağlık çalışanları arasında anksiyete %23,2, depresyon ise %22,8 oranında görülmüştür.",
+      "interpretation": "Yorum: Yoğun çalışma koşulları ruh sağlığını etkileyebilir, bu nedenle destek önlemleri hayati önem taşır.",
+      "limitation": "Meta-analiz yöntemiyle yapılmıştır; dahil edilen çalışmaların heterojenliği sonuçları etkileyebilir.",
+      "skip": false,
+      "pmid": "32437915",
+      "source_title": "Prevalence of depression, anxiety, and insomnia among healthcare workers during the COVID-19 pandemic: A systematic review and meta-analysis.",
+      "year": "2020",
+      "text": "COVID-19 salgınında sağlık çalışanlarının ruh sağlığı incelendi: Araştırmada uykusuzluk yaygınlığı %38,9 olarak belirlendi. Bu bulgu, zorlu süreçlerde destek mekanizmalarının önemine işaret ediyor.\nhttps://pubmed.ncbi.nlm.nih.gov/32437915/",
+      "due": "2026-10-26T13:00:00+03:00",
+      "status": "prepared"
     }
   ]
 }
