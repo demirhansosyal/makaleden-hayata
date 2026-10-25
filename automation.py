@@ -344,7 +344,7 @@ def main():
             else:raise RuntimeError('Uncertain previous submission. Manual reconciliation required.')
     if args.mode=='publish':checkpoint(state)
     created=0
-    for offset in range(2):
+    for offset in range(3 if args.mode=='preview' else 2):
         day=(now+timedelta(days=offset)).date()
         for hour in (10,13,17,20):
             due=datetime(day.year,day.month,day.day,hour,tzinfo=TZ)
@@ -366,6 +366,7 @@ def main():
             if args.mode=='preview':
                 (ROOT/'preview.json').write_text(json.dumps(content,ensure_ascii=False,indent=2))
                 print('Verified content and image preview prepared; no Buffer write.')
+                print('Preview text: '+content['text'])
                 return
             content['status']='prepared'
             state['records'].append(content)
