@@ -2,6 +2,8 @@ name: Makaleden Hayata
 on:
   schedule:
     - cron: '17 3 * * *'
+    - cron: '15 6 * * *'
+    - cron: '45 7,10,14,17 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -9,7 +11,7 @@ on:
         required: true
         default: check
         type: choice
-        options: [check, preview, publish]
+        options: [check, preview, publish, monitor, alert-test]
 permissions:
   contents: write
 concurrency:
@@ -35,8 +37,7 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.5-flash
-          MODE: ${{ github.event_name == 'schedule' && 'publish' || inputs.mode }}
+          MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '17 3 * * *' && 'publish' || 'monitor') || inputs.mode }}
         run: python automation.py --mode "$MODE"
       - name: Save preview
         if: always() && inputs.mode == 'preview'
