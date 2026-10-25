@@ -202,6 +202,8 @@ Recent posts, avoid repeating style or claims: '''+json.dumps(recent[-8:],ensure
         raise ValueError('Ambiguous fold-increase wording')
     if 'ultra-processed' in source['abstract'].lower() and re.search(r'paketlenmiş|hazır gıda',content['tweet'],re.I) and 'ultra işlenmiş' not in content['tweet'].lower():
         raise ValueError('Ultra-processed exposure generalized to all packaged food')
+    if 'odds ratio' in source['abstract'].lower() and re.search(r'\d',content['tweet']) and re.search(r'risk|olasıl|ihtimal',content['tweet'],re.I) and not re.search(r'odds|\bOR\b|\bHR\b',content['tweet']):
+        raise ValueError('Odds-based source requires an explicit effect measure, not probability wording')
     abstract = source['abstract']
     quotes = content.get('evidence',[])
     if not isinstance(quotes,list) or not quotes or len(quotes)>4:
