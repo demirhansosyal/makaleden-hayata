@@ -1,0 +1,49 @@
+name: Makaleden Hayata
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'check: bağlantı; preview: örnek; publish: yayın planla'
+        required: true
+        default: check
+        type: choice
+        options: [check, preview, publish]
+permissions:
+  contents: write
+concurrency:
+  group: makaleden-hayata
+  cancel-in-progress: false
+jobs:
+  daily:
+    if: github.event_name != 'schedule' || vars.CLOUD_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Prepare repository identity
+        run: |
+          git config user.name 'Makaleden Hayata'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Verify and run
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          MODE: ${{ github.event_name == 'schedule' && 'publish' || inputs.mode }}
+        run: python automation.py --mode "$MODE"
+      - name: Save preview
+        if: always() && inputs.mode == 'preview'
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-preview
+          path: |
+            preview.json
+            media/*.png
+          retention-days: 3
