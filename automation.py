@@ -339,6 +339,9 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--mode',choices=['check','preview','publish','monitor','alert-test','cycle','analytics','report'],default='check')
     args=parser.parse_args()
+    # The one free-plan key carries all four approved scopes and serves both jobs.
+    if os.getenv('BUFFER_INSIGHTS_KEY'):
+        os.environ['BUFFER_API_KEY']=os.environ['BUFFER_INSIGHTS_KEY']
     if args.mode=='cycle':
         health=subprocess.run([sys.executable,str(Path(__file__)), '--mode','monitor']).returncode
         publication=subprocess.run([sys.executable,str(Path(__file__)), '--mode','publish']).returncode
