@@ -1,0 +1,47 @@
+name: LinkedIn Makaleden Hayata
+on:
+  schedule:
+    - cron: '25 2 * * *'
+    - cron: '45 6,15 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: LinkedIn check / preview / publish / monitor
+        required: true
+        default: check
+        type: choice
+        options: [check, preview, publish, monitor]
+permissions:
+  contents: write
+concurrency:
+  group: makaleden-hayata
+  cancel-in-progress: false
+jobs:
+  linkedin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Repository identity
+        run: |
+          git config user.name 'Makaleden Hayata'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Verify LinkedIn and run
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '25 2 * * *' && 'publish' || 'monitor') || inputs.mode }}
+        run: python linkedin.py --mode "$MODE"
+      - uses: actions/upload-artifact@v4
+        if: always() && inputs.mode == 'preview'
+        with:
+          name: linkedin-preview
+          path: |
+            linkedin_preview.json
+            linkedin_media/*.png
+          retention-days: 3
