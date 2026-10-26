@@ -106,6 +106,23 @@
       "due": "2026-10-27T13:00:00+03:00",
       "status": "scheduled",
       "post_id": "6adecdea8b3d437ddc4346b7"
+    },
+    {
+      "tweet": "Yatakta geçirilen süre her zaman iyi uyku anlamına gelmiyor. Gençlerin %51,5'i önerilen sürenin altında uyuyor. Akşam masasında bu veriler uykumuzu gözden geçirmek için iyi bir fırsat.",
+      "title": "Yaşam boyu uyku alışkanlıkları ve süreleri",
+      "stat": "%51,5",
+      "stat_label": "Gençlerde önerilen sürenin altında uyuyanların oranı",
+      "finding": "Gençlerin %51,5'i önerilen 8-10 saatlik toplam uyku süresinin altında uyuduğunu bildirdi.",
+      "interpretation": "Yorum: Akşam rutinlerimizi düzenlerken yatakta geçen sürenin kalitesine de dikkat etmek gerekebilir.",
+      "limitation": "Hollanda, İngiltere ve ABD'den 1,1 milyon kişiyi kapsayan sistematik derleme ve meta-analiz.",
+      "skip": false,
+      "editorial_angle": "yaygın bir varsayımı dikkatle düzeltme",
+      "pmid": "33199855",
+      "source_title": "Sleep characteristics across the lifespan in 1.1 million people from the Netherlands, United Kingdom and United States: a systematic review and meta-analysis.",
+      "year": "2021",
+      "text": "Yatakta geçirilen süre her zaman iyi uyku anlamına gelmiyor. Gençlerin %51,5'i önerilen sürenin altında uyuyor. Akşam masasında bu veriler uykumuzu gözden geçirmek için iyi bir fırsat.\nhttps://pubmed.ncbi.nlm.nih.gov/33199855/",
+      "due": "2026-10-27T17:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
