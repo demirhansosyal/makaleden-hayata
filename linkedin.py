@@ -9,7 +9,9 @@ CHANNEL='6ade035b2f1f5ed648c89cf3'
 a.CHANNEL=CHANNEL
 a.STATE=ROOT/'linkedin_state.json'
 a.MEDIA=ROOT/'linkedin_media'
-START='2026-11-01' # Existing Publer posts cover 26–31 October at 09.00.
+START='2026-11-01'
+EVENING_START='2026-10-26'
+# # Existing Publer posts cover 26–31 October at 09.00.
 RESERVED={'9289978','35129580','30638909','28698222','35228201'}
 
 def checkpoint(state):
@@ -87,9 +89,11 @@ def draw_card(c,path):
 def due_date(now,occupied):
  for offset in range(8):
   day=(now+timedelta(days=offset)).date()
-  due=datetime(day.year,day.month,day.day,9,tzinfo=a.TZ)
-  if day.isoformat()<START or due<now+timedelta(minutes=45) or day.isoformat() in occupied:continue
-  return due
+  for hour in (9,18):
+   due=datetime(day.year,day.month,day.day,hour,tzinfo=a.TZ)
+   first=START if hour==9 else EVENING_START
+   if day.isoformat()<first or due<now+timedelta(minutes=45) or due.isoformat(timespec='minutes') in occupied:continue
+   return due
  return None
 
 def monitor(state,org):
@@ -98,7 +102,9 @@ def monitor(state,org):
  for r in state['records']:
   if r.get('status') in ('prepared','submitting'):problems.append('Uncertain LinkedIn submission '+r['due'])
   if r.get('status')=='scheduled' and datetime.fromisoformat(r['due'])<now-timedelta(minutes=45) and not any(p['id']==r['post_id'] for p in sent):problems.append('LinkedIn not confirmed sent '+r['due'])
- if now.date().isoformat()>=START and now.hour>=10 and not any(p.get('dueAt') and datetime.fromisoformat(p['dueAt'].replace('Z','+00:00')).astimezone(a.TZ).date()==now.date() for p in sent):problems.append('Today 09.00 LinkedIn publication not confirmed')
+ for hour,first in ((9,START),(18,EVENING_START)):
+  due=now.replace(hour=hour,minute=0,second=0,microsecond=0)
+  if now.date().isoformat()>=first and now>=due+timedelta(minutes=45) and not any(p.get('dueAt') and datetime.fromisoformat(p['dueAt'].replace('Z','+00:00'))==due for p in sent):problems.append('LinkedIn publication not confirmed '+due.isoformat())
  state['last_monitor']=now.isoformat();state['problems']=problems;checkpoint(state)
  if problems:raise RuntimeError('; '.join(problems))
  print('LinkedIn publication monitor healthy')
@@ -114,14 +120,14 @@ def main():
  if mode=='check':
   if a.gemini('Return JSON {"connection":"ok"}').get('connection')!='ok':raise RuntimeError('Generation check failed')
   print('LinkedIn and free generation verified; no post created');return
- now=datetime.now(a.TZ);occupied={datetime.fromisoformat(p['dueAt'].replace('Z','+00:00')).astimezone(a.TZ).date().isoformat() for p in queue+sent if p.get('dueAt')}
+ now=datetime.now(a.TZ);occupied={datetime.fromisoformat(p['dueAt'].replace('Z','+00:00')).astimezone(a.TZ).isoformat(timespec='minutes') for p in queue+sent if p.get('dueAt')}
  for r in state['records']:
   if r.get('status')=='submitting':
    found=[p for p in queue+sent if p['text']==r['text'] and p.get('dueAt') and datetime.fromisoformat(p['dueAt'].replace('Z','+00:00'))==datetime.fromisoformat(r['due'])]
    if len(found)!=1:raise RuntimeError('Uncertain prior write; manual reconciliation required')
    r.update(status='scheduled',post_id=found[0]['id']);checkpoint(state)
   if r.get('status')=='prepared' and mode=='publish':raise RuntimeError('Prepared record requires reconciliation; no duplicate write')
-  if r.get('status') in ('prepared','scheduled'):occupied.add(r['due'][:10])
+  if r.get('status') in ('prepared','scheduled'):occupied.add(datetime.fromisoformat(r['due']).isoformat(timespec='minutes'))
  if len(queue)>=10:return
  due=due_date(now,occupied)
  if not due:print('Seven-day horizon covered');return
@@ -129,18 +135,18 @@ def main():
  used.update(re.findall(r'pubmed\.ncbi\.nlm\.nih\.gov/(\d+)','\n'.join(p['text'] for p in queue+sent)))
  recent=[r['text'] for r in state['records'][-30:]];content=None
  seed=ROOT/'linkedin_seed.json'
- if seed.exists() and due.date().isoformat()=='2026-11-01' and '35228201' not in {r.get('pmid') for r in state['records']}:
+ if seed.exists() and due.hour==9 and due.date().isoformat()=='2026-11-01' and '35228201' not in {r.get('pmid') for r in state['records']}:
   content=json.loads(seed.read_text())
  else:
   a.TOPICS[9]='(TITLE:protein OR TITLE:hydration OR TITLE:endurance OR TITLE:recovery OR TITLE:carbohydrate) AND (PUB_TYPE:"Meta-Analysis" OR PUB_TYPE:"Randomized Controlled Trial")'
-  topic=[9,10,9,17,13,10,20][due.weekday()]
+  topic=([9,10,9,17,13,10,20] if due.hour==9 else [17,9,20,10,9,13,10])[due.weekday()]
   for article in a.articles(topic)[:12]:
    if article['id'] in used:continue
    try:content=create(article,recent)
    except ValueError as e:print('Skipped '+article['id']+': '+str(e));continue
    break
  if not content:raise RuntimeError('No verified source content')
- content.update(due=due.isoformat(),status='prepared');path=a.MEDIA/(due.date().isoformat()+'-'+content['pmid']+'.png');draw_card(content,path)
+ content.update(due=due.isoformat(),status='prepared');path=a.MEDIA/(due.date().isoformat()+'-'+str(due.hour)+'-'+content['pmid']+'.png');draw_card(content,path)
  if mode=='preview':
   (ROOT/'linkedin_preview.json').write_text(json.dumps(content,ensure_ascii=False,indent=2));print('LinkedIn preview verified: '+content['text']);return
  state['records'].append(content);checkpoint(state)
@@ -151,4 +157,7 @@ def main():
  if not any(p['id']==content['post_id'] and p.get('assets') for p in a.posts(org,'scheduled')):raise RuntimeError('Readback failed')
  print('Verified LinkedIn image post '+content['due']+' id '+content['post_id'])
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+ main()
+ import sys
+ if '--mode' in sys.argv and sys.argv[sys.argv.index('--mode')+1]=='publish':main()
