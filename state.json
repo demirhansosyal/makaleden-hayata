@@ -142,6 +142,29 @@
       "due": "2026-10-27T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6adece170b5343d0700a032a"
+    },
+    {
+      "tweet": "Yaşlanırken mutfaktaki tercihlerimiz bağırsaktaki minik dostlarımızı nasıl etkiliyor? 612 yaşlı katılımcıyla yapılan 1 yıllık Akdeniz diyeti çalışması, beslenmenin mikrobiyom üzerindeki gücünü inceledi.",
+      "thread": [
+        "1/3 Yaşlanırken mutfaktaki tercihlerimiz bağırsaktaki minik dostlarımızı nasıl etkiliyor? 612 yaşlı katılımcıyla yapılan 1 yıllık Akdeniz diyeti çalışması, beslenmenin mikrobiyom üzerindeki gücünü inceledi.\nhttps://pubmed.ncbi.nlm.nih.gov/32066625/",
+        "2/3 Beş Avrupa ülkesinde yürütülen 1 yıllık bu çalışmada, Akdeniz diyetine uyum sağlayan 612 katılımcının bağırsak mikrobiyotasında belirli bakterilerin zenginleştiği ve iltihap belirteçlerinin azaldığı görüldü.",
+        "3/3 Bence burada önemli olan, sofradaki küçük değişikliklerin bağırsak sağlığımızı destekleyebilmesi. Tabii bu çalışma tek başına kesin bir yaşam süresi vaat etmiyor, bireysel farklar her zaman önemlidir.\nhttps://pubmed.ncbi.nlm.nih.gov/32066625/"
+      ],
+      "title": "Akdeniz diyeti bağırsak mikrobiyomunu değiştiriyor mu?",
+      "stat": "612",
+      "stat_label": "Beş Avrupa ülkesinden 1 yıllık diyete katılan birey sayısı",
+      "finding": "Akdeniz diyetine uyum, bağırsak mikrobiyotasında belirli değişikliklerle ve daha düşük iltihap belirteçleriyle ilişkilendirildi.",
+      "interpretation": "Yorum: Sofrada bitkisel ve lifli seçimlere yer açmak, uzun vadede sindirim sistemimizin dengesini korumaya yardımcı olabilir.",
+      "limitation": "Beş Avrupa ülkesinde 612 katılımcıyla yürütülen 1 yıllık bu müdahale çalışması, gözlemsel ve katılımcıların diyet uyumuna dayanmaktadır.",
+      "skip": false,
+      "editorial_angle": "uygulanabilir bir düşünme çerçevesi",
+      "pmid": "32066625",
+      "source_title": "Mediterranean diet intervention alters the gut microbiome in older people reducing frailty and improving health status: the NU-AGE 1-year dietary intervention across five European countries.",
+      "year": "2020",
+      "text": "1/3 Yaşlanırken mutfaktaki tercihlerimiz bağırsaktaki minik dostlarımızı nasıl etkiliyor? 612 yaşlı katılımcıyla yapılan 1 yıllık Akdeniz diyeti çalışması, beslenmenin mikrobiyom üzerindeki gücünü inceledi.\nhttps://pubmed.ncbi.nlm.nih.gov/32066625/",
+      "format": "three_post_thread",
+      "due": "2026-10-28T10:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
