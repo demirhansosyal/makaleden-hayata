@@ -3,7 +3,7 @@ import argparse, json, os, re, subprocess
 from datetime import datetime,timedelta
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
-import automation as a
+import linkedin_support as a
 ROOT=Path(__file__).resolve().parent
 CHANNEL='6ade035b2f1f5ed648c89cf3'
 a.CHANNEL=CHANNEL
