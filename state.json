@@ -88,6 +88,23 @@
       "due": "2026-10-27T10:00:00+03:00",
       "status": "scheduled",
       "post_id": "6adecda36887a2efc13e6199"
+    },
+    {
+      "tweet": "Kronik bel ağrısında egzersiz, tedavi edilmeyen durumlara kıyasla ağrıyı ortalama 15,2 puan azalttı. Bu tür bulgular, hareketin günlük rutinlere eklenmesinin önemini hatırlatıyor.",
+      "title": "Kronik bel ağrısı ve egzersiz",
+      "stat": "MD -15,2",
+      "stat_label": "En erken takipte ağrı sonuçlarında ortalama değişim",
+      "finding": "Egzersiz tedavisi, bel ağrısında ağrı ve işlevsel kısıtlılıkları plasebo veya tedavi almamaya kıyasla azalttı.",
+      "interpretation": "Yorum: Antrenman düzeninde süreklilik sağlamak, ağrı yönetiminde destekleyici bir adım olabilir.",
+      "limitation": "Çalışmalarda körleme zorlukları ve heterojenlik nedeniyle kanıt kesinliği orta düzeyde değerlendirildi.",
+      "skip": false,
+      "editorial_angle": "anlaşılır sayısal karşılaştırma",
+      "pmid": "34580864",
+      "source_title": "Exercise therapy for chronic low back pain.",
+      "year": "2021",
+      "text": "Kronik bel ağrısında egzersiz, tedavi edilmeyen durumlara kıyasla ağrıyı ortalama 15,2 puan azalttı. Bu tür bulgular, hareketin günlük rutinlere eklenmesinin önemini hatırlatıyor.\nhttps://pubmed.ncbi.nlm.nih.gov/34580864/",
+      "due": "2026-10-27T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
