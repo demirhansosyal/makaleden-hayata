@@ -124,6 +124,23 @@
       "due": "2026-10-27T17:00:00+03:00",
       "status": "scheduled",
       "post_id": "6adecdfcbd33ce99c3a89f10"
+    },
+    {
+      "tweet": "Masabaşı bir günün ardından akşam yürüyüşü planlamak zor gelebilir. Ama günde 30-40 dakika tempolu hareket, uzun oturma sürelerinin riskini dengeleyebiliyor. Yorum: Hareketi gün içine yaymak küçük ama etkili bir adımdır.",
+      "title": "Hareket ve oturma süresi dengesi",
+      "stat": "30-40 dk",
+      "stat_label": "Günde 30-40 dakika tempolu fiziksel aktivite, oturma süresinin riskini dengeleyebiliyor.",
+      "finding": "Günde 30-40 dakika orta-yüksek şiddetli fiziksel aktivite, uzun oturma süreleriyle ilişkili riskleri dengeleyebiliyor.",
+      "interpretation": "Yorum: Akşam saatlerinde kısa tempolu yürüyüşler eklemek günlük rutini dengeleyebilir.",
+      "limitation": "Dokuz prospektif cohort çalışmasının meta-analizidir, gözlemsel verilere dayanır.",
+      "skip": false,
+      "editorial_angle": "anlaşılır sayısal karşılaştırma",
+      "pmid": "33239356",
+      "source_title": "Joint associations of accelero-meter measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals.",
+      "year": "2020",
+      "text": "Masabaşı bir günün ardından akşam yürüyüşü planlamak zor gelebilir. Ama günde 30-40 dakika tempolu hareket, uzun oturma sürelerinin riskini dengeleyebiliyor. Yorum: Hareketi gün içine yaymak küçük ama etkili bir adımdır.\nhttps://pubmed.ncbi.nlm.nih.gov/33239356/",
+      "due": "2026-10-27T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
