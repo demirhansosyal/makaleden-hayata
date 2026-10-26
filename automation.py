@@ -115,7 +115,7 @@ def gemini(prompt):
             headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}).json().get('models',[])
         names={m['name'].removeprefix('models/') for m in available if 'generateContent' in m.get('supportedGenerationMethods',[])}
         # Only models whose official pricing lists a free text tier. Never choose a paid fallback.
-        preferred=['gemini-3.5-flash-lite','gemini-3.1-flash-lite','gemini-3.8-flash','gemini-3.6-flash']
+        preferred=['gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash-lite','gemini-3.1-flash-lite']
         allowed=set(preferred)
         AVAILABLE_MODELS=[m for m in preferred if m in names and m in allowed]
         SELECTED_MODEL=next(iter(AVAILABLE_MODELS),None)
@@ -185,7 +185,7 @@ thread: EXACTLY THREE Turkish posts, WITHOUT numbering or URLs. Each 140–240 c
 1. THE EDITORIAL LEAD: state a specific, interesting tension, misconception or decision connected to the paper. Make the reader care with a concrete observation rather than 'Did you know?', a sample-size announcement or an exaggerated question. Convey the actual topic immediately. Do not fabricate a scenario from the author's life.
 2. THE EXPLANATION: teach the central finding. Identify the relevant population/comparison and an exact source-backed number with its unit or time frame when useful. Explain what the result means in plain Turkish. Do not repeat the lead or use sample size as if it were a benefit. Preserve odds vs risk, relative vs absolute changes and association vs causation. A total sample is not the intervention group; association with lower markers is not every person's measured decrease.
 3. THE EXPERT READING: give one reasoned first-person editorial interpretation and the specific limitation that changes how we should read the result. Explain WHY the finding matters or what the design does well. Use 'Benim için burada önemli olan…', 'Bu çalışmada güçlü bulduğum nokta…' or a natural variation ONLY when followed by a substantive source-grounded reason. Never invent an evaluation of methods absent from the abstract. No generic 'bireysel farklar önemlidir', no unrelated longevity disclaimer, no generic advice to 'gözden geçirmek'. If the abstract cannot support a useful explanation and interpretation, set skip=true.
-Avoid repetitive openings and sentence rhythms across recent posts. No engagement bait, requests for likes/reposts/follows, unrelated hashtags or forced rhetorical questions. A sincere, topic-specific question is allowed only when it adds something. No medical instructions or claims of certainty.
+Avoid repetitive openings and sentence rhythms across recent posts. Do not open with 'ilişki merak ediliyor', 'yapılan araştırma', or 'bir çalışma gösteriyor'. State the concrete issue directly. A prospective cohort meta-analysis can show lower depression incidence associated with activity; it cannot establish that any amount of movement benefits every person. No engagement bait, requests for likes/reposts/follows, unrelated hashtags or forced rhetorical questions. A sincere, topic-specific question is allowed only when it adds something. No medical instructions or claims of certainty.
 BANNED STYLE: 'minik dostlarımız', 'küçük ama etkili', 'küçük bir hatırlatma', 'uzun vadeli zindelik', 'akşam masasında', 'hayati önem taşır', 'daha yakından izlenmesi', 'günlük çıkarım', 'beslenmenin gücü', 'bireysel farklar her zaman önemlidir'. Avoid cute anthropomorphism and the stock ending 'bu bulgu ... önemini hatırlatıyor'. Do not substitute an equally empty slogan.
 Preserve exact exposure definitions: ultra-processed foods are 'ultra işlenmiş gıdalar', not all packaged foods. For a ratio of 1.5 use '1,5 katı', not '1,5 kat artış'. Never invent health benefits, precision or causal mechanisms.
 title: intriguing Turkish image headline <=65 characters.
@@ -215,7 +215,7 @@ Recent posts, avoid repeating style or claims: '''+json.dumps(recent[-8:],ensure
         raise ValueError('Expected three substantive posts of 140–240 characters')
     content['tweet']=parts[0]
     narrative=' '.join(parts)
-    stale_phrases=('minik dost', 'küçük ama etkili', 'küçük bir hatırlatma', 'uzun vadeli zindelik', 'akşam masasında', 'hayati önem taşır', 'günlük çıkarım', 'beslenmenin gücü', 'bireysel farklar her zaman önemlidir')
+    stale_phrases=('minik dost', 'küçük ama etkili', 'küçük bir hatırlatma', 'uzun vadeli zindelik', 'akşam masasında', 'hayati önem taşır', 'günlük çıkarım', 'beslenmenin gücü', 'bireysel farklar her zaman önemlidir', 'merak ediliyor', 'anlamlı faydalar', 'her düzeyde')
     if any(phrase in narrative.lower() for phrase in stale_phrases):
         raise ValueError('Editorial quality: generic or childish phrasing')
     if re.search(r'kat(?:lık)? art',narrative,re.I):
