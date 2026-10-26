@@ -1,0 +1,54 @@
+[
+  {
+    "observed_at": "2026-10-26T11:35:01.034203+03:00",
+    "date": "2026-10-26",
+    "post_id": "6addb131619c5998ff5fab03",
+    "due": "2026-10-26T07:00:00.000Z",
+    "age_hours": 1.6,
+    "metrics_updated_at": "2026-10-26T07:00:59.781Z",
+    "impressions": 0,
+    "likes": 0,
+    "reposts": 0,
+    "replies": 0,
+    "thread_count": 0
+  },
+  {
+    "observed_at": "2026-10-26T11:35:01.034203+03:00",
+    "date": "2026-10-26",
+    "post_id": "6addb1038b79f6d166bd1f25",
+    "due": "2026-10-25T17:00:00.000Z",
+    "age_hours": 15.6,
+    "metrics_updated_at": "2026-10-26T06:30:30.965Z",
+    "impressions": 23,
+    "likes": 0,
+    "reposts": 0,
+    "replies": 0,
+    "thread_count": 0
+  },
+  {
+    "observed_at": "2026-10-26T11:35:01.034203+03:00",
+    "date": "2026-10-26",
+    "post_id": "6addb0dc775b2a281f5fa5bf",
+    "due": "2026-10-25T14:00:00.000Z",
+    "age_hours": 18.6,
+    "metrics_updated_at": "2026-10-26T06:30:30.965Z",
+    "impressions": 25,
+    "likes": 0,
+    "reposts": 0,
+    "replies": 0,
+    "thread_count": 0
+  },
+  {
+    "observed_at": "2026-10-26T11:35:01.034203+03:00",
+    "date": "2026-10-26",
+    "post_id": "6addb0add52175b95f511e5f",
+    "due": "2026-10-25T10:00:00.000Z",
+    "age_hours": 22.6,
+    "metrics_updated_at": "2026-10-26T06:30:30.965Z",
+    "impressions": 42,
+    "likes": 0,
+    "reposts": 0,
+    "replies": 0,
+    "thread_count": 0
+  }
+]
