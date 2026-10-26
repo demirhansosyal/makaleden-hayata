@@ -70,6 +70,23 @@
       "due": "2026-10-26T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ade493f3d5b27036be77fd3"
+    },
+    {
+      "tweet": "Akşam masasında DASH diyeti konuşulur. Kontrol diyetine kıyasla sistolik kan basıncını ortalama 3,2 mm Hg düşürdüğü görüldü. Tuz ve yaş gibi detaylar etkisini değiştirebiliyor.",
+      "title": "DASH Diyetinin Kan Basıncına Etkisi",
+      "stat": "-3,2 mm Hg",
+      "stat_label": "Kontrol diyetine kıyasla sistolik kan basıncında ortalama değişim",
+      "finding": "DASH diyeti, kontrol diyetine kıyasla sistolik kan basıncını ortalama 3,2 mm Hg azalttı.",
+      "interpretation": "Yorum: Sofra düzeninde sebze ve meyve ağırlıklı seçimler tansiyon takibinde destekleyici olabilir.",
+      "limitation": "30 randomize kontrollü çalışmanın incelendiği bu derlemede kanıt kalitesi orta düzey olarak değerlendirildi.",
+      "skip": false,
+      "editorial_angle": "uygulanabilir bir düşünme çerçevesi",
+      "pmid": "32330233",
+      "source_title": "Dietary Approaches to Stop Hypertension (DASH) Diet and Blood Pressure Reduction in Adults with and without Hypertension: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+      "year": "2020",
+      "text": "Akşam masasında DASH diyeti konuşulur. Kontrol diyetine kıyasla sistolik kan basıncını ortalama 3,2 mm Hg düşürdüğü görüldü. Tuz ve yaş gibi detaylar etkisini değiştirebiliyor.\nhttps://pubmed.ncbi.nlm.nih.gov/32330233/",
+      "due": "2026-10-27T10:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
