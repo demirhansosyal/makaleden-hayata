@@ -99,6 +99,13 @@ def report():
     for key,name in [('impressions','Görüntülenme'),('likes','Beğeni'),('reposts','Repost'),('replies','Yanıt')]:
         available=[r[key] for r in rows if r.get(key) is not None]
         lines.append('| '+name+' | '+(str(round(sum(available),2)) if available else 'Erişilemiyor')+' | '+str(len(available))+'/'+str(len(rows))+' |')
+    recent={}
+    for row in sorted(snapshots,key=lambda r:r['observed_at']):
+        if datetime.fromisoformat(row['due'].replace('Z','+00:00'))>=now-timedelta(days=8):recent[row['post_id']]=row
+    lines+=['','## Son erişilen gönderi değerleri','Bunlar değişken yaştaki ham gözlemlerdir; erken gönderiler içerik kararına dahil edilmez.','| Gönderi | Yaş (saat) | Görüntülenme | Beğeni | Repost |','|---|---:|---:|---:|---:|']
+    for row in recent.values():
+        vals=[str(row[k]) if row.get(k) is not None else 'Erişilemiyor' for k in ('impressions','likes','reposts')]
+        lines.append('| '+row['post_id']+' | '+str(row['age_hours'])+' | '+' | '.join(vals)+' |')
     lines+=['','## İçerik kararı',decision['reason'],'Yeni içerikler üç bağlantılı gönderi: araştırmanın sorusu, kanıt ve sayı, sınırı belirtilmiş kişisel editoryal yorum. Kanıt kalitesi büyüme hedefine feda edilmez.','', '## Veri sınırı','Buffer X metrik erişimi hesap/izin/plan koşullarına bağlıdır. API metriği boşsa bunu sıfır saymıyoruz. Follower sayısı için belgelenmiş herkese açık Buffer API alanı bulunmuyor; rapor bunu ayrıca belirtir. Son 24 saatte yayımlanan içerikler olgun karşılaştırmaya alınmaz.']
     content='\n'.join(lines)+'\n'
     DATA.mkdir(exist_ok=True)
