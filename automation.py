@@ -71,7 +71,7 @@ def _request_once(method, url, **kwargs):
         headers['Content-Type']='application/json'
     req=urllib.request.Request(url,data=body,headers=headers,method=method)
     try:
-        with urllib.request.urlopen(req,timeout=240 if 'generativelanguage.googleapis.com' in url else 90) as response:
+        with urllib.request.urlopen(req,timeout=90) as response:
             data=response.read(); response_headers=response.headers
     except urllib.error.HTTPError as error:
         detail=''
@@ -129,7 +129,7 @@ def gemini(prompt):
             headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}).json().get('models',[])
         names={m['name'].removeprefix('models/') for m in available if 'generateContent' in m.get('supportedGenerationMethods',[])}
         # Only models whose official pricing lists a free text tier. Never choose a paid fallback.
-        preferred=['gemini-3.8-flash','gemini-3.6-flash','gemini-3.5-flash-lite','gemini-3.1-flash-lite']
+        preferred=['gemini-3.6-flash','gemini-3.5-flash-lite','gemini-3.1-flash-lite']
         allowed=set(preferred)
         AVAILABLE_MODELS=[m for m in preferred if m in names and m in allowed]
         SELECTED_MODEL=next(iter(AVAILABLE_MODELS),None)
@@ -138,12 +138,12 @@ def gemini(prompt):
         print('Selected documented free-tier model: '+SELECTED_MODEL)
     result = None
     for model in [SELECTED_MODEL]+[m for m in AVAILABLE_MODELS if m != SELECTED_MODEL]:
-        for attempt in range(3):
+        for attempt in range(2):
             try:
                 result = request('POST', f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
                     headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']}, json={
                       'contents':[{'parts':[{'text':prompt}]}],
-                      'generationConfig':{'responseMimeType':'application/json','maxOutputTokens':8192,'thinkingConfig':{'thinkingLevel':'LOW'}}
+                      'generationConfig':{'responseMimeType':'application/json','maxOutputTokens':4096,'thinkingConfig':{'thinkingLevel':'LOW'}}
                     }).json()
                 SELECTED_MODEL = model
                 break
@@ -151,12 +151,13 @@ def gemini(prompt):
                 if isinstance(error, APIError) and error.status not in (404,429,500,502,503,504):
                     raise
                 print(f'Temporary generation failure on {model}, attempt {attempt+1}')
-                if attempt < 2:
-                    time.sleep(15 * (attempt+1))
+                if attempt < 1:
+                    time.sleep(10)
         if result is not None:
             break
     if result is None:
         raise RuntimeError('Free generation services unavailable after bounded retries; no unverified post created')
+    print('Generation completed with documented free-tier model: '+SELECTED_MODEL)
     candidates = result.get('candidates', [])
     if not candidates or candidates[0].get('finishReason') != 'STOP':
         raise RuntimeError('Gemini returned an incomplete/blocked response')
