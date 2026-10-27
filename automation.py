@@ -46,7 +46,21 @@ def checkpoint(state):
             subprocess.run(['git', 'push', 'origin', 'HEAD:main'], cwd=ROOT, check=True)
 
 def request(method, url, **kwargs):
-    # Deliberately no automatic retry for mutations with an uncertain outcome.
+    # Retry read-only retrievals on temporary outages. Never repeat a Buffer write
+    # whose outcome may be uncertain; model-generation retries are handled separately.
+    attempts=3 if method.upper()=='GET' else 1
+    for attempt in range(attempts):
+        try:
+            return _request_once(method,url,**kwargs)
+        except (APIError,TimeoutError,urllib.error.URLError) as error:
+            if isinstance(error,APIError) and error.status not in (408,429,500,502,503,504):
+                raise
+            if attempt+1==attempts:
+                raise
+            print('Temporary read failure; retry '+str(attempt+1)+' for '+urllib.parse.urlsplit(url).hostname)
+            time.sleep((3,8)[attempt])
+
+def _request_once(method, url, **kwargs):
     if kwargs.get('params'):
         url += '?'+urllib.parse.urlencode(kwargs['params'])
     headers={'User-Agent':'MakaledenHayata/1.0'}
