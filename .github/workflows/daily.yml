@@ -41,7 +41,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BUFFER_INSIGHTS_KEY: ${{ secrets.BUFFER_INSIGHTS_KEY }}
           MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '30 20 * * *' && 'analytics' || github.event.schedule == '45 20 * * 0' && 'report' || 'cycle') || inputs.mode }}
-        run: python automation.py --mode "$MODE"
+        run: python -u automation.py --mode "$MODE"
       - name: Save preview
         if: always() && inputs.mode == 'preview'
         uses: actions/upload-artifact@v4
