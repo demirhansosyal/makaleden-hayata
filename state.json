@@ -214,6 +214,29 @@
       "due": "2026-10-28T17:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae1dade768df719ceb91b5b"
+    },
+    {
+      "thread": [
+        "1/3 Zihinsel iyilik halini artırmak istediğimizde, uygulanan yöntemin türü kadar ne kadar yoğun yapıldığı da sonucu değiştirebiliyor. Rastgele seçilmiş çalışmalar, tek bir formülün herkes için aynı derecede çalışmadığını gösteriyor.\nhttps://pubmed.ncbi.nlm.nih.gov/33875837/",
+        "2/3 53.288 katılımcıyı kapsayan 419 klinik araştırmanın analizi; mindfulness ve çok bileşenli pozitif psikoloji uygulamalarının öne çıktığını gösteriyor. Ancak genel etki büyüklüklerinin en fazla orta düzeyde kaldığı saptandı.",
+        "3/3 Bu analizde dikkat çekici bulduğum nokta, müdahalenin ne kadar sık ve yoğun uygulandığının başarıyı doğrudan etkilemesi. Çalışmaların metodolojik kalitesinin genellikle düşük ila orta düzeyde kalması ise temkinli olmayı gerektiriyor.\nhttps://pubmed.ncbi.nlm.nih.gov/33875837/"
+      ],
+      "title": "Zihinsel İyilik Halinde Egzersiz Türü ve Yoğunluğu",
+      "stat": "53.288",
+      "stat_label": "Meta-analize dahil edilen toplam katılımcı sayısı (419 klinik araştırma)",
+      "finding": "Mindfulness ve pozitif psikoloji yöntemleri zihinsel iyilik halini artırmada öne çıkmış, etki en fazla orta düzeyde kalmıştır.",
+      "interpretation": "Yorum: Psikolojik uygulamalarda yöntem seçimi kadar seansların yoğunluğu ve uygulama biçimi de sonucu belirler.",
+      "limitation": "Dahil edilen araştırmaların metodolojik kalitesinin genel olarak düşük ila orta düzeyde olması kanıt gücünü sınırlandırmaktadır.",
+      "skip": false,
+      "tweet": "Zihinsel iyilik halini artırmak istediğimizde, uygulanan yöntemin türü kadar ne kadar yoğun yapıldığı da sonucu değiştirebiliyor. Rastgele seçilmiş çalışmalar, tek bir formülün herkes için aynı derecede çalışmadığını gösteriyor.",
+      "editorial_angle": "yaygın bir varsayımı dikkatle düzeltme",
+      "pmid": "33875837",
+      "source_title": "A systematic review and meta-analysis of psychological interventions to improve mental wellbeing.",
+      "year": "2021",
+      "text": "1/3 Zihinsel iyilik halini artırmak istediğimizde, uygulanan yöntemin türü kadar ne kadar yoğun yapıldığı da sonucu değiştirebiliyor. Rastgele seçilmiş çalışmalar, tek bir formülün herkes için aynı derecede çalışmadığını gösteriyor.\nhttps://pubmed.ncbi.nlm.nih.gov/33875837/",
+      "format": "three_post_thread",
+      "due": "2026-10-28T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
