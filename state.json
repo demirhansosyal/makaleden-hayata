@@ -166,6 +166,29 @@
       "due": "2026-10-28T10:00:00+03:00",
       "status": "scheduled",
       "post_id": "6adf2e6eee0ab0f8f0f750e1"
+    },
+    {
+      "thread": [
+        "1/3 Egzersiz yaparken sadece harcadığımız kaloriye odaklanmak, kas dokusunda gerçekleşen karmaşık adaptasyonları gözden kaçırmamıza neden olabilir. Aerobik ve direnç antrenmanları kas hücrelerinde farklı genetik yolları harekete geçirir.\nhttps://pubmed.ncbi.nlm.nih.gov/31980607/",
+        "2/3 İnsan araştırmalarına ait 66 veri setinin meta-analizinde, egzersiz türleri ve hareketsizlik karşılaştırıldı. NR4A3 geninin egzersize ve hareketsizliğe en duyarlı genlerden biri olduğu ve metabolik yanıtları düzenlediği saptandı.",
+        "3/3 Bu çalışmada güçlü bulduğum nokta, antrenman türlerinin kas moleküler profilini nasıl farklılaştırdığını göstermesi. Ancak gen ifadesi düzeyindeki bu değişimler, hücresel yanıtların günlük performansa etkisini tek başına açıklamaz.\nhttps://pubmed.ncbi.nlm.nih.gov/31980607/"
+      ],
+      "title": "Egzersiz Türlerinin Kas Hücresindeki Moleküler İzi",
+      "stat": "66 veri seti",
+      "stat_label": "Analize dahil edilen insan egzersiz ve hareketsizlik çalışması sayısı",
+      "finding": "Meta-analiz, NR4A3 geninin egzersiz ve hareketsizliğe en duyarlı genlerden biri olduğunu ve metabolik yanıtları düzenlediğini gösterdi.",
+      "interpretation": "Yorum: Farklı egzersiz türleri kaslarda farklı moleküler adaptasyonlar başlatır, tek tip antrenman tüm süreçleri kapsamaz.",
+      "limitation": "Çalışma transkriptomik veri setlerine dayanır; gen ifadesi değişimleri uzun vadeli klinik veya fiziksel performans çıktılarını doğrudan kanıtlamaz.",
+      "skip": false,
+      "tweet": "Egzersiz yaparken sadece harcadığımız kaloriye odaklanmak, kas dokusunda gerçekleşen karmaşık adaptasyonları gözden kaçırmamıza neden olabilir. Aerobik ve direnç antrenmanları kas hücrelerinde farklı genetik yolları harekete geçirir.",
+      "editorial_angle": "uygulanabilir bir düşünme çerçevesi",
+      "pmid": "31980607",
+      "source_title": "Transcriptomic profiling of skeletal muscle adaptations to exercise and inactivity.",
+      "year": "2020",
+      "text": "1/3 Egzersiz yaparken sadece harcadığımız kaloriye odaklanmak, kas dokusunda gerçekleşen karmaşık adaptasyonları gözden kaçırmamıza neden olabilir. Aerobik ve direnç antrenmanları kas hücrelerinde farklı genetik yolları harekete geçirir.\nhttps://pubmed.ncbi.nlm.nih.gov/31980607/",
+      "format": "three_post_thread",
+      "due": "2026-10-28T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
