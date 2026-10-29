@@ -238,6 +238,29 @@
       "due": "2026-10-28T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae2153c06829d0e2d27d0d3"
+    },
+    {
+      "thread": [
+        "1/3 Gün içinde ne kadar oturduğumuzu tahmin etmek ile bunu hassas cihazlarla ölçmek arasında ciddi bir fark var. Kendi beyanımıza dayalı anketler, günlük hareketsiz kalma süresini gerçekte olduğundan belirgin şekilde daha az gösteriyor.\nhttps://pubmed.ncbi.nlm.nih.gov/32131845/",
+        "2/3 55.199 katılımcılı 123 çalışmanın analizinde, kişisel beyanların cihaz ölçümlerine göre günde ortalama 105,2 dakika (yaklaşık 1,74 saat) daha az hareketsiz süre bildirdiği saptandı. Tek soruluk anketlerde bu yanılma payı daha yüksek çıktı.",
+        "3/3 Bu çalışmada güçlü bulduğum nokta, ölçüm yönteminin sonucumuzu nasıl değiştirdiğini net sunması. Ancak analiz edilen yöntemler arasında çalışmadan çalışmaya günde 6 saate varan yüksek bireysel değişkenlik bulunması önemli bir kısıttır.\nhttps://pubmed.ncbi.nlm.nih.gov/32131845/"
+      ],
+      "title": "Hareketsiz Süreyi Ne Kadar Doğru Tahmin Ediyoruz?",
+      "stat": "105,2 dk/gün",
+      "stat_label": "Kişisel beyanın cihaz ölçümüne göre eksik bildirdiği ortalama hareketsiz süre",
+      "finding": "Kişisel beyan anketleri, cihazlı ölçümlere kıyasla günlük hareketsiz süreyi ortalama 1,74 saat daha az göstermektedir.",
+      "interpretation": "Yorum: Kendi oturma süremize dair algımız, gerçekte masa başında veya ekranda geçirdiğimiz sürenin gerisinde kalabilir.",
+      "limitation": "Meta-analize dahil edilen çalışmalar arasında araçlar bazında günde 6 saate varan yüksek bir değişkenlik gözlenmiştir.",
+      "skip": false,
+      "tweet": "Gün içinde ne kadar oturduğumuzu tahmin etmek ile bunu hassas cihazlarla ölçmek arasında ciddi bir fark var. Kendi beyanımıza dayalı anketler, günlük hareketsiz kalma süresini gerçekte olduğundan belirgin şekilde daha az gösteriyor.",
+      "editorial_angle": "anlaşılır sayısal karşılaştırma",
+      "pmid": "32131845",
+      "source_title": "A comparison of self-reported and device measured sedentary behaviour in adults: a systematic review and meta-analysis.",
+      "year": "2020",
+      "text": "1/3 Gün içinde ne kadar oturduğumuzu tahmin etmek ile bunu hassas cihazlarla ölçmek arasında ciddi bir fark var. Kendi beyanımıza dayalı anketler, günlük hareketsiz kalma süresini gerçekte olduğundan belirgin şekilde daha az gösteriyor.\nhttps://pubmed.ncbi.nlm.nih.gov/32131845/",
+      "format": "three_post_thread",
+      "due": "2026-10-29T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
