@@ -1,0 +1,20 @@
+{
+  "version": "2026-10-29",
+  "voice": "Canlı, doğal, bilgili ve karşısındaki insanla konuşan bir Türkçe. Kaynak doğruluğu korunur.",
+  "rules": [
+    "Kısa paragraflar ve farklı uzunlukta cümleler kullan. Haberi sunma; okurun gündelik bir sorusunu aç.",
+    "İlk tweette somut bir gerilim veya tanıdık bir karar anı olsun. Uydurulmuş ortak inanış, kişisel deneyim veya hasta hikâyesi olmasın.",
+    "İkinci tweet ilk sorunun cevabını öğretsin. Sayının neyi ölçtüğünü, kimleri kapsadığını ve birimini açıkla.",
+    "Son tweette gerekçeli kişisel okuma, önemli belirsizlik ve tek bir konuya odaklanan doğal katkı sorusu olsun.",
+    "Soru okurun günlük davranışı, deneyimi veya tercihiyle ilgili olsun. Genel “Siz ne düşünüyorsunuz?” ve beğeni/RT/takip çağrısı kullanma.",
+    "Her zinciri “Bu çalışmada güçlü bulduğum nokta” ile bitirme. Gerekçesi olmayan uzmanlık gösterisi yerine somut bir yorum yap.",
+    "Gerekirse tüm zincirde en fazla bir anlamlı emoji veya ok işareti kullan; her metni süsleme.",
+    "Örneğin ritmini benimse, cümlelerini ve sayılarını başka makalelere taşıma."
+  ],
+  "reference_source": "https://pubmed.ncbi.nlm.nih.gov/35247352/",
+  "reference_for_voice_only": [
+    "9.999 adımda “olmadı”, 10.000’de “tamam” mı? 👟\n\nSağlığı bir sayaç sınavına çevirmek kolay. Ama 47.471 yetişkinin verileri, adım sayısıyla ölüm riski arasındaki ilişkinin yaşa göre değiştiğini gösteriyor. Tek bir sihirli sayı yok. ↓",
+    "Daha fazla adımla birlikte görülen ölüm riski düşüşü şu aralıklarda yataylaşmaya başladı:\n\n• 60 yaş ve üzeri: 6.000–8.000\n• 60 yaş altı: 8.000–10.000 adım/gün\n\nBu sayılar yürüyüş reçetesi değil; araştırmada gözlenen aralıklar.",
+    "Benim buradan aldığım mesaj: 10.000’e ulaşamadığın bir günü boşa geçmiş sayma.\n\nBu gözlemsel veri; neden–sonuç kanıtı değil.\n\nSenin sayaçla aran nasıl: Harekete mi geçiriyor, hedef tutmayınca moralini mi bozuyor?"
+  ]
+}
