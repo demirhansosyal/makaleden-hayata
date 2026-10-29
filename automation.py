@@ -26,9 +26,9 @@ AVAILABLE_MODELS = []
 CONTENT_SCHEMA = {
     'type':'object',
     'properties':{
-        'thread':{'type':'array','minItems':3,'maxItems':3,'items':{'type':'string','description':'One Turkish post, 140–240 characters, no numbering or URL'}},
+        'thread':{'type':'array','minItems':3,'maxItems':3,'items':{'type':'string','description':'One Turkish post, aim 180–225 characters; first and last at most 248, middle at most 272. No numbering or URL.'}},
         **{key:{'type':'string','description':f'Turkish text, at most {limit} characters'} for key,limit in {
-            'title':65,'stat':25,'stat_label':90,'finding':150,'interpretation':130,'limitation':160}.items()},
+            'title':65,'stat':25,'stat_label':90,'finding':150,'interpretation':160,'limitation':160}.items()},
         'evidence':{'type':'array','minItems':1,'maxItems':4,'items':{'type':'string','description':'Exact quote from the provided abstract, at most 20 words'}},
         'skip':{'type':'boolean'}
     },
@@ -198,6 +198,18 @@ def ambiguous_quality_percentage(text):
     # A percentage of low-quality studies is not a numerical evidence-quality score.
     return bool(re.search(r'kanıt\s+kalitesinin.{0,35}%\s*\d|kanıt\s+kalitesi.{0,20}%\s*\d',text,re.I))
 
+def x_weighted_length(text):
+    # X transforms URLs to 23-character t.co links. Unicode ranges follow
+    # twitter-text weights; counting emoji sequences individually is conservative.
+    text=re.sub(r'https?://\S+','x'*23,text)
+    return sum(1 if ord(c)<=0x10ff or 0x2000<=ord(c)<=0x200d or 0x2010<=ord(c)<=0x201f or 0x2032<=ord(c)<=0x2037 else 2 for c in text)
+
+def thread_fits(parts):
+    return isinstance(parts,list) and len(parts)==3 and all(
+        isinstance(part,str) and len(part)>=140 and 'http' not in part and
+        x_weighted_length(f'{i+1}/3 '+part+('\nhttps://example.org/' if i in (0,2) else ''))<=280
+        for i,part in enumerate(parts))
+
 def articles(hour):
     query = '('+TOPICS[hour]+') AND HAS_ABSTRACT:Y AND SRC:MED AND FIRST_PDATE:[2020-01-01 TO '+datetime.now(TZ).date().isoformat()+'] NOT PUB_TYPE:"Preprint" NOT PUB_TYPE:"Retracted Publication"'
     data = request('GET','https://www.ebi.ac.uk/europepmc/webservices/rest/search',params={
@@ -218,7 +230,7 @@ VOICE AND READER VALUE: Write for an intelligent busy reader, as a thoughtful Tu
 OPENING CRAFT: Draft three different openings internally; choose the most specific, clear and memorable, not the most dramatic. Start with the reader's actual decision or a precise observation, not 'araştırmalar diyor', 'merak ediliyor', a vague statement about health or a teaser whose answer is withheld. Resolve the opening's tension in the thread. Avoid vague 'asıl eşik', 'büyük sır', 'şaşırtıcı gerçek', 'her şey değişir', 'ter dökmek şart değil'. Never invent a widely held belief to overturn: no 'herkes ... sanıyor', '... varsayılır' or unsupported 'hepimiz'. A grounded contrast between two measured quantities is stronger than a fabricated misconception. Do not imply a clinical threshold the source has not established.
 PLAIN EXPLANATION: Translate methodological terms into their meaning. Instead of unexplained 'heterojenlik', say results differed substantially between studies; instead of unexplained 'prospektif', explain participants were followed over time when the source supports it. At most one unfamiliar technical term per post, with a short explanation. If the study is observational, say explicitly in ordinary Turkish that it shows an association and cannot establish cause and effect. A daily-life example may illustrate the measured exposure, but must not invent an untested dose, benefit or prescription. Explain comparisons before interpreting percentages. Keep exact numbers and source-backed units; do not round away important qualifications. Do not use unexplained standardized effect sizes such as g=-0.62 or SMD=-0.49 as the reader's takeaway: select a source-supported result in understandable units or a different paper. Clinical depression treatment is outside this general everyday-life channel's scope even when exercise is the intervention.
 PERCENTAGE DENOMINATORS: State what is being counted for every percentage. If 42% of studies have low methodological quality, write 'çalışmaların %42’si düşük kaliteliydi'; NEVER 'kanıt kalitesi düşük (%42)' or 'kanıt kalitesi %42', which falsely suggests a numerical quality score. An effect-size coefficient is not a percentage. Avoid stock lines such as 'somut verilerle tartıyor'; explain the actual finding instead.
-thread: EXACTLY THREE Turkish posts, WITHOUT numbering or URLs. Each 140–240 characters, aim 200–230. Together they must form a cohesive explanation with distinct jobs:
+thread: EXACTLY THREE Turkish posts, WITHOUT numbering or URLs. Each at least 140 characters; aim 180–225. First and last at most 248 characters, middle at most 272. Keep space for the final numbering and source URL. Together they must form a cohesive explanation with distinct jobs:
 1. THE EDITORIAL LEAD: state a specific, interesting tension, misconception or decision connected to the paper. Make the reader care with a concrete observation rather than 'Did you know?', a sample-size announcement or an exaggerated question. Convey the actual topic immediately. Do not fabricate a scenario from the author's life.
 2. THE EXPLANATION: teach the central finding. Identify the relevant population/comparison and an exact source-backed number with its unit or time frame when useful. Explain what the result means in plain Turkish. Do not repeat the lead or use sample size as if it were a benefit. Preserve odds vs risk, relative vs absolute changes and association vs causation. A total sample is not the intervention group; association with lower markers is not every person's measured decrease.
 3. THE HUMAN READING AND CONVERSATION: give one reasoned first-person interpretation and a plain, relevant limitation. End with one focused, sincere invitation for the reader to contribute a personal everyday observation or practical experience. It must be specific to this paper's real-life issue, not 'Siz ne düşünüyorsunuz?' or a request for likes/reposts/follows. Do not request diagnoses, medication lists or private medical information. Use short paragraphs so the interpretation, qualification and question breathe. Avoid repeatedly opening with 'Bu çalışmada güçlü bulduğum nokta'. Never invent personal experiences or a methodological strength absent from the abstract. If the abstract cannot support a useful explanation and interpretation, set skip=true.
@@ -229,7 +241,7 @@ title: intriguing Turkish image headline <=65 characters.
 stat: one exact meaningful number FROM the abstract, optionally Turkish unit, <=25 characters.
 stat_label: Turkish explanation of that number, population/comparison, <=90 characters.
 finding: factual Turkish finding <=150 characters.
-interpretation: cautious daily-life interpretation <=130 characters, explicitly marked 'Yorum:'.
+interpretation: cautious daily-life interpretation <=160 characters, explicitly marked 'Yorum:'.
 limitation: study design and a relevant limitation <=160 characters.
 evidence: 1-4 exact short quotations from the abstract supporting ALL factual claims and numbers; each <=20 words.
 skip: boolean, true if data are insufficient or the paper is not relevant to everyday human life.
@@ -244,13 +256,13 @@ Recent posts, avoid repeating style or claims: '''+json.dumps(recent[-8:],ensure
     content = gemini(prompt,CONTENT_SCHEMA)
     if content.get('skip') is not False:
         raise ValueError('Source unsuitable')
-    limits={'title':65,'stat':25,'stat_label':90,'finding':150,'interpretation':130,'limitation':160}
+    limits={'title':65,'stat':25,'stat_label':90,'finding':150,'interpretation':160,'limitation':160}
     for key, limit in limits.items():
         if not isinstance(content.get(key),str) or not content[key].strip() or len(content[key])>limit:
             raise ValueError('Invalid content field '+key+'; length='+str(len(content.get(key,''))) if isinstance(content.get(key),str) else 'Invalid content field '+key+'; expected text')
     parts=content.get('thread')
-    if not isinstance(parts,list) or len(parts)!=3 or any(not isinstance(t,str) or not 140<=len(t)<=240 or 'http' in t for t in parts):
-        raise ValueError('Expected three substantive posts of 140–240 characters; lengths='+str([len(t) if isinstance(t,str) else None for t in parts] if isinstance(parts,list) else 'not a list'))
+    if not thread_fits(parts):
+        raise ValueError('Expected three substantive posts fitting X including numbering and source links; lengths='+str([len(t) if isinstance(t,str) else None for t in parts] if isinstance(parts,list) else 'not a list'))
     content['tweet']=parts[0]
     if '?' not in parts[2] or re.search(r'siz ne düşünüyorsunuz|beğenmeyi|retweet|repost yap|takip etmeyi',parts[2],re.I):
         raise ValueError('Expected a natural, topic-specific reader contribution question')
