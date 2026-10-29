@@ -310,6 +310,29 @@
       "due": "2026-10-29T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae369cd25e7fa4a8db598a2"
+    },
+    {
+      "thread": [
+        "1/3 Kilolu ve obez bireylerde kalori miktarını değiştirmeden sadece besin içeriğini Akdeniz diyetiyle güncellemek metabolik sağlığı dönüştürmeye yetiyor mu? Sekiz haftalık kontrollü bir çalışma, tabağın içeriğindeki değişimin etkisini izledi.\nhttps://pubmed.ncbi.nlm.nih.gov/32075887/",
+        "2/3 Sekiz hafta sonunda Akdeniz diyeti uygulayan kırk üç katılımcıda, kalori alımı sabit tutulmasına rağmen plazma kolesterol seviyelerinde ve dışkı safra asitlerinde anlamlı düşüşler görüldü; ayrıca lif sindiren bakteriler de arttı.",
+        "3/3 Benim bu sonuçta dikkatimi çeken detay, kalori azaltmadan bile mikrobiyomun olumlu yönde değişebilmesi oldu. Tabii çalışma süresi kısa olduğu için kalıcılığı henüz belirsiz. Akdeniz tarzına geçerken en çok hangi besinde zorlanıyorsun?\nhttps://pubmed.ncbi.nlm.nih.gov/32075887/"
+      ],
+      "title": "Akdeniz Diyeti, Kolesterol ve Mikrobiyom İlişkisi",
+      "stat": "8 hafta",
+      "stat_label": "sekiz haftalık kontrollü çalışma süresi",
+      "finding": "Kalori miktarı değiştirilmeksizin uygulanan Akdeniz diyeti plazma kolesterolünü düşürdü ve bağırsak mikrobiyomunda lif sindiren bakterileri artırdı.",
+      "interpretation": "Yorum: Kalori hesabı kadar tabağın niteliği de metabolik sağlık ve mikrobiyom değişimi için belirleyici bir rol oynuyor.",
+      "limitation": "Sekiz haftalık kontrollü çalışma, sınırlı süre ve katılımcı profili nedeniyle uzun vadeli etkileri doğrudan kanıtlamaz.",
+      "skip": false,
+      "tweet": "Kilolu ve obez bireylerde kalori miktarını değiştirmeden sadece besin içeriğini Akdeniz diyetiyle güncellemek metabolik sağlığı dönüştürmeye yetiyor mu? Sekiz haftalık kontrollü bir çalışma, tabağın içeriğindeki değişimin etkisini izledi.",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "32075887",
+      "source_title": "Mediterranean diet intervention in overweight and obese subjects lowers plasma cholesterol and causes changes in the gut microbiome and metabolome independently of energy intake.",
+      "year": "2020",
+      "text": "1/3 Kilolu ve obez bireylerde kalori miktarını değiştirmeden sadece besin içeriğini Akdeniz diyetiyle güncellemek metabolik sağlığı dönüştürmeye yetiyor mu? Sekiz haftalık kontrollü bir çalışma, tabağın içeriğindeki değişimin etkisini izledi.\nhttps://pubmed.ncbi.nlm.nih.gov/32075887/",
+      "format": "three_post_thread",
+      "due": "2026-10-30T10:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
