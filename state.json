@@ -286,6 +286,29 @@
       "due": "2026-10-29T17:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae323f235265d851e024de0"
+    },
+    {
+      "thread": [
+        "1/3 Yaş ilerledikçe kas gücünün azalması kader mi, yoksa gün içinde yaptıklarımızın bir yansıması mı? 43 binden fazla kişinin verileri, hareket düzeyimizin kas performansıyla bağını inceliyor.\nhttps://pubmed.ncbi.nlm.nih.gov/33607291/",
+        "2/3 Toplam fiziksel aktivite ve orta-şiddetli hareket, el kavrama gücü ve sandalye kalkma testi gibi ölçümlerle pozitif ilişkili bulundu. Özellikle alt vücut kas gücünde bu bağ belirgindi.",
+        "3/3 Benim bu verilerden çıkardığım sonuç, günlük hareketin kas performansını desteklediği yönünde. Ancak çalışma nedensellik sunmuyor. Gün içinde ne kadar hareket edebiliyorsun?\nhttps://pubmed.ncbi.nlm.nih.gov/33607291/"
+      ],
+      "title": "Yaşlılarda Fiziksel Aktivite ve Kas Gücü İlişkisi",
+      "stat": "43.796",
+      "stat_label": "112 makalede incelenen toplam katılımcı sayısı",
+      "finding": "Yüksek fiziksel aktivite ve düşük hareketsiz davranış, üst ve alt vücut kas gücü ile gücü yüksekliğiyle ilişkilidir.",
+      "interpretation": "Yorum: Günlük hareket miktarını artırmak yaşlılıkta bağımsızlığı korumak adına büyük önem taşıyor.",
+      "limitation": "Bu sistematik derleme ve meta-analiz gözlemsel verilere dayanır; doğrudan neden-sonuç ilişkisi kurmaz.",
+      "skip": false,
+      "tweet": "Yaş ilerledikçe kas gücünün azalması kader mi, yoksa gün içinde yaptıklarımızın bir yansıması mı? 43 binden fazla kişinin verileri, hareket düzeyimizin kas performansıyla bağını inceliyor.",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "33607291",
+      "source_title": "The association of objectively measured physical activity and sedentary behavior with skeletal muscle strength and muscle power in older adults: A systematic review and meta-analysis.",
+      "year": "2021",
+      "text": "1/3 Yaş ilerledikçe kas gücünün azalması kader mi, yoksa gün içinde yaptıklarımızın bir yansıması mı? 43 binden fazla kişinin verileri, hareket düzeyimizin kas performansıyla bağını inceliyor.\nhttps://pubmed.ncbi.nlm.nih.gov/33607291/",
+      "format": "three_post_thread",
+      "due": "2026-10-29T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
