@@ -262,6 +262,29 @@
       "due": "2026-10-29T13:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae2f2bb9c83386213534354"
+    },
+    {
+      "thread": [
+        "1/3 Ergenlik döneminde uykunun süresi sıkça tartışılır. Ancak 361 binden fazla genci kapsayan geniş kapsamlı inceleme, uyku süresindeki azalmanın ruh halini nasıl etkilediğine odaklandı.\nhttps://pubmed.ncbi.nlm.nih.gov/32240932/",
+        "2/3 Yapılan meta-analiz sonuçlarına göre, az uyumek ergenlerde ruh hali bozuklukları yaşama ihtimalinde %55 artışla ilişkilendirildi. Bu durum özellikle olumlu ruh halini ve öfkeyi etkiliyor.",
+        "3/3 Uyku süresinin ruh hali üzerindeki bu etkisini görmek, akşam rutinlerini yeniden düşünmek için anlamlı bir zemin sunuyor. Gözlemsel veri neden-sonuç kurmaz. Evde uyku düzeninde zorlandığın an ne?\nhttps://pubmed.ncbi.nlm.nih.gov/32240932/"
+      ],
+      "title": "Ergenlerde Uyku Süresi ve Ruh Hali İlişkisi",
+      "stat": "%55",
+      "stat_label": "ergenlerde az uyku ile ruh hali bozukluğu artış ihtimali",
+      "finding": "Daha az uyku, ergenlerde ruh hali bozuklukları yaşama ihtimalinde %55 artışla ilişkilendirildi.",
+      "interpretation": "Yorum: Uyku süresinin ruh halimiz üzerindeki bu belirgin etkisini görmek, akşam rutinlerini yeniden düzenlemek için anlamlı bir zemin sunuyor.",
+      "limitation": "Çeşitli veritabanlarından 74 çalışmanın incelendiği bu derleme gözlemseldir, doğrudan neden-sonuç ilişkisi kanıtlamaz.",
+      "skip": false,
+      "tweet": "Ergenlik döneminde uykunun süresi sıkça tartışılır. Ancak 361 binden fazla genci kapsayan geniş kapsamlı inceleme, uyku süresindeki azalmanın ruh halini nasıl etkilediğine odaklandı.",
+      "editorial_angle": "yaygın bir varsayımı dikkatle düzeltme",
+      "pmid": "32240932",
+      "source_title": "The relationship between sleep duration and mood in adolescents: A systematic review and meta-analysis.",
+      "year": "2020",
+      "text": "1/3 Ergenlik döneminde uykunun süresi sıkça tartışılır. Ancak 361 binden fazla genci kapsayan geniş kapsamlı inceleme, uyku süresindeki azalmanın ruh halini nasıl etkilediğine odaklandı.\nhttps://pubmed.ncbi.nlm.nih.gov/32240932/",
+      "format": "three_post_thread",
+      "due": "2026-10-29T17:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
