@@ -334,6 +334,29 @@
       "due": "2026-10-30T10:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae38f2a49b3849a24cbd755"
+    },
+    {
+      "thread": [
+        "1/3 Yaş ilerledikçe kas kaybını önlemek için sadece hafif yürüyüşler yapmak yeterli mi, yoksa kasları ağırlıkla zorlayıp beslenmeyi desteklemek mi gerekir? Sarkopenisi olan yaşlılarda en etkili yöntemler araştırıldı.\nhttps://pubmed.ncbi.nlm.nih.gov/37057640/",
+        "2/3 3.728 yaşlı bireyi kapsayan 42 klinik çalışmanın analizinde, yaşam kalitesini artırmada en etkili yöntemin direnç egzersizleri ile aerobik ve denge antrenmanlarının bir arada uygulanması olduğu belirlendi.",
+        "3/3 Benim bu veride gördüğüm en kritik nokta, beslenme desteğinin özellikle el kavrama gücünü artırmada tek başına egzersizden daha belirgin sonuç vermesidir. Yine de klinik takip şart. Sen günlük rutininde direnç antrenmanlarına yer verebiliyor musun?\nhttps://pubmed.ncbi.nlm.nih.gov/37057640/"
+      ],
+      "title": "Yaşlılıkta Kas Kaybına Karşı En Etkili Egzersiz",
+      "stat": "42 RCT",
+      "stat_label": "Sarkopenisi olan 3.728 yaşlı bireyi kapsayan klinik çalışmalar",
+      "finding": "Direnç egzersizi ile beslenme takviyesini birleştirmek el kavrama gücünü artırmada tek başına egzersizden daha etkili bulunmuştur.",
+      "interpretation": "Yorum: Kas kütlesi ve gücünü korumak için sadece yürüyüş değil, direnç antrenmanları ve uygun beslenme desteği birlikte düşünülmelidir.",
+      "limitation": "Çalışma bulguları klinik randomize kontrollü çalışmaların sentezine dayanır; bireysel yanıtlar değişkenlik gösterebilir.",
+      "skip": false,
+      "tweet": "Yaş ilerledikçe kas kaybını önlemek için sadece hafif yürüyüşler yapmak yeterli mi, yoksa kasları ağırlıkla zorlayıp beslenmeyi desteklemek mi gerekir? Sarkopenisi olan yaşlılarda en etkili yöntemler araştırıldı.",
+      "editorial_angle": "anlaşılır sayısal karşılaştırma",
+      "pmid": "37057640",
+      "source_title": "Exercise for sarcopenia in older people: A systematic review and network meta-analysis.",
+      "year": "2023",
+      "text": "1/3 Yaş ilerledikçe kas kaybını önlemek için sadece hafif yürüyüşler yapmak yeterli mi, yoksa kasları ağırlıkla zorlayıp beslenmeyi desteklemek mi gerekir? Sarkopenisi olan yaşlılarda en etkili yöntemler araştırıldı.\nhttps://pubmed.ncbi.nlm.nih.gov/37057640/",
+      "format": "three_post_thread",
+      "due": "2026-10-30T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
