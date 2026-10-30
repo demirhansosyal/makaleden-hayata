@@ -358,6 +358,29 @@
       "due": "2026-10-30T13:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae4442eba1ca51fd3febe9c"
+    },
+    {
+      "thread": [
+        "1/3 Uykuda öğrenmek veya hafızayı tazelemek bilim kurgu gibi gelir. Ama araştırmacılar, uykunun belirli evrelerinde dışarıdan verilen bazı ipuçlarının hafıza süreçlerini etkileyebildiğini gösteren geniş bir birikimi masaya yatırdı.\nhttps://pubmed.ncbi.nlm.nih.gov/32027149/",
+        "2/3 91 deney ve 2 binin üzerinde katılımcının verisini inceleyen bu meta-analiz, hedefli hafıza tepkisinin özellikle NREM ve yavaş dalga uykusunda etkili olduğunu ortaya koydu; REM veya uyanıklıkta bu etki görülmedi.",
+        "3/3 Benim bu çalışmada gördüğüm en net açık, doğrudan pratik bir öğrenme reçetesi sunmadığıdır. Sen uyku sırasında dış seslerin uykunu böldüğünü hissediyor musun?\nhttps://pubmed.ncbi.nlm.nih.gov/32027149/"
+      ],
+      "title": "Uykuda Hafıza Pekiştirme",
+      "stat": "Hedges' g = 0.29",
+      "stat_label": "91 deney ve 2.004 katılımcıyı kapsayan genel etki büyüklüğü",
+      "finding": "Hedefli hafıza tepkisi uykuda hafıza süreçlerini etkiler; özellikle NREM ve yavaş dalga uykusunda anlamlı etki görülür.",
+      "interpretation": "Uyku sırasında beyin pasif kalmaz, verileri işler. Bu bulgu, uykunun hafıza mimarisindeki aktif rolünü somutlaştırıyor.",
+      "limitation": "Çeşitli deneylerin meta-analizidir; yayın yanlılığı riski ve farklı hafıza türlerindeki değişkenlikler göz önünde bulundurulmalıdır.",
+      "skip": false,
+      "tweet": "Uykuda öğrenmek veya hafızayı tazelemek bilim kurgu gibi gelir. Ama araştırmacılar, uykunun belirli evrelerinde dışarıdan verilen bazı ipuçlarının hafıza süreçlerini etkileyebildiğini gösteren geniş bir birikimi masaya yatırdı.",
+      "editorial_angle": "uygulanabilir bir düşünme çerçevesi",
+      "pmid": "32027149",
+      "source_title": "Promoting memory consolidation during sleep: A meta-analysis of targeted memory reactivation.",
+      "year": "2020",
+      "text": "1/3 Uykuda öğrenmek veya hafızayı tazelemek bilim kurgu gibi gelir. Ama araştırmacılar, uykunun belirli evrelerinde dışarıdan verilen bazı ipuçlarının hafıza süreçlerini etkileyebildiğini gösteren geniş bir birikimi masaya yatırdı.\nhttps://pubmed.ncbi.nlm.nih.gov/32027149/",
+      "format": "three_post_thread",
+      "due": "2026-10-30T17:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
