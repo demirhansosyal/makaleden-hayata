@@ -382,6 +382,29 @@
       "due": "2026-10-30T17:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae47d6e1c1ab1e7bc32a590"
+    },
+    {
+      "thread": [
+        "1/3 Cebimizdeki gelir ile hayatımızdan duyduğumuz memnuniyet her zaman aynı hızda artmıyor. Toplam 357 çalışmanın verileri, somut refahımız ile öznel hissettiklerimiz arasındaki bağın az çok nerede ayrıştığını inceliyor. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/33090862/",
+        "2/3 Araştırma, kişilerin kendi yerlerini algılayış biçiminin mutlulukla ilişkisinin (r = .22), nesnel gelir ve eğitim düzeyine kıyasla (r = .16) biraz daha güçlü göründüğünü aktarıyor. Bu gözlemsel bir meta-analizdir, neden sonuç kuramaz.",
+        "3/3 Bana göre bu tablo, insanın kendini etrafındakilerle kıyaslama eğiliminin hayat memnuniyetinde etiketlerden daha baskın olabileceğini gösteriyor.\n\nSen çevrendeki ekonomik hareketliliği kendi yaşamına uyarlarken en çok neye bakıyorsun?\nhttps://pubmed.ncbi.nlm.nih.gov/33090862/"
+      ],
+      "title": "Gelir mi, hissedilen statü mü daha belirleyici?",
+      "stat": "r = .22",
+      "stat_label": "Öznel statü ile öznel iyi oluş arasındaki ilişki katsayısı",
+      "finding": "Öznel statünün öznel iyi oluşla ilişkisi (r = .22), nesnel statünün iyi oluşla ilişkisinden (r = .16) daha büyüktür.",
+      "interpretation": "Yorum: Rakamlar, insanın kendisini olduğu yeri nasıl algıladığının, yalnız cüzdandaki rakamdan daha çok hissi etkileyebildiğini gösteriyor.",
+      "limitation": "357 çalışmayı kapsayan bu meta-analiz gözlemseldir; ortak yöntem varyansı ilişkileri kısmen açıklayabilir ve neden sonuç ilişkisi kurmaz.",
+      "skip": false,
+      "tweet": "Cebimizdeki gelir ile hayatımızdan duyduğumuz memnuniyet her zaman aynı hızda artmıyor. Toplam 357 çalışmanın verileri, somut refahımız ile öznel hissettiklerimiz arasındaki bağın az çok nerede ayrıştığını inceliyor. ↓",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "33090862",
+      "source_title": "The association between objective and subjective socioeconomic status and subjective well-being: A meta-analytic review.",
+      "year": "2020",
+      "text": "1/3 Cebimizdeki gelir ile hayatımızdan duyduğumuz memnuniyet her zaman aynı hızda artmıyor. Toplam 357 çalışmanın verileri, somut refahımız ile öznel hissettiklerimiz arasındaki bağın az çok nerede ayrıştığını inceliyor. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/33090862/",
+      "format": "three_post_thread",
+      "due": "2026-10-30T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
