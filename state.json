@@ -478,6 +478,29 @@
       "due": "2026-10-31T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae605e0ab019b90870ccba0"
+    },
+    {
+      "thread": [
+        "1/3 Lifli gıdaların sağlığa iyi geldiği bilinir ama her lif aynı etkiyi mi yaratır? Sağlıklı bireylerle yapılan doza bağlı yeni bir çalışma, farklı kimyasal yapılardaki liflerin rolünü inceliyor.\nhttps://pubmed.ncbi.nlm.nih.gov/32004499/",
+        "2/3 Çalışmada kullanılan üç farklı dayanıklı nişasta türünün, bağırsak bakterileri üzerinde farklı etkiler yaratarak yağ asidi üretimini yönlendirdiği görüldü. Bu etkiler 35 gramda dengeye ulaşıyor.",
+        "3/3 Bana göre bağırsak mikrobiyotasını belirli liflerle yönlendirmenin mümkün olması heyecan verici; ancak bu doz deneyi sınırlı bir grubu kapsıyor. Günlük beslenmenizde lif çeşitliliğine dikkat ediyor musunuz?\nhttps://pubmed.ncbi.nlm.nih.gov/32004499/"
+      ],
+      "title": "Lif Yapısı Bağırsak Metabolizmasını Nasıl Yönlendirir?",
+      "stat": "35 g/gün",
+      "stat_label": "Sağlıklı insanlarda nişasta etkisinin dengeye ulaştığı günlük doz",
+      "finding": "Kristal ve fosfat çapraz bağlı nişasta yapıları, propionat veya bütirat üretimini hedefli biçimde değiştiren farklı mikrobiyom etkileri gösterir.",
+      "interpretation": "Farklı lif yapıları bağırsaktaki metabolik çıktıyı doğrudan etkileyebilir; ancak bu bulgu henüz kesin bir diyet reçetesi sunmuyor.",
+      "limitation": "Sağlıklı insanlarda doza bağlı yürütülen bu çalışma, her bireyde aynı mikrobiyal yanıtın kesin olarak alınacağını garanti etmez.",
+      "skip": false,
+      "tweet": "Lifli gıdaların sağlığa iyi geldiği bilinir ama her lif aynı etkiyi mi yaratır? Sağlıklı bireylerle yapılan doza bağlı yeni bir çalışma, farklı kimyasal yapılardaki liflerin rolünü inceliyor.",
+      "editorial_angle": "anlaşılır sayısal karşılaştırma",
+      "pmid": "32004499",
+      "source_title": "Precision Microbiome Modulation with Discrete Dietary Fiber Structures Directs Short-Chain Fatty Acid Production.",
+      "year": "2020",
+      "text": "1/3 Lifli gıdaların sağlığa iyi geldiği bilinir ama her lif aynı etkiyi mi yaratır? Sağlıklı bireylerle yapılan doza bağlı yeni bir çalışma, farklı kimyasal yapılardaki liflerin rolünü inceliyor.\nhttps://pubmed.ncbi.nlm.nih.gov/32004499/",
+      "format": "three_post_thread",
+      "due": "2026-11-01T10:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
