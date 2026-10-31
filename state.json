@@ -457,7 +457,9 @@
     }
   ],
   "health": {
-    "checked_at": "2026-10-31T14:13:27.657339+03:00",
-    "active_problems": []
+    "checked_at": "2026-10-31T18:13:33.313650+03:00",
+    "active_problems": [
+      "Yayımlanmayan veya doğrulanamayan saat: 2026-10-31T17:00:00+03:00"
+    ]
   }
 }
