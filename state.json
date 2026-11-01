@@ -502,6 +502,29 @@
       "due": "2026-11-01T10:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae62f5837c1acd2a0c2ede9"
+    },
+    {
+      "thread": [
+        "1/3 Zihnimizi açmak için sadece koşmak mı, yoksa vücudu koordinasyonla zorlamak mı daha etkilidir? Günlük hareketi zihinsel performansa dönüştürürken çoğunlukla gözden kaçırdığımız ince bir ayrıntı bulunuyor. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/32231280/",
+        "2/3 80 rastgele kontrollü çalışmanın analizinde, egzersizin zihin üzerindeki etkisinin genel olarak olumlu olduğu saptandı. Denge ve koordinasyon gerektiren egzersizlerin daha yüksek fayda sağladığı, etkilerin ise kadın ve erkeklerde farklı seyrettiği görüldü.",
+        "3/3 Benim buradan çıkardığım ders, sporda yalnızca süreye değil, hareketin yapısına da dikkat etmek gerektiği.\n\nAncak cinsiyetler arası farklılıkların nedeni netleşmiş değil.\n\nSiz spor yaparken denge ve koordinasyon hareketlerine yer verir misiniz?\nhttps://pubmed.ncbi.nlm.nih.gov/32231280/"
+      ],
+      "title": "Egzersiz Zihni Nasıl Etkiler?",
+      "stat": "80 RCT",
+      "stat_label": "Sağlıklı bireylerde egzersizin zihinsel etkiyi nasıl değiştirdiğini inceleyen RCT sayısı",
+      "finding": "Uzun süreli egzersiz zihinsel işlevleri olumlu etkiliyor; koordinasyon gerektiren egzersiz türlerinde zihinsel fayda daha yüksek bulunuyor.",
+      "interpretation": "Yorum: Sadece düz yürüyüş yapmak yerine zihni ve bedeni birlikte zorlayan koordinasyon hareketlerini rutine eklemek zihinsel faydayı artırabilir.",
+      "limitation": "Derleme niteliğinde bir çalışma olup cinsiyetler arasındaki etki farklarının altında yatan biyolojik mekanizmaları kanıtlayamaz.",
+      "skip": false,
+      "tweet": "Zihnimizi açmak için sadece koşmak mı, yoksa vücudu koordinasyonla zorlamak mı daha etkilidir? Günlük hareketi zihinsel performansa dönüştürürken çoğunlukla gözden kaçırdığımız ince bir ayrıntı bulunuyor. ↓",
+      "editorial_angle": "yaygın bir varsayımı dikkatle düzeltme",
+      "pmid": "32231280",
+      "source_title": "Systematic review and meta-analysis investigating moderators of long-term effects of exercise on cognition in healthy individuals.",
+      "year": "2020",
+      "text": "1/3 Zihnimizi açmak için sadece koşmak mı, yoksa vücudu koordinasyonla zorlamak mı daha etkilidir? Günlük hareketi zihinsel performansa dönüştürürken çoğunlukla gözden kaçırdığımız ince bir ayrıntı bulunuyor. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/32231280/",
+      "format": "three_post_thread",
+      "due": "2026-11-01T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
