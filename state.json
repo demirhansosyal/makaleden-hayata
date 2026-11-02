@@ -574,6 +574,29 @@
       "due": "2026-11-02T13:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae83f0c7817c41d1a4eb018"
+    },
+    {
+      "thread": [
+        "1/3 Kötü geçen bir günün ardından uyuyup uyanınca zihninin hafifleyeceğini umarsın. Peki uyku kalitesini artırmak ruh sağlığını doğrudan iyileştirir mi? 65 klinik araştırmayı inceleyen meta-analiz bu soruya bakıyor.\nhttps://pubmed.ncbi.nlm.nih.gov/34607184/",
+        "2/3 8.608 katılımcılı kontrollü çalışmalarda, uyku kalitesini artıran adımlar genel ruh sağlığında ve depresyonda orta düzeyde iyileşme sağladı. Uykudaki düzelme miktarı arttıkça zihinsel rahatlama da belirginleşti.",
+        "3/3 Bana göre uykuyu sadece bir dinlenme değil, duygusal dengemizi koruyan aktif bir süreç olarak görmek gerekiyor. Çalışma müdahalelerin uzun vadeli kalıcılığını ve tam mekanizmasını açıklamıyor. Senin uykan bozulunca ruh halin bundan nasıl etkileniyor?\nhttps://pubmed.ncbi.nlm.nih.gov/34607184/"
+      ],
+      "title": "Uyku Kalitesi ve Ruh Sağlığı Bağlantısı",
+      "stat": "65",
+      "stat_label": "Randomize kontrollü çalışma meta-analize dahil edildi",
+      "finding": "Uykuyu iyileştiren müdahaleler, genel ruh sağlığında ve depresyon ile kaygı belirtilerinde orta düzeyde olumlu etki gösterdi.",
+      "interpretation": "Yorum: Uykuyu iyileştirmek, ruh sağlığını desteklemede doğrudan katkı sağlayan önemli bir günlük alışkanlık olabilir.",
+      "limitation": "Meta-analiz uyku müdahalelerinin etki yarattığını gösterse de etkilerin uzun dönemli sürdürülebilirliğini ve mekanizmasını netleştirmiyor.",
+      "skip": false,
+      "tweet": "Kötü geçen bir günün ardından uyuyup uyanınca zihninin hafifleyeceğini umarsın. Peki uyku kalitesini artırmak ruh sağlığını doğrudan iyileştirir mi? 65 klinik araştırmayı inceleyen meta-analiz bu soruya bakıyor.",
+      "editorial_angle": "anlaşılır sayısal karşılaştırma",
+      "pmid": "34607184",
+      "source_title": "Improving sleep quality leads to better mental health: A meta-analysis of randomised controlled trials.",
+      "year": "2021",
+      "text": "1/3 Kötü geçen bir günün ardından uyuyup uyanınca zihninin hafifleyeceğini umarsın. Peki uyku kalitesini artırmak ruh sağlığını doğrudan iyileştirir mi? 65 klinik araştırmayı inceleyen meta-analiz bu soruya bakıyor.\nhttps://pubmed.ncbi.nlm.nih.gov/34607184/",
+      "format": "three_post_thread",
+      "due": "2026-11-02T17:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
