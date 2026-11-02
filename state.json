@@ -550,6 +550,29 @@
       "due": "2026-11-02T10:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae78116a9b1b4ba58f8e9f6"
+    },
+    {
+      "thread": [
+        "1/3 Yaş ilerledikçe D vitamini, omega-3 ve kuvvet egzersizinin sağlığı koruyacağı düşünülür. Peki bu popüler uygulamalar tek başlarına ya da birlikte tansiyondan hafızaya klinik sonuçları gerçekten değiştiriyor mu?\nhttps://pubmed.ncbi.nlm.nih.gov/33170239/",
+        "2/3 3 yıl süren geniş çalışmada 70 yaş üstü 2.157 yetişkin izlendi. Günde 2000 IU D3 vitamini, 1 g omega-3 ve kuvvet egzersizinin plaseboya kıyasla tansiyon, hafıza, kırık veya enfeksiyon oranlarında fark yaratmadığı görüldü.",
+        "3/3 Benim okumam: Genel sağlık durumunuz yerindeyse bu dış destekler mucize yaratmıyor. Sınırlılık ise sadece sağlıklı yaşlıları kapsaması. Siz günlük rutininizde bu tarz takviyelere mi yoksa temel beslenmeye mi daha çok güveniyorsunuz?\nhttps://pubmed.ncbi.nlm.nih.gov/33170239/"
+      ],
+      "title": "D Vitamini, Omega-3 ve Egzersiz Gerçekten Etkili mi?",
+      "stat": "2.157",
+      "stat_label": "Araştırmaya katılan 70 yaş ve üzeri sağlıklı yetişkin sayısı",
+      "finding": "D vitamini, omega-3 ve egzersiz 3 yıl sonunda tansiyon, hafıza ve enfeksiyon riskinde anlamlı fark yaratmadı.",
+      "interpretation": "Yorum: Rutin takviyeler ve egzersiz, hedeflenmiş bir tıbbi eksiklik olmadığında sağlıklı yaşlılarda belirgin ek klinik fayda sağlamayabilir.",
+      "limitation": "Sonuçlar 70 yaş üzeri sağlıklı bireylerle sınırlıdır; gençlere veya belirgin klinik eksikliği olanlara genellenemez.",
+      "skip": false,
+      "tweet": "Yaş ilerledikçe D vitamini, omega-3 ve kuvvet egzersizinin sağlığı koruyacağı düşünülür. Peki bu popüler uygulamalar tek başlarına ya da birlikte tansiyondan hafızaya klinik sonuçları gerçekten değiştiriyor mu?",
+      "editorial_angle": "yaygın bir varsayımı dikkatle düzeltme",
+      "pmid": "33170239",
+      "source_title": "Effect of Vitamin D Supplementation, Omega-3 Fatty Acid Supplementation, or a Strength-Training Exercise Program on Clinical Outcomes in Older Adults: The DO-HEALTH Randomized Clinical Trial.",
+      "year": "2020",
+      "text": "1/3 Yaş ilerledikçe D vitamini, omega-3 ve kuvvet egzersizinin sağlığı koruyacağı düşünülür. Peki bu popüler uygulamalar tek başlarına ya da birlikte tansiyondan hafızaya klinik sonuçları gerçekten değiştiriyor mu?\nhttps://pubmed.ncbi.nlm.nih.gov/33170239/",
+      "format": "three_post_thread",
+      "due": "2026-11-02T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
