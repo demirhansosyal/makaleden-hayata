@@ -598,6 +598,29 @@
       "due": "2026-11-02T17:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae874a497ae21595d5449e8"
+    },
+    {
+      "thread": [
+        "1/3 Gün boyunca masabaşında oturmakla hareket etmemek sıkça aynı kefeye konur. Ama yetişkinlerde sedanter davranış ile fiziksel inaktivite aynı şeyi mi ölçüyor?\nhttps://pubmed.ncbi.nlm.nih.gov/35871953/",
+        "2/3 Yirmi üç çalışmanın incelendiği bu derlemede sedanter davranışın yaygınlığı %31, fiziksel inaktivitenin yaygınlığı ise %43 olarak bulundu. Obezite ile sedanter davranış arasında 1,45 kat, fiziksel inaktivite arasında ise 1,52 kat risk artışı saptandı.",
+        "3/3 Benim bu veriden çıkardığım: oturma süresi ile günlük hareket eksikliği ayrı iki risk alanı. Ölçüm araçlarının çeşitliliği sonuçları epey değiştiriyor.\n\nSizin günlük rutininizde uzun süre oturmayı bölmek için ne tür bir yöntem işinize yarıyor?\nhttps://pubmed.ncbi.nlm.nih.gov/35871953/"
+      ],
+      "title": "Hareketsizlik ve Obezite İlişkisi",
+      "stat": "OR 1.52",
+      "stat_label": "Fiziksel inaktivite ve obezite arasındaki olasılık oranı",
+      "finding": "Obez bireylerde sedanter davranış yaygınlığı %31, fiziksel inaktivite ise %43'tür.",
+      "interpretation": "Yorum: Uzun süreli oturma alışkanlığı ile yetersiz fiziksel aktivite, obezite riskini farklı mekanizmalarla artırıyor olabilir.",
+      "limitation": "Farklı çalışmaların öz bildirim ve objektif ölçüm yöntemleri kullanması tahminlerde büyük değişimler yaratmıştır.",
+      "skip": false,
+      "tweet": "Gün boyunca masabaşında oturmakla hareket etmemek sıkça aynı kefeye konur. Ama yetişkinlerde sedanter davranış ile fiziksel inaktivite aynı şeyi mi ölçüyor?",
+      "editorial_angle": "uygulanabilir bir düşünme çerçevesi",
+      "pmid": "35871953",
+      "source_title": "Sedentary behavior, physical inactivity, abdominal obesity and obesity in adults and older adults: A systematic review and meta-analysis.",
+      "year": "2022",
+      "text": "1/3 Gün boyunca masabaşında oturmakla hareket etmemek sıkça aynı kefeye konur. Ama yetişkinlerde sedanter davranış ile fiziksel inaktivite aynı şeyi mi ölçüyor?\nhttps://pubmed.ncbi.nlm.nih.gov/35871953/",
+      "format": "three_post_thread",
+      "due": "2026-11-02T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
