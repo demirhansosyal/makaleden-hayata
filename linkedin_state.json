@@ -45,6 +45,21 @@
       "due": "2026-11-03T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae951b7b1dfe2c544ebc89e"
+    },
+    {
+      "text": "Kronik böbrek hastalığı taraması ve evrelemesinde albüminüri ölçümü temel alınsa da, pratikte sıklıkla toplam idrar proteini veya dipstik testine başvurulur. Peki bu farklı ölçüm yöntemleri klinik süreçlerde birbirinin yerine nasıl kullanılabilir?\n\nBireysel katılımcı verilerine dayanan bu meta-analiz tasarımı, 12 araştırma ve 21 klinik kohorttan gelen 919.383 yetişkini bir araya getirdi. Araştırmacılar, idrar protein-kreatinin oranı ve dipstik proteinini albümin-kreatinin oranına dönüştüren denklemler geliştirdi ve bunların tanısal doğruluğunu inceledi. Bulgulara göre, daha yüksek protein-kreatinin oranı değerleri için geliştirilen dönüşüm denklemleri, tarama ve evrelemede yüzde 91, 75 ve 87 oranlarında hassasiyet gösterdi.\n\nBu veriler, gözlemsel kohortların doğası gereği kesin bir nedensellik bağı kurmaz; ayrıca çalışmada çeşitli ölçüm yöntemlerinin kullanılmış olması ve ölçümlerin her zaman aynı idrar örneğinde yapılmamış olması birer kısıtlılıktır. Bu sonuçları doğrudan atletik performans veya bireysel beslenme reçetelerine uyarlayamayız.\n\nPratik bir bakış açısı olarak, klinik veya saha değerlendirmelerinde kullanılan tarama yöntemlerinin teknik sınırlarını akılda tutmak faydalıdır. Bu hafta, takip ettiğiniz bireylerin kullandığı laboratuvar yöntemlerinin raporlama detaylarını incelemek için küçük bir adım atabilirsiniz.\n\n#BöbrekSağlığı #KlinikBeslenme #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/32658569/",
+      "title": "İdrar Protein Ölçümleri ve Klinik Evreleme",
+      "stat": "919.383",
+      "stat_label": "Yetişkin katılımcı sayısı",
+      "finding": "Yüksek protein-kreatinin oranı değerleri için geliştirilen dönüşüm denklemleri, tarama ve evrelemede %91, %75 ve %87 hassasiyet gösterdi.",
+      "interpretation": "Albuminüri ölçümünün bulunmadığı durumlarda dönüştürülmüş değerler tarama ve evrelemede yardımcı olabilir.",
+      "limitation": "Farklı idrar protein ve albümin ölçüm yöntemleri kullanılmış olup ölçümler her zaman aynı örnekten alınmamıştır.",
+      "skip": false,
+      "pmid": "32658569",
+      "source_title": "Conversion of Urine Protein-Creatinine Ratio or Urine Dipstick Protein to Urine Albumin-Creatinine Ratio for Use in Chronic Kidney Disease Screening and Prognosis : An Individual Participant-Based Meta-analysis.",
+      "year": "2020",
+      "due": "2026-11-04T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
