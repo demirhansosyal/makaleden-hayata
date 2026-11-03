@@ -29,6 +29,21 @@
       "due": "2026-11-03T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae881315a0b78bb030d6dc2"
+    },
+    {
+      "text": "Tip 2 diyabet yönetimi ve klinik kardiyovasküler risk denklemi, yalnızca bireysel reçetelerle değil, geniş kapsamlı kanıtlarla şekilleniyor.\n\nPalmer ve arkadaşlarının 2021 tarihli ağ meta-analizi, 11 Ağustos 2020 tarihine kadar Medline, Embase ve Cochrane CENTRAL veritabanlarında taranan, en az 24 hafta takip süresine sahip 421.346 hastayı içeren 764 randomize kontrollü çalışmayı bir araya getirdi. Araştırma, tip 2 diyabet hastalarında SGLT-2 inhibitörleri ve GLP-1 reseptör agonistlerinin kardiyovasküler ve renal sonuçlar üzerindeki etkilerini değerlendirdi. Çalışmanın bulgularına göre, bu ajanların mevcut diyabet tedavisine eklenmesi tüm nedenlere bağlı ölüm, kardiyovasküler ölüm, ölümcül olmayan miyokard infarktüsü ve böbrek yetmezliğini azalttı (yüksek kesinlikli kanıt). Örneğin, SGLT-2 inhibitörleri beş yıllık sürede 1000 hastada 3 ila 40 daha az ölümle sonuçlandı. Bununla birlikte, mutlak faydalar hastaların düşük ile çok yüksek arasındaki kardiyovasküler ve renal risk profillerine göre büyük ölçüde değişiklik göstermektedir.\n\nBu bulgu doğrudan bireysel bir diyet planı veya sporcu performans artışı anlamına gelmez; popülasyon tip 2 diyabet hastalarından oluşmaktadır. Gözlemsel olmayan bu randomize veriler nedensellik bağı kurarken, her hastanın kendi klinik profilinin değerlendirilmesi gerektiğini hatırlatır.\n\nKlinik ve saha pratiklerinde, kılavuz bilgileri günlük rutine uyarlarken hasta risk profilini göz önünde bulundurmak önemlidir. Bu hafta danışanlarınızın veya sporcularınızın mevcut tıbbi geçmişini ve risk etkenlerini gözden geçirmek için küçük bir adım atabilirsiniz.\n\n#Diyabet #KlinikBeslenme #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/33441402/",
+      "title": "Tip 2 Diyabette İlaç Tedavileri ve Risk Profili",
+      "stat": "421.346",
+      "stat_label": "764 randomize çalışmadaki toplam hasta sayısı",
+      "finding": "SGLT-2 inhibitörleri beş yıllık sürede 1000 hastada 3 ila 40 daha az ölümle sonuçlandı.",
+      "interpretation": "Mevcut diyabet tedavisine eklenen bu ajanlar kardiyovasküler ve renal sonuçları iyileştirebilir.",
+      "limitation": "Mutlak faydalar hastaların düşük ile çok yüksek arasındaki risk profillerine göre büyük ölçüde değişmektedir.",
+      "skip": false,
+      "pmid": "33441402",
+      "source_title": "Sodium-glucose cotransporter protein-2 (SGLT-2) inhibitors and glucagon-like peptide-1 (GLP-1) receptor agonists for type 2 diabetes: systematic review and network meta-analysis of randomised controlled trials.",
+      "year": "2021",
+      "due": "2026-11-03T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
