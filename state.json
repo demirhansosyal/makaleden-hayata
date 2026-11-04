@@ -670,6 +670,29 @@
       "due": "2026-11-04T10:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aeaaf0bff887f055ce8ffd5"
+    },
+    {
+      "thread": [
+        "1/3 Hafıza gerilemesini yavaşlatmak için yürüyüş mü şart, yoksa ağırlık kaldırmak mı? Hafif bilişsel bozukluğu olan bireylerde farklı egzersiz türlerinin bilişsel işlevlere etkisi karşılaştırılıyor. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/34004389/",
+        "2/3 73 makalenin incelendiği ağ meta-analizinde, direnç egzersizinin genel biliş, yürütücü işlev ve hafızadaki düşüşü yavaşlatmada en yüksek olasılıkla en etkili müdahale olduğu görüldü.",
+        "3/3 Bana göre bu bulgu, zihinsel zindeliği korurken sadece kardiyoya odaklanma ezberini bozuyor.\n\nÇalışma rastgele kontrollü denemelere dayanıyor.\n\nSenin rutininde kuvvet antrenmanına yer veriyor musun?\nhttps://pubmed.ncbi.nlm.nih.gov/34004389/"
+      ],
+      "title": "Bilişsel Gerilemede En Etkili Egzersiz",
+      "stat": "SMD = 1.05",
+      "stat_label": "Global cog. effect for resistance exercise (95% CI: 0.56-1.54)",
+      "finding": "Direnç egzersizi, bilişsel işlev düşüşünü yavaşlatmada en yüksek olasılığa sahip müdahale olarak öne çıktı.",
+      "interpretation": "Yorum: Bu sonuçlar, kas kuvvetini artırmanın beyin sağlığını desteklemede kritik bir rol oynayabileceğini düşündürüyor.",
+      "limitation": "Randomize kontrollü çalışmaların incelendiği bu derlemede, müdahale süreleri ve hasta profilleri çeşitlilik gösteriyor.",
+      "skip": false,
+      "tweet": "Hafıza gerilemesini yavaşlatmak için yürüyüş mü şart, yoksa ağırlık kaldırmak mı? Hafif bilişsel bozukluğu olan bireylerde farklı egzersiz türlerinin bilişsel işlevlere etkisi karşılaştırılıyor. ↓",
+      "editorial_angle": "yaygın bir varsayımı dikkatle düzeltme",
+      "pmid": "34004389",
+      "source_title": "Comparative efficacy of various exercise interventions on cognitive function in patients with mild cognitive impairment or dementia: A systematic review and network meta-analysis.",
+      "year": "2022",
+      "text": "1/3 Hafıza gerilemesini yavaşlatmak için yürüyüş mü şart, yoksa ağırlık kaldırmak mı? Hafif bilişsel bozukluğu olan bireylerde farklı egzersiz türlerinin bilişsel işlevlere etkisi karşılaştırılıyor. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/34004389/",
+      "format": "three_post_thread",
+      "due": "2026-11-04T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
