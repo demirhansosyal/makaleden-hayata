@@ -61,6 +61,21 @@
       "due": "2026-11-04T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6ae951cba86fdc4e3179e1bc"
+    },
+    {
+      "text": "Antrenman yoğunluğunu planlarken hareketsiz geçen süreleri masaya yatırıyor muyuz?\n\nEveculos ve arkadaşlarının 2020 tarihli çalışması, dört ülkeden dokuz ileriye dönük kohort çalışmasını bir araya getirdi. Araştırma, 44.370 orta yaşlı ve yaşlı bireyin 4.0 ila 14.5 yıl boyunca takip edildiği dönemde, ivmeölçer ölçümlü fiziksel aktivite ile hareketsiz sürenin tüm nedenlere bağlı ölümle ilişkisini inceledi. Kohortlar arasında ortalama hareketsiz süre günlük 8.5 ila 10.5 saat, orta-şiddetli fiziksel aktivite (MVPA) ise günlük 8 ila 35 dakika arasında değişti. Bulgulara göre, en yüksek MVPA üçlüğünde yer alanlar için, hareketsiz sürenin orta ve en yüksek üçlüklerindeki ölüm riskinde referans grubuna göre istatistiksel olarak anlamlı bir fark görülmedi. Örneğin, en yüksek MVPA grubundakilerde hareketsiz sürenin en yüksek olduğu kategoride risk oranı %40 idi (ancak güven aralığı 0.87 ile 2.26 arasındaydı).\n\nBu veri gözlemsel kohort çalışmalarına dayanır; dolayısıyla doğrudan nedensellik kurmaz. Ayrıca çalışma sonuçları spor performansına uyarlanamaz, popülasyon orta yaşlı ve yaşlı bireylerden oluşmaktadır.\n\nPratik düşüncem şu: Gün içinde kesintisiz oturma sürelerini bölmek için küçük hatırlatıcılar kurabilirsiniz. Bu bir tedavi veya reçete değil, günlük rutini fark etme aracıdır.\n\n#FizikselAktivite #HareketsizYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/33239356/\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/33239356/",
+      "title": "Hareketsiz Süre ve Ölüm Riski İlişkisi",
+      "stat": "44.370",
+      "stat_label": "Orta yaşlı ve yaşlı birey (4-14.5 yıl takip)",
+      "finding": "En yüksek MVPA üçlüğündekilerde hareketsiz sürenin en yüksek olduğu kategoride ölüm riski referanstan farklı değildi (%40; %95 GA 0.87-2.26).",
+      "interpretation": "Gözlemsel verilere göre günde yaklaşık 30-40 dakikalık MVPA, hareketsiz sürenin risk ilişkisini zayıflatabilir.",
+      "limitation": "Gözlemsel kohort tasarımı nedensellik kanıtı sunmaz ve bulgular atletik performans için geçerli değildir.",
+      "skip": false,
+      "pmid": "33239356",
+      "source_title": "Joint associations of accelero-meter measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals.",
+      "year": "2020",
+      "due": "2026-11-04T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
