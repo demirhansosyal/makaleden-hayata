@@ -77,6 +77,21 @@
       "due": "2026-11-04T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aeaa32969ad1ef03b73b92b"
+    },
+    {
+      "text": "Obezite ve obstrüktif uyku apnesi olan yetişkinlerde, tıbbi yaklaşımların solunum ve metabolik göstergelere etkisi klinik çalışmalarda nasıl inceleniyor?\n\nİki faz 3, çift kör, randomize kontrollü çalışma, obezite ve orta-şiddetli obstrüktif uyku apnesi olan yetişkinleri inceledi. Katılımcılar 52 hafta boyunca maksimum tolere edilen dozda tirzepatide veya plasebo grubuna atandı. Birinci çalışmada, 52. haftada apne-hipopne indeksindeki ortalama değişim tirzepatide ile saatte -25,3 olay iken plaseboda saatte -5,3 olay olarak raporlandı.\n\nBu bulgular randomize kontrollü çalışmalardan elde edilmiştir; ancak doğrudan atletik performans artışı veya bireysel diyet reçetesi anlamına gelmez. Çalışmanın sınırlılıkları arasında katılımcıların belirli bir klinik popülasyondan seçilmesi yer alır. Elde edilen veriler, tedavi etkilerinin dikkatle yorumlanması gerektiğini göstermektedir.\n\nPratik bir bakış açısı olarak, klinik ve saha takibinde bireylerin tıbbi geçmişini ve solunum bulgularını bütüncül bir perspektifle değerlendirmek önemlidir. Bu hafta, danışanlarınızın uyku ve solunum ile ilgili mevcut değerlendirme rutinlerini gözden geçirebilirsiniz.\n\n#KlinikBeslenme #UykuApnesi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/38912654/",
+      "title": "Obezite ve Uyku Apnesinde Güncel Klinik Veriler",
+      "stat": "-25.3",
+      "stat_label": "Apne-hipopne indeksinde ortalama değişim (olay/saat)",
+      "finding": "Tirzepatide alan grupta 52. haftada apne-hipopne indeksi saatte -25,3 olay değişti.",
+      "interpretation": "Bu randomize veriler klinik sonuçları gösterir; sporcu performansına doğrudan uyarlanamaz.",
+      "limitation": "Çalışma sonuçları orta-şiddetli obstrüktif uyku apnesi ve obezitesi olan yetişkinleri kapsamaktadır.",
+      "skip": false,
+      "pmid": "38912654",
+      "source_title": "Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity.",
+      "year": "2024",
+      "due": "2026-11-05T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
