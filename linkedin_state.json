@@ -93,6 +93,21 @@
       "due": "2026-11-05T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aeaa33387b7c6d24c898598"
+    },
+    {
+      "text": "Yaşlanma sürecinde bağırsak mikrobiyotası ve beslenme ilişkisini inceleyen araştırmalar, tabağımızdaki çeşitliliğin klinik yansımalarını anlamamıza yardımcı oluyor.\n\nUK, Fransa, Hollanda, İtalya ve Polonya'dan 612 non-frail veya pre-frail yaşlı bireyin katıldığı 12 aylık bu çalışmada, katılımcılara yaşlılara özel Akdeniz diyeti müdahalesi uygulandı. Araştırma sonucunda, 1 yıllık diyet müdahalesi sonrasında frail bireylerde inflamatuar belirteçlerde azalma ve kısa zincirli yağ asidi üretiminde artış görüldü. Örneğin, 12 aylık Akdeniz diyeti müdahalesi sonucunda diyet uyumu ile zenginleşen bakteriyel taksonlar, C-reaktif protein gibi inflamatuar belirteçlerle negatif ilişki gösterdi.\n\nBu veriler gözlemsel kohort değil, 12 aylık müdahale tasarımına dayanmaktadır; ancak sonuçlar doğrudan atletik performans artışı veya bireysel diyet reçetesi anlamına gelmez. Çalışmanın bir sınırlılığı, katılımcıların belirli bir yaş grubundan ve Avrupa ülkelerinden seçilmiş olmasıdır.\n\nPratik bir bakış açısı olarak, beslenme planlarında çeşitliliği artırmak sağlıklı yaşlanmayı destekleyebilir. Bu hafta öğünlerinize farklı renk ve lif kaynakları ekleyerek tabağınızdaki bitkisel çeşitliliği gözden geçirebilirsiniz.\n\n#KlinikBeslenme #BağırsakSağlığı #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/32066625/",
+      "title": "Akdeniz Diyeti ve Mikrobiyota",
+      "stat": "12 Ay",
+      "stat_label": "Müdahale Süresi",
+      "finding": "12 aylık Akdeniz diyeti müdahalesi, inflamatuar belirteçleri azaltarak bağırsak mikrobiyotasını değiştirdi.",
+      "interpretation": "Diyet çeşitliliğini artırmak sağlıklı yaşlanmayı destekleyebilir; ancak bu bulgu spor performansına uyarlanamaz.",
+      "limitation": "Katılımcıların belirli yaş grubundan ve Avrupa'dan seçilmesi çalışmanın sınırları arasındadır.",
+      "skip": false,
+      "pmid": "32066625",
+      "source_title": "Mediterranean diet intervention alters the gut microbiome in older people reducing frailty and improving health status: the NU-AGE 1-year dietary intervention across five European countries.",
+      "year": "2020",
+      "due": "2026-11-05T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
