@@ -109,6 +109,21 @@
       "due": "2026-11-05T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aebf4caff03f6944a1ee92e"
+    },
+    {
+      "text": "Egzersiz depresif semptomların yönetiminde nasıl bir rol oynuyor? Egzersizi bir tedavi seçeneği olarak düşünürken, elimizdeki randomize kontrollü çalışmaların ne söylediğine yakından bakmak gerekiyor.\n\n2023 yılında yayınlanan sistematik derleme ve meta-analiz, majör depresif bozukluk veya depresif semptomları olan 18 yaş ve üzeri bireylerde egzersiz müdahalelerinin etkilerini inceledi. 41 farklı randomize kontrollü çalışmanın verileri, egzersizin depresif semptomlar üzerindeki etkisinin oldukça belirgin olduğunu gösteriyor.\n\nAraştırmada kullanılan standartlaştırılmış etki büyüklüğü (SMD) -0.946 olarak raporlandı. Bu değer, istatistiksel bir ifade olup, egzersizin semptomlar üzerindeki etkisinin büyüklüğünü temsil eder; bir yüzde veya iyileşme oranı değildir. Önemli bir nokta: Bu veriler majör depresyon tanısı almış veya semptomları olan bireylere aittir; sağlıklı sporcu popülasyonuna veya performans artışına doğrudan uyarlanamaz. Ayrıca çalışmadaki örneklem boyutlarının küçüklüğü ve yöntemlerdeki çeşitlilik, verilerin yorumlanmasında dikkate alınması gereken bir kısıtlılıktır.\n\nBu analizden yola çıkarak, özellikle denetimli ve grup egzersizlerinin etkili olduğu vurgulanıyor. Pratik bir bakış açısıyla; danışanlarınızın hareket rutinlerini planlarken, sosyal etkileşimi yüksek ve uzman eşliğinde yapılan aktiviteleri tercih etmelerini destekleyebilirsiniz. Bu, bir tedavi veya reçete değil, egzersizi daha sürdürülebilir kılmak için küçük bir yaklaşımdır.\n\n#SporBilimleri #Egzersiz #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/36731907/",
+      "title": "Depresif Semptomlarda Egzersizin Rolü: Kanıta Dayalı Bakış",
+      "stat": "SMD = -0.946",
+      "stat_label": "Depresif semptomlarda egzersiz müdahalesinin standartlaştırılmış etki büyüklüğü",
+      "finding": "Egzersiz, kontrol gruplarına kıyasla depresif semptomlarda büyük ölçekli olumlu etkilere sahip (NNT=2).",
+      "interpretation": "Egzersiz, depresyon yönetiminde kanıta dayalı bir seçenek olup, özellikle denetimli ve grup egzersizlerine odaklanılması önerilmektedir.",
+      "limitation": "Birçok çalışmanın küçük örneklem boyutuna sahip olması ve yöntemlerdeki yüksek çeşitlilik (heterojenite) sonuçların yorumlanmasında dikkat gerektirir.",
+      "skip": false,
+      "pmid": "36731907",
+      "source_title": "Exercise as medicine for depressive symptoms? A systematic review and meta-analysis with meta-regression.",
+      "year": "2023",
+      "due": "2026-11-06T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
