@@ -694,6 +694,29 @@
       "due": "2026-11-04T13:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aeadfa1d59713e4342a0850"
+    },
+    {
+      "thread": [
+        "1/3 Kalp hastalığı veya kriz sonrasında önerilen egzersiz temelli kardiyak rehabilitasyonun klinik faydası hâlâ sıkça sorgulanıyor. Modern ilaç tedavilerinin gölgesinde, hareketin tek başına ne kadar etkili olduğu merak konusu. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/36746187/",
+        "2/3 85 araştırmayı inceleyen meta-analiz, rehabilitasyonun kardiyovasküler ölüm riskini %26, hastaneye yatışları ise %23 oranında azalttığını kanıtlıyor. Toplam ölüm riskinde ise istatistiksel anlamda belirgin bir fark yok.",
+        "3/3 Bana göre bu veriler, hareketin yaşam süresini uzatmaktan ziyade, tekrarlayan kalp krizlerini önlemede kritik olduğunu gösteriyor. Ancak dozaj ve süre konusunda hala net bir standart yok. Sen egzersiz rutinini sürdürürken en çok neyde zorlanıyorsun?\nhttps://pubmed.ncbi.nlm.nih.gov/36746187/"
+      ],
+      "title": "Kalp Hastalarında Egzersiz Rehabilitasyonu",
+      "stat": "%26",
+      "stat_label": "Kardiyovasküler ölüm riskinde gözlenen bağıntılı azalma",
+      "finding": "Egzersiz temelli kardiyak rehabilitasyon kardiyovasküler ölüm ve hastaneye yatış riskini düşürmektedir.",
+      "interpretation": "Kalp hastalarında egzersiz, genel yaşam süresinden ziyade kardiyovasküler olay ve yatış riskini azaltmada etkilidir.",
+      "limitation": "Egzersiz dozları ve farklı uygulama modelleri arasındaki etki farkları kesin olarak saptanamamıştır.",
+      "skip": false,
+      "tweet": "Kalp hastalığı veya kriz sonrasında önerilen egzersiz temelli kardiyak rehabilitasyonun klinik faydası hâlâ sıkça sorgulanıyor. Modern ilaç tedavilerinin gölgesinde, hareketin tek başına ne kadar etkili olduğu merak konusu. ↓",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "36746187",
+      "source_title": "Exercise-based cardiac rehabilitation for coronary heart disease: a meta-analysis.",
+      "year": "2023",
+      "text": "1/3 Kalp hastalığı veya kriz sonrasında önerilen egzersiz temelli kardiyak rehabilitasyonun klinik faydası hâlâ sıkça sorgulanıyor. Modern ilaç tedavilerinin gölgesinde, hareketin tek başına ne kadar etkili olduğu merak konusu. ↓\nhttps://pubmed.ncbi.nlm.nih.gov/36746187/",
+      "format": "three_post_thread",
+      "due": "2026-11-05T13:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
