@@ -133,6 +133,8 @@
     "connections": "500+",
     "impressions7d": 639
   },
-  "last_monitor": "2026-11-06T10:56:24.115836+03:00",
-  "problems": []
+  "last_monitor": "2026-11-06T19:32:10.509376+03:00",
+  "problems": [
+    "LinkedIn publication not confirmed 2026-11-06T18:00:00+03:00"
+  ]
 }
