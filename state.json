@@ -742,6 +742,29 @@
       "due": "2026-11-06T13:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aed917ff3498efda77e6b6c"
+    },
+    {
+      "thread": [
+        "1/3 Altmış beş yaş üstünde kemik erimesini önlemek için yürüyüş yeter mi, yoksa işin içine ağırlık katmak şart mı? Kemik sağlığını koruma çabası net bir reçeteye dayanmaz. Ellis dokuz çalışmayı inceleyen yeni derleme bu dengeye odaklanıyor. Devamı aşağıda.\nhttps://pubmed.ncbi.nlm.nih.gov/33239014/",
+        "2/3 Araştırma, fiziksel aktivitenin bel omurgası kemik mineral yoğunluğunu artırabildiğini gösteriyor. Standartlaştırılmış etki büyüklüğü sıfır tam yüzde onyedi olarak saptandı. Çoklu egzersiz türleri ve direnç çalışmaları en yüksek etkiyi sağlıyor.",
+        "3/3 Bana göre belirli hareket dozunun kemik yoğunluğunu desteklemesi çok değerli ancak kanıtların orta ve düşük düzeyde kalması dikkat çekici. Sen kendi egzersiz rutinine direnç veya ağırlık hareketlerini ne sıklıkla dahil ediyorsun?\nhttps://pubmed.ncbi.nlm.nih.gov/33239014/"
+      ],
+      "title": "Yaşlılıkta kemik sağlığı için hangi egzersiz etkili?",
+      "stat": "0,17",
+      "stat_label": "Bel omurgası kemik mineral yoğunluğu için etki büyüklüğü",
+      "finding": "Fiziksel aktivite müdahaleleri kemik sağlığını iyileştirerek osteoporozu önlemede etkilidir.",
+      "interpretation": "Yorum: Çoklu egzersiz ve direnç programlarının kemik yoğunluğunu desteklemesi yaşlılık dönemi için önemlidir.",
+      "limitation": "Sistematik derleme ve meta-analiz çalışmasıdır; dahil edilen çalışmaların kanıt kesinliği orta ve düşük düzeydedir.",
+      "skip": false,
+      "tweet": "Altmış beş yaş üstünde kemik erimesini önlemek için yürüyüş yeter mi, yoksa işin içine ağırlık katmak şart mı? Kemik sağlığını koruma çabası net bir reçeteye dayanmaz. Ellis dokuz çalışmayı inceleyen yeni derleme bu dengeye odaklanıyor. Devamı aşağıda.",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "33239014",
+      "source_title": "Evidence on physical activity and osteoporosis prevention for people aged 65+ years: a systematic review to inform the WHO guidelines on physical activity and sedentary behaviour.",
+      "year": "2020",
+      "text": "1/3 Altmış beş yaş üstünde kemik erimesini önlemek için yürüyüş yeter mi, yoksa işin içine ağırlık katmak şart mı? Kemik sağlığını koruma çabası net bir reçeteye dayanmaz. Ellis dokuz çalışmayı inceleyen yeni derleme bu dengeye odaklanıyor. Devamı aşağıda.\nhttps://pubmed.ncbi.nlm.nih.gov/33239014/",
+      "format": "three_post_thread",
+      "due": "2026-11-06T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
