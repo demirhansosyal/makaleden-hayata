@@ -125,6 +125,21 @@
       "due": "2026-11-06T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aebf5870d0de73ccefbdb93"
+    },
+    {
+      "text": "Saha içi riskleri değerlendirirken kan bulgularına ne kadar odaklanıyoruz? Kritik hastalar üzerindeki bu sistematik inceleme, biyobelirteçlerin rolünü netleştiriyor.\n\nDemirhan Eren olarak Eyüpspor'daki çalışmalarımızda klinik verileri yakından takip ediyoruz. 25 çalışmadan toplam 5.350 hastanın verisini bir araya getiren bir meta-analiz, kritik COVID-19 hastalarında C-reaktif protein (CRP) yüksekliğinin olumsuz sonuçlarla ilişkisini inceledi. Araştırma sonucuna göre, yüksek CRP düzeyleri bileşik olumsuz sonuç riskini artırdı; risk oranı (RR) 1,84 (%95 GA, 1,45-2,33) olarak raporlandı.\n\nBu veri, gözlemsel ve müdahale çalışmalarının birleşimine dayanır; doğrudan nedensellik kurmaz. Ayrıca bu sonuçlar sağlıklı sporcu popülasyonuna veya atletik performans artışına uyarlanamaz; popülasyon kritik hastalardan oluşmaktadır. Çalışmanın bir kısıtlılığı, dahil edilen çalışmalar arasındaki heterojenliktir (İ²: %96).\n\nPratik bir bakış açısı olarak, klinik ve saha takibinde bireylerin tıbbi geçmişini ve rutin kan parametrelerini bütüncül bir perspektifle değerlendirmek önemlidir. Bu hafta, danışanlarınızın veya sporcularınızın periyodik sağlık taramalarındaki biyobelirteç takibini gözden geçirmek için küçük bir adım atabilirsiniz.\n\n#KlinikBeslenme #SporHekimliği #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/32615866/",
+      "title": "Biyobelirteçler ve Klinik Riskler",
+      "stat": "RR 1.84",
+      "stat_label": "CRP ve Olumsuz Sonuç Risk Oranı",
+      "finding": "Yüksek CRP düzeyleri bileşik olumsuz sonuç riskini artırdı (RR 1.84, %95 GA 1.45-2.33).",
+      "interpretation": "Bu bulgular klinik risk sınıflandırmasıyla ilgilidir; atletik performans göstergesi değildir.",
+      "limitation": "Dahil edilen çalışmalar arasında yüksek heterojenlik (İ2: %96) bulunması bir kısıtlılıktır.",
+      "skip": false,
+      "pmid": "32615866",
+      "source_title": "C-reactive protein, procalcitonin, D-dimer, and ferritin in severe coronavirus disease-2019: a meta-analysis.",
+      "year": "2020",
+      "due": "2026-11-07T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
