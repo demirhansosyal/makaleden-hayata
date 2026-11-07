@@ -141,6 +141,21 @@
       "due": "2026-11-07T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aee977e9214322f68c8a1e4"
+    },
+    {
+      "text": "Kadın sporcularda adet döngüsü performans ilişkisi sahada sıkça konuşulur, peki veriler ne diyor? 2020 yılında yayınlanan bir sistematik derleme ve meta-analiz, eümenoreik kadınlarda adet döngüsü evrelerinin egzersiz performansına etkilerini inceledi.\n\nAraştırma, dört veritabanında taranan 78 çalışmayı kapsadı; bunlardan 51'i ikili meta-analize, 73'ü ise ağ meta-analizine dahil edildi. Üç düzeyli hiyerarşik model sonuçlarına göre, erken foliküler evrede dayanıklılık ve kuvvet temelli çıktılarda önemsiz düzeyde bir azalma görüldü (medyan havuzlanmış etki büyüklüğü ES 0.5 = -0,06; %95 güven aralığı: -0,16 ila 0,04). Etki büyüklüğü, istatistiksel bir farkın büyüklüğünü ifade eder; asla bir yüzde veya olasılık değildir. En büyük etki erken ve geç foliküler evreler arasında saptandı (ES 0.5 = -0,14; %95 güven aralığı: -0,26 ila -0,03). Erken foliküler evre için SUCRA değeri %30 olarak bildirildi.\n\nBu veriler deneysel çalışmalara dayanır; ancak büyük çalışmalar arası varyasyon, düşük kaliteli çalışmaların sayısı (%42) ve sonuçların önemsiz düzeyde kalması nedeniyle genel kılavuzlar oluşturulamaz. Bireysel yanıtlar esas alınmalıdır.\n\nPratik bir bakış açısıyla, sporcularınızın döngü semptomlarını takip etmeleri için günlük bir not tutma alışkanlığı kazanmalarını destekleyebilirsiniz.\n\n#SporDisyini #Eyüpspor #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/32661839/",
+      "title": "Adet Döngüsü ve Egzersiz Performansı",
+      "stat": "ES 0.5 = -0,06",
+      "stat_label": "Erken foliküler evrede medyan havuzlanmış etki büyüklüğü",
+      "finding": "Erken foliküler evrede dayanıklılık ve kuvvet çıktılarında ES 0.5 = -0,06 (%95 CrI: -0,16 ila 0,04) ile önemsiz bir azalma görüldü.",
+      "interpretation": "Etki büyüklüğü önemsiz düzeyde kaldığından genel bir kural çıkarılamaz; kişisel izleme tercih edilmelidir.",
+      "limitation": "Çalışmanın sınırlılıkları arasında büyük çalışmalar arası varyasyon ve düşük kaliteli çalışmaların yüksek oranı yer alır.",
+      "skip": false,
+      "pmid": "32661839",
+      "source_title": "The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis.",
+      "year": "2020",
+      "due": "2026-11-07T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
