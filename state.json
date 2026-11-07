@@ -766,6 +766,29 @@
       "due": "2026-11-06T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aedf21ad7bf6f595dc3e2e1"
+    },
+    {
+      "thread": [
+        "1/3 Kendi esenliğini değerlendirirken genel kişilik etiketlerine mi dayanıyorsun, yoksa detaylara mı? Yaşam memnuniyeti ve iyilik hali, genel kategorilerden ziyade alt boyutlarda saklı olabilir.\nhttps://pubmed.ncbi.nlm.nih.gov/31944795/",
+        "2/3 334.567 kişiyi kapsayan 462 çalışmanın analizi; dışa dönüklük gibi genel kişilik alanlarına kıyasla alt boyutların iyilik halini %20 daha iyi tahmin ettiğini gösteriyor.",
+        "3/3 Benim bu veriden anladığım, kendini genel etiketlerle tanımlamak yerine spesifik davranışlara bakmanın daha yararlı olduğu. Veriler korelasyondur, doğrudan neden-sonuç kanıtlamaz. Kişilik tipinden çok hangi özel alışkanlığın modunu etkiliyor?\nhttps://pubmed.ncbi.nlm.nih.gov/31944795/"
+      ],
+      "title": "Kişilik Özellikleri ve İyilik Hali",
+      "stat": "%20",
+      "stat_label": "Kişilik alt boyutlarının iyilik halini tahminde genellere kıyasla sağladığı ek başarı",
+      "finding": "334.567 kişilik meta-analizde kişilik alt boyutları, iyilik halini geniş alanlara kıyasla ortalama %20 daha iyi tahmin etmiştir.",
+      "interpretation": "Genel kişilik etiketleri yerine spesifik tutum ve davranış alt boyutlarına odaklanmak, bireysel esenliği anlamada daha gerçekçi bir zemin sunar.",
+      "limitation": "Analiz edilen çalışmalar korelasyona dayalıdır; kişilik ile esenlik arasındaki doğrudan nedensellik ilişkisini kanıtlamaz.",
+      "skip": false,
+      "tweet": "Kendi esenliğini değerlendirirken genel kişilik etiketlerine mi dayanıyorsun, yoksa detaylara mı? Yaşam memnuniyeti ve iyilik hali, genel kategorilerden ziyade alt boyutlarda saklı olabilir.",
+      "editorial_angle": "anlaşılır sayısal karşılaştırma",
+      "pmid": "31944795",
+      "source_title": "Predicting psychological and subjective well-being from personality: A meta-analysis.",
+      "year": "2020",
+      "text": "1/3 Kendi esenliğini değerlendirirken genel kişilik etiketlerine mi dayanıyorsun, yoksa detaylara mı? Yaşam memnuniyeti ve iyilik hali, genel kategorilerden ziyade alt boyutlarda saklı olabilir.\nhttps://pubmed.ncbi.nlm.nih.gov/31944795/",
+      "format": "three_post_thread",
+      "due": "2026-11-07T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
