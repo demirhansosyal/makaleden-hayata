@@ -157,6 +157,21 @@
       "due": "2026-11-07T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aee9791a7751de7c9c1a4d4"
+    },
+    {
+      "text": "Kişilik özelliklerimiz ile iyilik halimiz arasındaki bağ, günlük tercihlerimizi nasıl şekillendiriyor?\n\nDemirhan Eren olarak Eyüpspor'daki çalışmalarımızda klinik ve davranışsal verileri yakından takip ediyoruz. 334.567 katılımcıyı ve 462 çalışmayı bir araya getiren kapsamlı bir meta-analiz, Büyük Beşli ve HEXACO kişilik domains/facet yapıları ile öz bildirime dayalı öznel ve psikolojik iyilik hali arasındaki ilişkileri inceledi. Araştırma sonucuna göre, kişilik özelliklerinin alt boyutları (facet düzeyindeki analizler), genel alanlara (domain) kıyasla iyilik hali tahmininde genellikle %20 daha iyi bir öngörü sağladı; örneğin bu artış bazı iyilik hali boyutlarında daha belirgin olarak gözlendi.\n\nBu veriler meta-analiz ve gözlemsel korelasyonlara dayanır; doğrudan nedensellik bağı kurmaz ve zihinsel sağlık bulguları atletik performans artışına veya bireysel diyet reçetelerine uyarlanamaz. Popülasyon genel katılımcılardan oluşmaktadır. Çalışmanın bir kısıtlılığı, dahil edilen verilerin öz bildirime dayalı ölçeklerden elde edilmiş olmasıdır.\n\nPratik bir bakış açısıyla, bireylerin kendi kişilik ve davranış eğilimlerini fark etmesi günlük motivasyon süreçlerini anlamalarına yardımcı olabilir. Bu hafta, danışanlarınızın veya sporcularınızın antrenman rutinlerindeki bireysel motivasyon kaynaklarını gözden geçirmek için küçük bir adım atabilirsiniz.\n\n#SporPsikolojisi #KlinikBeslenme #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/31944795/",
+      "title": "Kişilik Özellikleri ve İyilik Hali İlişkisi",
+      "stat": "%20",
+      "stat_label": "Facet düzeyinde iyilik hali tahmin artışı",
+      "finding": "334.567 katılımcıyı içeren meta-analiz, facet düzeyindeki tahminin domainlere kıyasla %20 daha iyi olduğunu gösterdi.",
+      "interpretation": "Bu bulgular yalnızca kişilik ile iyilik hali arasındaki korelasyonu inceler; atletik performans veya diyet reçetesi anlamına gelmez.",
+      "limitation": "Verilerin öz bildirime dayalı ölçeklerden elde edilmiş olması bir kısıtlılıktır.",
+      "skip": false,
+      "pmid": "31944795",
+      "source_title": "Predicting psychological and subjective well-being from personality: A meta-analysis.",
+      "year": "2020",
+      "due": "2026-11-08T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
