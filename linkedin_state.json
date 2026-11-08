@@ -173,6 +173,21 @@
       "due": "2026-11-08T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aefe931229bf05daf89cf40"
+    },
+    {
+      "text": "Eyüpspor'daki çalışmalarımızda klinik verileri yakından takip ediyoruz. 2020 yılında yayınlanan kapsamlı bir sistematik derleme ve meta-analiz, tip 1, tip 2 veya prediyabet tanısı olan yetişkinlerde artan lif alımının etkilerini inceledi. İki çok uluslu kohort (8.300 yetişkin, ortalama 8,8 yıl takip) ve 42 kontrollü çalışma (1.789 yetişkin) verilerini bir araya getiren bu araştırma, günlük diyet lifi alımı 35 grama çıkarıldığında, ortalama 19 gramlık başlangıç alımına kıyasla, çalışma süresince katılımcı bin kişi başına 14 daha az ölüm gerçekleştiğini gösterdi. Araştırma ayrıca, standartlaştırılmış etki büyüklüğü ile ifade edilen insülin düzeylerinde -2,03 değerinde düşüş gibi glisemik kontrol parametrelerinde iyileşmeler bildirdi. Standardize edilmiş etki büyüklüğü, istatistiksel bir ifade olup, uygulamanın etkisinin büyüklüğünü temsil eder; asla bir yüzde veya olasılık değildir. Gözlemsel kohort verileri association (birliktelik) gösterir, doğrudan nedensellik kurmaz. Tüm deneme analizlerinde yüksek heterojenlik görüldü ve çalışmanın bir kısıtlılığı, Avrupa dışı ülkelerde prospektif kohort verilerinin eksikliğidir. Bu sonuçlar doğrudan sağlıklı sporcu performansına uyarlanamaz. Pratik bir bakış açısıyla, tabağınızdaki bitkisel çeşitliliği artırmak için öğünlerinize farklı lif kaynakları ekleyebilirsiniz.\n\n#KlinikBeslenme #SporHekimliği #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/32142510/",
+      "title": "Diyet Lifi ve Metabolik Sağlık Üzerine Güncel Kanıtlar",
+      "stat": "14 daha az ölüm",
+      "stat_label": "1.000 katılımcı başına (35g vs 19g lif)",
+      "finding": "35 g günlük lif alımı, ortalama 19 g alıma kıyasla 1.000 katılımcı başına 14 daha az ölüm ile ilişkilidir (8.300 yetişkin, ortalama 8,8 yıl takip).",
+      "interpretation": "Lif alımını artırmak, prediyabet ve diyabet yönetiminde metabolik göstergeleri destekleyen bir bileşendir.",
+      "limitation": "Avrupa dışı ülkelerde prospektif kohort verilerinin ve uzun süreli kontrollü çalışmaların eksikliği.",
+      "skip": false,
+      "pmid": "32142510",
+      "source_title": "Dietary fibre and whole grains in diabetes management: Systematic review and meta-analyses.",
+      "year": "2020",
+      "due": "2026-11-08T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
