@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: '25 2 * * *'
     - cron: '45 6,15 * * *'
+    - cron: '0 13 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -11,6 +12,12 @@ on:
         default: check
         type: choice
         options: [check, preview, publish, monitor]
+      count:
+        description: Maximum new posts (daily schedule always 2)
+        required: true
+        default: '2'
+        type: choice
+        options: ['2', '6', '8', '10']
 permissions:
   contents: write
 concurrency:
@@ -27,6 +34,8 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Verify LinkedIn source policy
+        run: python -m unittest -v test_linkedin_policy
       - name: Repository identity
         run: |
           git config user.name 'Makaleden Hayata'
@@ -35,8 +44,9 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '25 2 * * *' && 'publish' || 'monitor') || inputs.mode }}
-        run: python linkedin.py --mode "$MODE"
+          MODE: ${{ github.event_name == 'schedule' && ((github.event.schedule == '25 2 * * *' || github.event.schedule == '0 13 * * *') && 'publish' || 'monitor') || inputs.mode }}
+          COUNT: ${{ github.event_name == 'schedule' && '2' || inputs.count }}
+        run: python -u linkedin.py --mode "$MODE" --count "$COUNT"
       - uses: actions/upload-artifact@v4
         if: always() && inputs.mode == 'preview'
         with:
