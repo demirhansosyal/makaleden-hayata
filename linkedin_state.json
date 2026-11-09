@@ -223,6 +223,22 @@
       "due": "2026-11-10T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af19ab20a95c92bf2e69d9e"
+    },
+    {
+      "pmid": "37738616",
+      "year": "2024",
+      "source_title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study.",
+      "title": "Uyku süresi kadar düzeni de konuşalım",
+      "stat": "60.977 kişi",
+      "stat_label": "UK Biobank kohortu; uyku-uyanıklık düzeni cihaz verileriyle değerlendirildi",
+      "finding": "Daha düzenli uyku grupları, en düzensiz gruba göre daha düşük ölüm riskiyle ilişkiliydi.",
+      "interpretation": "Yorum: Uyku kaydınıza yatış ve kalkış saatini de ekleyin.",
+      "limitation": "Gözlemsel çalışma; ilişki nedensellik değildir. Bulgular kişisel risk hesabına çevrilemez.",
+      "text": "“Kaç saat uyudun?” sorusu önemli. Ama her gece hangi saatte uyuyup uyandığımızı da aynı merakla soruyor muyuz?\n\nWindred ve arkadaşlarının 2024 tarihli çalışması, UK Biobank'tan 60.977 kişinin cihazla ölçülmüş uyku verilerini inceledi. Katılımcıların ortalama yaşı yaklaşık 63'tü. Araştırmacılar yalnızca süreye değil, uyku ve uyanıklık zamanlarının günler arasındaki tutarlılığına da baktı.\n\nEn düzensiz uyuyan beşte birlik grupla karşılaştırıldığında, daha düzenli olan dört grubun tüm nedenlere bağlı ölüm riskleri yüzde 20–48 daha düşük bulundu. Bu aralık farklı grupların karşılaştırmalarını anlatıyor; herkes için tek bir etki büyüklüğü değil. Bunlar göreli farklar, yüzde puanlık mutlak azalmalar da değil.\n\nÇalışma gözlemsel. Düzenli uyku ile daha düşük riskin birlikte görülmesi, uyku saatini değiştirmenin tek başına bu sonucu yaratacağını kanıtlamıyor. İstatistiksel düzeltmelere rağmen başka alışkanlıkların etkisi tamamen dışlanamaz.\n\nBenim günlük hayata taşıdığım düşünce şu: Uyku değerlendirmesi yalnızca süre hanesinden oluşmasın. Bu hafta tek bir kayıt ekleyin: Yatış ve kalkış saatinizi not edin. Bunu bir sağlık puanı veya kişisel risk hesabı değil, rutininizin ne kadar değiştiğini fark etme aracı olarak kullanın.\n\n#Uyku #SağlıklıYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/37738616/",
+      "topic": "health",
+      "reviewed_on": "2026-11-09",
+      "due": "2026-11-10T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
