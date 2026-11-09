@@ -1,0 +1,2076 @@
+{
+  "29933347": {
+    "id": "29933347",
+    "source": "MED",
+    "pmid": "29933347",
+    "doi": "10.1249/mss.0000000000001682",
+    "title": "Dehydration Impairs Cognitive Performance: A Meta-analysis.",
+    "authorString": "Wittbrodt MT, Millard-Stafford M.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Wittbrodt MT",
+          "lastName": "Wittbrodt",
+          "firstName": "Matthew T",
+          "initials": "MT",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9533-8041"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Exercise Physiology Laboratory, School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Millard-Stafford M",
+          "lastName": "Millard-Stafford",
+          "firstName": "Melinda",
+          "initials": "M"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9533-8041"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "11",
+      "volume": "50",
+      "journalIssueId": 2740017,
+      "dateOfPublication": "2018 Nov",
+      "monthOfPublication": 11,
+      "yearOfPublication": 2018,
+      "journal": {
+        "medlineAbbreviation": "Med Sci Sports Exerc",
+        "title": "Medicine and science in sports and exercise",
+        "essn": "1530-0315",
+        "issn": "0195-9131",
+        "nlmid": "8005433",
+        "isoabbreviation": "Med Sci Sports Exerc"
+      },
+      "printPublicationDate": "2018-11-01"
+    },
+    "pubYear": "2018",
+    "pageInfo": "2360-2368",
+    "abstractText": "Dehydration (DEH) is believed to impair cognitive performance but which domains are affected and at what magnitude of body mass loss (BML) remains unclear.<h4>Purpose</h4>To conduct systematic literature review and meta-analysis to determine the effect size (ES) of DEH on cognitive performance and influence of experimental design factors (e.g., DEH > 2% BML).<h4>Methods</h4>Thirty-three studies were identified, providing 280 ES estimates from 413 subjects with DEH ranging from 1% to 6% BML. Outcome variables (accuracy, reaction time), cognitive domains, and methods to induce DEH varied. Effect sizes were calculated using standardized mean differences and multivariate meta-analysis.<h4>Results</h4>Impairment of cognitive performance (all domains/outcomes) with DEH was small but significant (ES = -0.21; 95% confidence interval [CI]: -0.31 to -0.11; P < 0.0001) with significant heterogeneity (Q(279) = 696.0, P < 0.0001; I = 37.6%). Tasks of executive function (ES = -0.24; 95% CI: -0.37 to -0.12), attention (ES = -0.52; 95% CI: -0.66 to -0.37), and motor coordination (ES = -0.40 to 95% CI: -0.63 to -0.17) were significantly impaired (P ≤ 0.01) after DEH, and attention/motor coordination was different (P < 0.001) from reaction time specific tasks (ES = -0.10; 95% CI: -0.23 to 0.02). Body mass loss was associated with the ES for cognitive impairment (P = 0.04); consequently, impairment was greater (P = 0.04) for studies reporting >2% BML (ES = -0.28; 95% CI: -0.41 to -0.16) compared with ≤2%; (ES = -0.14; 95% CI: -0.27 to 0.00).<h4>Conclusions</h4>Despite variability among studies, DEH impairs cognitive performance, particularly for tasks involving attention, executive function, and motor coordination when water deficits exceed 2% BML.",
+    "affiliation": "Exercise Physiology Laboratory, School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dehydration",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Mass Index"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Psychomotor Performance",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Attention",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Reaction Time",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Executive Function",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cognitive Dysfunction",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1249/MSS.0000000000001682"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 98,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2019-05-07",
+    "dateOfCreation": "2018-06-23",
+    "dateOfRevision": "2019-05-07",
+    "firstPublicationDate": "2018-11-01",
+    "firstIndexDate": "2018-06-23",
+    "hasEvaluations": "N"
+  },
+  "28338764": {
+    "id": "28338764",
+    "source": "MED",
+    "pmid": "28338764",
+    "pmcid": "PMC5837313",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC5837313"
+      ]
+    },
+    "doi": "10.1093/ije/dyw319",
+    "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality-a systematic review and dose-response meta-analysis of prospective studies.",
+    "authorString": "Aune D, Giovannucci E, Boffetta P, Fadnes LT, Keum N, Norat T, Greenwood DC, Riboli E, Vatten LJ, Tonstad S.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Aune D",
+          "lastName": "Aune",
+          "firstName": "Dagfinn",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4533-1722"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Public Health and General Practice, Norwegian University of Science and Technology, Trondheim, Norway."
+              },
+              {
+                "affiliation": "Department of Epidemiology and Biostatistics, Imperial College London, London, UK."
+              },
+              {
+                "affiliation": "Bjørknes University College, Oslo, Norway."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Giovannucci E",
+          "lastName": "Giovannucci",
+          "firstName": "Edward",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Channing Division of Network Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+              },
+              {
+                "affiliation": "Department of Epidemiology."
+              },
+              {
+                "affiliation": "Department of Nutrition, Harvard T. Chan School of Public Health, Boston, MA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Boffetta P",
+          "lastName": "Boffetta",
+          "firstName": "Paolo",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fadnes LT",
+          "lastName": "Fadnes",
+          "firstName": "Lars T",
+          "initials": "LT",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8757-2092"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Global Public Health and Primary Care & Department of Clinical Dentistry, University of Bergen, Bergen, Norway."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Keum N",
+          "lastName": "Keum",
+          "firstName": "NaNa",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology."
+              },
+              {
+                "affiliation": "Department of Nutrition, Harvard T. Chan School of Public Health, Boston, MA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Norat T",
+          "lastName": "Norat",
+          "firstName": "Teresa",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Biostatistics, Imperial College London, London, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Greenwood DC",
+          "lastName": "Greenwood",
+          "firstName": "Darren C",
+          "initials": "DC",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7035-3096"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Biostatistics Unit, University of Leeds, Leeds, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Riboli E",
+          "lastName": "Riboli",
+          "firstName": "Elio",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6795-6080"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Biostatistics, Imperial College London, London, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Vatten LJ",
+          "lastName": "Vatten",
+          "firstName": "Lars J",
+          "initials": "LJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Public Health and General Practice, Norwegian University of Science and Technology, Trondheim, Norway."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tonstad S",
+          "lastName": "Tonstad",
+          "firstName": "Serena",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Preventive Cardiology, Oslo University Hospital Ullevål, Oslo, Norway."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6795-6080"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7035-3096"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8757-2092"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4533-1722"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data",
+        "wikipedia"
+      ]
+    },
+    "journalInfo": {
+      "issue": "3",
+      "volume": "46",
+      "journalIssueId": 2607051,
+      "dateOfPublication": "2017 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2017,
+      "journal": {
+        "medlineAbbreviation": "Int J Epidemiol",
+        "title": "International journal of epidemiology",
+        "essn": "1464-3685",
+        "issn": "0300-5771",
+        "isoabbreviation": "Int J Epidemiol",
+        "nlmid": "7802871"
+      },
+      "printPublicationDate": "2017-06-01"
+    },
+    "pubYear": "2017",
+    "pageInfo": "1029-1056",
+    "abstractText": "<h4>Background</h4>Questions remain about the strength and shape of the dose-response relationship between fruit and vegetable intake and risk of cardiovascular disease, cancer and mortality, and the effects of specific types of fruit and vegetables. We conducted a systematic review and meta-analysis to clarify these associations.<h4>Methods</h4>PubMed and Embase were searched up to 29 September 2016. Prospective studies of fruit and vegetable intake and cardiovascular disease, total cancer and all-cause mortality were included. Summary relative risks (RRs) were calculated using a random effects model, and the mortality burden globally was estimated; 95 studies (142 publications) were included.<h4>Results</h4>For fruits and vegetables combined, the summary RR per 200 g/day was 0.92 [95% confidence interval (CI): 0.90-0.94, I 2  = 0%, n  = 15] for coronary heart disease, 0.84 (95% CI: 0.76-0.92, I 2  = 73%, n  = 10) for stroke, 0.92 (95% CI: 0.90-0.95, I 2  = 31%, n  = 13) for cardiovascular disease, 0.97 (95% CI: 0.95-0.99, I 2  = 49%, n  = 12) for total cancer and 0.90 (95% CI: 0.87-0.93, I 2  = 83%, n  = 15) for all-cause mortality. Similar associations were observed for fruits and vegetables separately. Reductions in risk were observed up to 800 g/day for all outcomes except cancer (600 g/day). Inverse associations were observed between the intake of apples and pears, citrus fruits, green leafy vegetables, cruciferous vegetables, and salads and cardiovascular disease and all-cause mortality, and between the intake of green-yellow vegetables and cruciferous vegetables and total cancer risk. An estimated 5.6 and 7.8 million premature deaths worldwide in 2013 may be attributable to a fruit and vegetable intake below 500 and 800 g/day, respectively, if the observed associations are causal.<h4>Conclusions</h4>Fruit and vegetable intakes were associated with reduced risk of cardiovascular disease, cancer and all-cause mortality. These results support public health recommendations to increase fruit and vegetable intake for the prevention of cardiovascular disease, cancer, and premature mortality.",
+    "affiliation": "Department of Public Health and General Practice, Norwegian University of Science and Technology, Trondheim, Norway.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIH",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Fruit"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Vegetables"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Neoplasms",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "MO",
+                "qualifierName": "mortality"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cardiovascular Diseases",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "MO",
+                "qualifierName": "mortality"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Diet"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mortality"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Prospective Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Risk Reduction Behavior"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Cancer",
+        "Diet",
+        "Nutrition",
+        "Cardiovascular disease",
+        "Cohort",
+        "All-cause Mortality",
+        "Fruit And Vegetables",
+        "Global Assessment"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/ije/dyw319"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC5837313"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC5837313?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 1440,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by-nc",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "omim"
+      ]
+    },
+    "dateOfCompletion": "2018-06-21",
+    "dateOfCreation": "2017-03-25",
+    "dateOfRevision": "2025-06-23",
+    "firstPublicationDate": "2017-06-01",
+    "firstIndexDate": "2017-03-24",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  "37414459": {
+    "id": "37414459",
+    "source": "MED",
+    "pmid": "37414459",
+    "pmcid": "PMC10579494",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC10579494"
+      ]
+    },
+    "doi": "10.1136/bjsports-2023-106807",
+    "title": "Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis.",
+    "authorString": "Currier BS, Mcleod JC, Banfield L, Beyene J, Welton NJ, D'Souza AC, Keogh JAJ, Lin L, Coletta G, Yang A, Colenso-Semple L, Lau KJ, Verboom A, Phillips SM.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Currier BS",
+          "lastName": "Currier",
+          "firstName": "Brad S",
+          "initials": "BS",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3955-3174"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mcleod JC",
+          "lastName": "Mcleod",
+          "firstName": "Jonathan C",
+          "initials": "JC",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Banfield L",
+          "lastName": "Banfield",
+          "firstName": "Laura",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Health Sciences Library, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Beyene J",
+          "lastName": "Beyene",
+          "firstName": "Joseph",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Health Research Methods, Evidence, and Impact, Faculty of Health Sciences, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Welton NJ",
+          "lastName": "Welton",
+          "firstName": "Nicky J",
+          "initials": "NJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2198-3205"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "D'Souza AC",
+          "lastName": "D'Souza",
+          "firstName": "Alysha C",
+          "initials": "AC",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Keogh JAJ",
+          "lastName": "Keogh",
+          "firstName": "Joshua A J",
+          "initials": "JAJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5109-6557"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lin L",
+          "lastName": "Lin",
+          "firstName": "Lydia",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Coletta G",
+          "lastName": "Coletta",
+          "firstName": "Giulia",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Yang A",
+          "lastName": "Yang",
+          "firstName": "Antony",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Colenso-Semple L",
+          "lastName": "Colenso-Semple",
+          "firstName": "Lauren",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lau KJ",
+          "lastName": "Lau",
+          "firstName": "Kyle J",
+          "initials": "KJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Verboom A",
+          "lastName": "Verboom",
+          "firstName": "Alexandria",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Phillips SM",
+          "lastName": "Phillips",
+          "firstName": "Stuart M",
+          "initials": "SM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1956-4098"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada phillis@mcmaster.ca."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5109-6557"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1956-4098"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2198-3205"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3955-3174"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "18",
+      "volume": "57",
+      "journalIssueId": 3640476,
+      "dateOfPublication": "2023 Sep",
+      "monthOfPublication": 9,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Br J Sports Med",
+        "title": "British journal of sports medicine",
+        "essn": "1473-0480",
+        "issn": "0306-3674",
+        "nlmid": "0432520",
+        "isoabbreviation": "Br J Sports Med"
+      },
+      "printPublicationDate": "2023-09-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "1211-1220",
+    "abstractText": "<h4>Objective</h4>To determine how distinct combinations of resistance training prescription (RTx) variables (load, sets and frequency) affect muscle strength and hypertrophy.<h4>Data sources</h4>MEDLINE, Embase, Emcare, SPORTDiscus, CINAHL, and Web of Science were searched until February 2022.<h4>Eligibility criteria</h4>Randomised trials that included healthy adults, compared at least 2 predefined conditions (non-exercise control (CTRL) and 12 RTx, differentiated by load, sets and/or weekly frequency), and reported muscle strength and/or hypertrophy were included.<h4>Analyses</h4>Systematic review and Bayesian network meta-analysis methodology was used to compare RTxs and CTRL. Surface under the cumulative ranking curve values were used to rank conditions. Confidence was assessed with threshold analysis.<h4>Results</h4>The strength network included 178 studies (n=5097; women=45%). The hypertrophy network included 119 studies (n=3364; women=47%). All RTxs were superior to CTRL for muscle strength and hypertrophy. Higher-load (>80% of single repetition maximum) prescriptions maximised strength gains, and all prescriptions comparably promoted muscle hypertrophy. While the calculated effects of many prescriptions were similar, higher-load, multiset, thrice-weekly training (standardised mean difference (95% credible interval); 1.60 (1.38 to 1.82) vs CTRL) was the highest-ranked RTx for strength, and higher-load, multiset, twice-weekly training (0.66 (0.47 to 0.85) vs CTRL) was the highest-ranked RTx for hypertrophy. Threshold analysis demonstrated these results were extremely robust.<h4>Conclusion</h4>All RTx promoted strength and hypertrophy compared with no exercise. The highest-ranked prescriptions for strength involved higher loads, whereas the highest-ranked prescriptions for hypertrophy included multiple sets.<h4>Prospero registration number</h4>CRD42021259663 and CRD42021258902.",
+    "affiliation": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, Ontario, Canada.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Systematic Review",
+        "Network Meta-Analysis",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Natural Sciences and Engineering Research Council",
+          "grantId": "RGPIN-2020-06346",
+          "orderIn": 0
+        },
+        {
+          "agency": "Medical Research Council",
+          "acronym": "MRC_",
+          "grantId": "MR/P015298/1",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHS Foundation Trust",
+          "orderIn": 0
+        },
+        {
+          "agency": "Canada Research Chairs",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIHR Bristol Biomedical Research Centre",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Muscle, Skeletal",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hypertrophy"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Bayes Theorem"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Muscle Strength",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Resistance Training",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "MT",
+                "qualifierName": "methods"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Prescriptions"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Aging",
+        "Muscle",
+        "Muscle, skeletal",
+        "Weight Lifting"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://bjsm.bmj.com/content/bjsports/early/2023/07/06/bjsports-2023-106807.full.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1136/bjsports-2023-106807"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10579494"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10579494?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 125,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "N",
+    "hasData": "Y",
+    "license": "cc by-nc",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCompletion": "2023-10-02",
+    "dateOfCreation": "2023-07-06",
+    "dateOfRevision": "2025-06-23",
+    "electronicPublicationDate": "2023-07-06",
+    "firstPublicationDate": "2023-07-06",
+    "firstIndexDate": "2023-07-07",
+    "fullTextReceivedDate": "2025-02-04",
+    "hasEvaluations": "N"
+  },
+  "22374636": {
+    "id": "22374636",
+    "source": "MED",
+    "pmid": "22374636",
+    "pmcid": "PMC3329818",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3329818"
+      ]
+    },
+    "doi": "10.2337/dc11-1931",
+    "title": "Breaking up prolonged sitting reduces postprandial glucose and insulin responses.",
+    "authorString": "Dunstan DW, Kingwell BA, Larsen R, Healy GN, Cerin E, Hamilton MT, Shaw JE, Bertovic DA, Zimmet PZ, Salmon J, Owen N.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Dunstan DW",
+          "lastName": "Dunstan",
+          "firstName": "David W",
+          "initials": "DW",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2629-9568"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Baker IDI Heart and Diabetes Institute, Melbourne, Victoria, Australia. david.dunstan@bakeridi.edu.au"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kingwell BA",
+          "lastName": "Kingwell",
+          "firstName": "Bronwyn A",
+          "initials": "BA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2162-0458"
+          }
+        },
+        {
+          "fullName": "Larsen R",
+          "lastName": "Larsen",
+          "firstName": "Robyn",
+          "initials": "R",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4985-7211"
+          }
+        },
+        {
+          "fullName": "Healy GN",
+          "lastName": "Healy",
+          "firstName": "Genevieve N",
+          "initials": "GN",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7093-7892"
+          }
+        },
+        {
+          "fullName": "Cerin E",
+          "lastName": "Cerin",
+          "firstName": "Ester",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7599-165X"
+          }
+        },
+        {
+          "fullName": "Hamilton MT",
+          "lastName": "Hamilton",
+          "firstName": "Marc T",
+          "initials": "MT",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0982-7859"
+          }
+        },
+        {
+          "fullName": "Shaw JE",
+          "lastName": "Shaw",
+          "firstName": "Jonathan E",
+          "initials": "JE"
+        },
+        {
+          "fullName": "Bertovic DA",
+          "lastName": "Bertovic",
+          "firstName": "David A",
+          "initials": "DA"
+        },
+        {
+          "fullName": "Zimmet PZ",
+          "lastName": "Zimmet",
+          "firstName": "Paul Z",
+          "initials": "PZ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0627-0776"
+          }
+        },
+        {
+          "fullName": "Salmon J",
+          "lastName": "Salmon",
+          "firstName": "Jo",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4734-6354"
+          }
+        },
+        {
+          "fullName": "Owen N",
+          "lastName": "Owen",
+          "firstName": "Neville",
+          "initials": "N",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2784-4820"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7093-7892"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-2162-0458"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4734-6354"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4985-7211"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7599-165X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0627-0776"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0982-7859"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2629-9568"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2784-4820"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "35",
+      "journalIssueId": 1924953,
+      "dateOfPublication": "2012 May",
+      "monthOfPublication": 5,
+      "yearOfPublication": 2012,
+      "journal": {
+        "medlineAbbreviation": "Diabetes Care",
+        "title": "Diabetes care",
+        "essn": "1935-5548",
+        "issn": "0149-5992",
+        "nlmid": "7805975",
+        "isoabbreviation": "Diabetes Care"
+      },
+      "printPublicationDate": "2012-05-01"
+    },
+    "pubYear": "2012",
+    "pageInfo": "976-983",
+    "abstractText": "<h4>Objective</h4>Observational studies show breaking up prolonged sitting has beneficial associations with cardiometabolic risk markers, but intervention studies are required to investigate causality. We examined the acute effects on postprandial glucose and insulin levels of uninterrupted sitting compared with sitting interrupted by brief bouts of light- or moderate-intensity walking.<h4>Research design and methods</h4>Overweight/obese adults (n = 19), aged 45-65 years, were recruited for a randomized three-period, three-treatment acute crossover trial: 1) uninterrupted sitting; 2) seated with 2-min bouts of light-intensity walking every 20 min; and 3) seated with 2-min bouts of moderate-intensity walking every 20 min. A standardized test drink was provided after an initial 2-h period of uninterrupted sitting. The positive incremental area under curves (iAUC) for glucose and insulin (mean [95% CI]) for the 5 h after the test drink (75 g glucose, 50 g fat) were calculated for the respective treatments.<h4>Results</h4>The glucose iAUC (mmol/L) · h after both activity-break conditions was reduced (light: 5.2 [4.1-6.6]; moderate: 4.9 [3.8-6.1]; both P < 0.01) compared with uninterrupted sitting (6.9 [5.5-8.7]). Insulin iAUC (pmol/L) · h was also reduced with both activity-break conditions (light: 633.6 [552.4-727.1]; moderate: 637.6 [555.5-731.9], P < 0.0001) compared with uninterrupted sitting (828.6 [722.0-950.9]).<h4>Conclusions</h4>Interrupting sitting time with short bouts of light- or moderate-intensity walking lowers postprandial glucose and insulin levels in overweight/obese adults. This may improve glucose metabolism and potentially be an important public health and clinical intervention strategy for reducing cardiovascular risk.",
+    "affiliation": "Baker IDI Heart and Diabetes Institute, Melbourne, Victoria, Australia. david.dunstan@bakeridi.edu.au",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Insulin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blood Glucose",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Walking",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Postprandial Period",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Blood Glucose",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Insulin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.2337/dc11-1931"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3329818"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3329818?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 845,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by-nc-nd",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2012-08-09",
+    "dateOfCreation": "2012-03-01",
+    "dateOfRevision": "2022-04-10",
+    "electronicPublicationDate": "2012-02-28",
+    "firstPublicationDate": "2012-02-28",
+    "firstIndexDate": "2012-03-04",
+    "fullTextReceivedDate": "2025-02-02",
+    "hasEvaluations": "N"
+  },
+  "37738616": {
+    "id": "37738616",
+    "source": "MED",
+    "pmid": "37738616",
+    "pmcid": "PMC10782501",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC10782501"
+      ]
+    },
+    "doi": "10.1093/sleep/zsad253",
+    "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study.",
+    "authorString": "Windred DP, Burns AC, Lane JM, Saxena R, Rutter MK, Cain SW, Phillips AJK.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Windred DP",
+          "lastName": "Windred",
+          "firstName": "Daniel P",
+          "initials": "DP",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7461-7498"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, VIC, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Burns AC",
+          "lastName": "Burns",
+          "firstName": "Angus C",
+          "initials": "AC",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6336-5531"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, VIC, Australia."
+              },
+              {
+                "affiliation": "Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, MA, USA."
+              },
+              {
+                "affiliation": "Program in Medical and Population Genetics, Broad Institute, Cambridge, MA, USA."
+              },
+              {
+                "affiliation": "Center for Genomic Medicine, Massachusetts General Hospital, Boston, MA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lane JM",
+          "lastName": "Lane",
+          "firstName": "Jacqueline M",
+          "initials": "JM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6101-2855"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, MA, USA."
+              },
+              {
+                "affiliation": "Program in Medical and Population Genetics, Broad Institute, Cambridge, MA, USA."
+              },
+              {
+                "affiliation": "Center for Genomic Medicine, Massachusetts General Hospital, Boston, MA, USA."
+              },
+              {
+                "affiliation": "Department of Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Saxena R",
+          "lastName": "Saxena",
+          "firstName": "Richa",
+          "initials": "R",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2233-1065"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Sleep and Circadian Disorders, Brigham and Women's Hospital, Boston, MA, USA."
+              },
+              {
+                "affiliation": "Program in Medical and Population Genetics, Broad Institute, Cambridge, MA, USA."
+              },
+              {
+                "affiliation": "Center for Genomic Medicine, Massachusetts General Hospital, Boston, MA, USA."
+              },
+              {
+                "affiliation": "Department of Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rutter MK",
+          "lastName": "Rutter",
+          "firstName": "Martin K",
+          "initials": "MK",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6380-539X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Biological Timing, Division of Endocrinology, Diabetes and Gastroenterology, School of Medical Sciences, Faculty of Biology, Medicine and Health, Manchester Academic Health Science Centre, University of Manchester, Manchester, UK."
+              },
+              {
+                "affiliation": "Diabetes, Endocrinology and Metabolism Centre, NIHR Manchester Biomedical Research Centre, Manchester University NHS Foundation Trust, Manchester, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cain SW",
+          "lastName": "Cain",
+          "firstName": "Sean W",
+          "initials": "SW",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8385-1550"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, VIC, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Phillips AJK",
+          "lastName": "Phillips",
+          "firstName": "Andrew J K",
+          "initials": "AJK",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-1156-7056"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, VIC, Australia."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6101-2855"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6336-5531"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6380-539X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7461-7498"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8385-1550"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-1156-7056"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2233-1065"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "47",
+      "journalIssueId": 3695266,
+      "dateOfPublication": "2024 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2024,
+      "journal": {
+        "medlineAbbreviation": "Sleep",
+        "title": "Sleep",
+        "essn": "1550-9109",
+        "issn": "0161-8105",
+        "isoabbreviation": "Sleep",
+        "nlmid": "7809084"
+      },
+      "printPublicationDate": "2024-01-01"
+    },
+    "pubYear": "2024",
+    "pageInfo": "zsad253",
+    "abstractText": "Abnormally short and long sleep are associated with premature mortality, and achieving optimal sleep duration has been the focus of sleep health guidelines. Emerging research demonstrates that sleep regularity, the day-to-day consistency of sleep-wake timing, can be a stronger predictor for some health outcomes than sleep duration. The role of sleep regularity in mortality, however, has not been investigated in a large cohort with objective data. We therefore aimed to compare how sleep regularity and duration predicted risk for all-cause and cause-specific mortality. We calculated Sleep Regularity Index (SRI) scores from > 10 million hours of accelerometer data in 60 977 UK Biobank participants (62.8 ± 7.8 years, 55.0% female, median[IQR] SRI: 81.0[73.8-86.3]). Mortality was reported up to 7.8 years after accelerometer recording in 1859 participants (4.84 deaths per 1000 person-years, mean (±SD) follow-up of 6.30 ± 0.83 years). Higher sleep regularity was associated with a 20%-48% lower risk of all-cause mortality (p < .001 to p = 0.004), a 16%-39% lower risk of cancer mortality (p < 0.001 to p = 0.017), and a 22%-57% lower risk of cardiometabolic mortality (p < 0.001 to p = 0.048), across the top four SRI quintiles compared to the least regular quintile. Results were adjusted for age, sex, ethnicity, and sociodemographic, lifestyle, and health factors. Sleep regularity was a stronger predictor of all-cause mortality than sleep duration, by comparing equivalent mortality models, and by comparing nested SRI-mortality models with and without sleep duration (p = 0.14-0.20). These findings indicate that sleep regularity is an important predictor of mortality risk and is a stronger predictor than sleep duration. Sleep regularity may be a simple, effective target for improving general health and survival.",
+    "affiliation": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, VIC, Australia.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NHGRI NIH HHS",
+          "acronym": "HG",
+          "grantId": "R01 HG012810",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Prospective Studies"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Life Style"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Sleep"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Actigraphy"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Cancer",
+        "Mortality",
+        "Cause of death",
+        "Circadian rhythms",
+        "Cardiology",
+        "Metabolic Disease",
+        "actigraphy",
+        "Behavioral Sleep Medicine"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://academic.oup.com/sleep/advance-article-pdf/doi/10.1093/sleep/zsad253/51722564/zsad253.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/sleep/zsad253"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10782501"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10782501?pdf=render"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "37936288",
+          "reference": "Sleep. 2024 Jan 11;47(1):zsad285. doi: 10.1093/sleep/zsad285",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 192,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCompletion": "2024-01-12",
+    "dateOfCreation": "2023-09-22",
+    "dateOfRevision": "2024-01-13",
+    "firstPublicationDate": "2024-01-01",
+    "firstIndexDate": "2023-09-23",
+    "fullTextReceivedDate": "2024-01-13",
+    "hasEvaluations": "N"
+  },
+  "30700403": {
+    "id": "30700403",
+    "source": "MED",
+    "pmid": "30700403",
+    "pmcid": "PMC6352874",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC6352874"
+      ]
+    },
+    "doi": "10.1136/bmj.l42",
+    "title": "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials.",
+    "authorString": "Sievert K, Hussain SM, Page MJ, Wang Y, Hughes HJ, Malek M, Cicuttini FM.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Sievert K",
+          "lastName": "Sievert",
+          "firstName": "Katherine",
+          "initials": "K",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4617-8034"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, VIC 3004, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hussain SM",
+          "lastName": "Hussain",
+          "firstName": "Sultana Monira",
+          "initials": "SM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7894-2485"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, VIC 3004, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Page MJ",
+          "lastName": "Page",
+          "firstName": "Matthew J",
+          "initials": "MJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4242-7526"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Research Methodology Division, School of Public Health and Preventive Medicine, Monash University, Melbourne, VIC, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang Y",
+          "lastName": "Wang",
+          "firstName": "Yuanyuan",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, VIC 3004, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hughes HJ",
+          "lastName": "Hughes",
+          "firstName": "Harrison J",
+          "initials": "HJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, VIC 3004, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Malek M",
+          "lastName": "Malek",
+          "firstName": "Mary",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0009-0009-3125-3952"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, VIC 3004, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cicuttini FM",
+          "lastName": "Cicuttini",
+          "firstName": "Flavia M",
+          "initials": "FM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8200-1618"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, VIC 3004, Australia flavia.cicuttini@monash.edu."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7894-2485"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4242-7526"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8200-1618"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4617-8034"
+        },
+        {
+          "type": "ORCID",
+          "value": "0009-0009-3125-3952"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data",
+        "wikipedia"
+      ]
+    },
+    "journalInfo": {
+      "volume": "364",
+      "journalIssueId": 2765786,
+      "dateOfPublication": "2019 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2019,
+      "journal": {
+        "medlineAbbreviation": "BMJ",
+        "title": "BMJ (Clinical research ed.)",
+        "essn": "1756-1833",
+        "issn": "0959-8138",
+        "nlmid": "8900488",
+        "isoabbreviation": "BMJ"
+      },
+      "printPublicationDate": "2019-01-01"
+    },
+    "pubYear": "2019",
+    "pageInfo": "l42",
+    "abstractText": "<h4>Objective</h4>To examine the effect of regular breakfast consumption on weight change and energy intake in people living in high income countries.<h4>Design</h4>Systematic review and meta-analysis.<h4>Data sources</h4>PubMed, Ovid Medline, and CINAHL were searched for randomised controlled trials published between January 1990 and January 2018 investigating the effect of breakfast on weight or energy intake. ClinicalTrials.gov and the World Health Organization's International Clinical Trials Registry Platform search portal were also searched in October 2018 to identify any registered yet unpublished or ongoing trials.<h4>Eligibility criteria for selecting studies</h4>Randomised controlled trials from high income countries in adults comparing breakfast consumption with no breakfast consumption that included a measure of body weight or energy intake. Two independent reviewers extracted the data and assessed the risk of bias of included studies. Random effects meta-analyses of the effect of breakfast consumption on weight and daily energy intake were performed.<h4>Results</h4>Of 13 included trials, seven examined the effect of eating breakfast on weight change, and 10 examined the effect on energy intake. Meta-analysis of the results found a small difference in weight favouring participants who skipped breakfast (mean difference 0.44 kg, 95% confidence interval 0.07 to 0.82), but there was some inconsistency across trial results (I<sup>2</sup>=43%). Participants assigned to breakfast had a higher total daily energy intake than those assigned to skip breakfast (mean difference 259.79 kcal/day, 78.87 to 440.71; 1 kcal=4.18 kJ), despite substantial inconsistency across trial results (I<sup>2</sup>=80%). All of the included trials were at high or unclear risk of bias in at least one domain and had only short term follow-ups (mean period seven weeks for weight, two weeks for energy intake). As the quality of the included studies was mostly low, the findings should be interpreted with caution.<h4>Conclusion</h4>This study suggests that the addition of breakfast might not be a good strategy for weight loss, regardless of established breakfast habit. Caution is needed when recommending breakfast for weight loss in adults, as it could have the opposite effect. Further randomised controlled trials of high quality are needed to examine the role of breakfast eating in the approach to weight management.<h4>Study registration</h4>PROSPERO registration number CRD42017057687.",
+    "affiliation": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, VIC 3004, Australia.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Body Weight"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Feeding Behavior"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Energy Intake"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Randomized Controlled Trials as Topic",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ST",
+                "qualifierName": "standards"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Breakfast",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1136/bmj.l42"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6352874"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "30787449",
+          "reference": "Nat Rev Endocrinol. 2019 Apr;15(4):190. doi: 10.1038/s41574-019-0182-x",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 115,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by-nc",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2019-04-03",
+    "dateOfCreation": "2019-02-01",
+    "dateOfRevision": "2022-04-08",
+    "electronicPublicationDate": "2019-01-30",
+    "firstPublicationDate": "2019-01-30",
+    "firstIndexDate": "2019-02-01",
+    "fullTextReceivedDate": "2025-02-03",
+    "hasEvaluations": "N"
+  }
+}
