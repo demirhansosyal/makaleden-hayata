@@ -272,7 +272,8 @@
       "topic": "sport",
       "reviewed_on": "2026-11-09",
       "due": "2026-11-11T18:00:00+03:00",
-      "status": "submitting"
+      "status": "scheduled",
+      "post_id": "6af19abef370063e08d5ea55"
     }
   ],
   "baseline": {
