@@ -274,6 +274,22 @@
       "due": "2026-11-11T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af19abef370063e08d5ea55"
+    },
+    {
+      "pmid": "29933347",
+      "year": "2018",
+      "source_title": "Dehydration Impairs Cognitive Performance: A Meta-analysis.",
+      "title": "Sıvı kaybı ve dikkatin görünmeyen tarafı",
+      "stat": "33 çalışma",
+      "stat_label": "413 katılımcı; sıvı kaybı ile bilişsel performans arasındaki deneysel bulgular",
+      "finding": "Birleştirilmiş standartlaştırılmış etki −0,21; %95 GA −0,31 ile −0,11.",
+      "interpretation": "Yorum: Antrenman öncesi sıvıya erişim koşullarınızı kontrol edin.",
+      "limitation": "2018 meta-analizi; testler ve sıvı kaybı yöntemleri farklı. Etki büyüklüğü yüzde veya litre hedefi değildir.",
+      "text": "Sahada dikkat konuşulurken taktik ve motivasyon öne çıkıyor. Sıvıya erişim gibi basit hazırlıkları da aynı çerçevede düşünüyor muyuz?\n\nWittbrodt ve Millard-Stafford'un 2018 tarihli meta-analizi, sıvı kaybının bilişsel test sonuçlarına etkisini değerlendiren 33 çalışmayı birleştirdi. Toplam 413 katılımcıdan elde edilen sonuçlarda genel standartlaştırılmış etki büyüklüğü −0,21 idi; yüzde 95 güven aralığı −0,31 ile −0,11 arasında bulundu. Araştırmacılar bunu küçük ama istatistiksel olarak anlamlı bir performans düşüşü olarak değerlendirdi.\n\n−0,21, “dikkat yüzde 21 azalır” anlamına gelmiyor. Farklı testleri ortak bir ölçekte karşılaştıran istatistiksel bir değer. Dikkat ve koordinasyon gibi alanlar ayrı değerlendirilmiş; sonuçları doğrudan maç içindeki tek bir karara çevirmek mümkün değil.\n\nÇalışmalarda kullanılan testler, sıvı kaybı oluşturma yöntemleri ve kaybın büyüklüğü farklıydı. Bu nedenle bulgudan herkes için tek bir litre hedefi veya kesin performans eşiği çıkarmıyorum.\n\nBenim pratik düşüncem, sıvı konusunu yalnızca antrenman sonunda hatırlamamak. Bugün tek hazırlık kontrolü yapabilirsiniz: Antrenman sırasında içeceğe kolay erişiminiz var mı? Bu küçük organizasyon sorusu, kişiye özel sıvı planının yerini tutmaz; hazırlığı görünür hale getirir.\n\n#SporcuBeslenmesi #Hidrasyon #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/29933347/",
+      "topic": "health",
+      "reviewed_on": "2026-11-09",
+      "due": "2026-11-12T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
