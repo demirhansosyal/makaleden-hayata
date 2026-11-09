@@ -189,6 +189,22 @@
       "due": "2026-11-08T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aefe950562f2e6de9951f62"
+    },
+    {
+      "pmid": "30700403",
+      "year": "2019",
+      "source_title": "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials.",
+      "title": "Kahvaltı eklemek tek başına neyi değiştirir?",
+      "stat": "+260 kcal/gün",
+      "stat_label": "Kahvaltı grubunda, kahvaltıyı atlayan gruba göre ortalama günlük enerji farkı",
+      "finding": "10 enerji alımı çalışması; fark 259,79 kcal/gün (%95 GA: 78,87–440,71).",
+      "interpretation": "Yorum: Öğün sayısını, günün toplamından ayrı değerlendirmeyin.",
+      "limitation": "Kısa takip ve yüksek/belirsiz yanlılık riski. Herkesin kahvaltıyı atlaması gerektiği sonucu çıkmaz.",
+      "text": "“Kahvaltı yaparsam gün içinde kendiliğinden daha az yerim.” Kulağa mantıklı geliyor; fakat bunu herkes için geçerli bir kural saymak zor.\n\nSievert ve arkadaşlarının 2019 tarihli derlemesi, yetişkinlerde kahvaltı yapılan ve atlanan koşulları karşılaştıran 13 randomize çalışmayı inceledi. Günlük enerji alımını ölçen 10 çalışmanın birleşik sonucunda, kahvaltı grubunun toplam alımı ortalama 259,79 kcal/gün daha yüksekti. Yuvarlayınca yaklaşık 260 kcal. Yüzde 95 güven aralığı 78,87–440,71 kcal/gün; yani tahminde kayda değer belirsizlik var.\n\nBu sayı bir kişiye yazılabilecek günlük kalori hesabı değil. Çalışmalar arasında sonuçlar belirgin biçimde değişiyordu. Enerji alımı için ortalama takip yalnızca iki haftaydı; çalışmaların tamamında en az bir alanda yanlılık riski yüksek ya da belirsizdi.\n\nBu makaleyi okurken benim çıkardığım düşünce, tek bir öğünü günün geri kalanından bağımsız değerlendirmemek. “Kahvaltı şart” veya “kahvaltı gereksiz” gibi kesin etiketler, bu verinin anlattığından daha ileri gidiyor.\n\nPratik bir gözlem: Birkaç gün kahvaltınızın ardından öğlene kadar açlık hissinizin nasıl değiştiğini not edin. Sonucu evrensel bir kurala değil, kendi rutininizi anlamaya dönüştürün.\n\n#Beslenme #BilimselOkuryazarlık #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/30700403/",
+      "topic": "nutrition",
+      "reviewed_on": "2026-11-09",
+      "due": "2026-11-09T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
