@@ -204,7 +204,8 @@
       "topic": "nutrition",
       "reviewed_on": "2026-11-09",
       "due": "2026-11-09T18:00:00+03:00",
-      "status": "submitting"
+      "status": "scheduled",
+      "post_id": "6af19aaef309feb7ee03dba3"
     }
   ],
   "baseline": {
