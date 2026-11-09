@@ -240,6 +240,22 @@
       "due": "2026-11-10T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af19ab6f309feb7ee03de29"
+    },
+    {
+      "pmid": "28338764",
+      "year": "2017",
+      "source_title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality-a systematic review and dose-response meta-analysis of prospective studies.",
+      "title": "Sebze ve meyve: sayıların anlattığı sınır",
+      "stat": "RR 0,92",
+      "stat_label": "Günde 200 g daha yüksek sebze-meyve alımı başına kalp-damar hastalığı göreli riski",
+      "finding": "2017 meta-analizi: kalp-damar hastalığı için RR 0,92; %95 GA 0,90–0,95.",
+      "interpretation": "Yorum: Çeşitliliği alışveriş listenizde görünür hale getirin.",
+      "limitation": "İleriye dönük gözlemsel veriler. Göreli ilişki, bireysel fayda garantisi veya mutlak risk farkı değildir.",
+      "text": "Sebze ve meyveyi konuşurken gramlar hızla bir yarışa dönüşebiliyor. Oysa araştırmadaki bir sayının anlamı, onu hangi karşılaştırmanın ürettiğine bağlı.\n\nAune ve arkadaşlarının 2017 tarihli derlemesi, 95 ileriye dönük çalışmayı birleştirdi. Sebze ve meyve toplamında günlük her 200 gram daha yüksek alım, kalp-damar hastalığı için 0,92 göreli riskle ilişkiliydi. Yüzde 95 güven aralığı 0,90–0,95 olarak raporlandı.\n\nBunu sadeleştirirsek, çalışmalardaki karşılaştırmada yaklaşık yüzde 8 daha düşük göreli riskten söz ediyoruz. “Her 200 gram, herkesin riskinden sekiz puan siler” diyemeyiz. Başlangıç riski bilinmeden mutlak fark hesaplanamaz; bu oranı sınırsız miktarlara doğrusal biçimde uzatmak da doğru olmaz.\n\nÜstelik veriler gözlemsel. Sebze ve meyve tüketen kişilerin diğer yaşam alışkanlıkları sonuçta rol oynayabilir. Makale kişiye özel bir gram hedefi veya hastalıktan korunma garantisi vermiyor.\n\nBenim çıkarımım, tek bir “mucize” besine odaklanmak yerine sofranın bütününü görünür kılmak. Bu hafta alışveriş listenize normalde almadığınız bir mevsim sebzesini ekleyebilirsiniz. Bu öneri, makaledeki risk oranını kişisel sonuca dönüştürmek için değil; beslenme çeşitliliğini düşünmek için küçük bir başlangıç.\n\n#Beslenme #SebzeMeyve #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/28338764/",
+      "topic": "nutrition",
+      "reviewed_on": "2026-11-09",
+      "due": "2026-11-11T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
