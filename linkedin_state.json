@@ -206,6 +206,22 @@
       "due": "2026-11-09T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af19aaef309feb7ee03dba3"
+    },
+    {
+      "pmid": "37414459",
+      "year": "2023",
+      "source_title": "Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis.",
+      "title": "Tek bir “en iyi” antrenman var mı?",
+      "stat": "178 çalışma",
+      "stat_label": "Kuvvet analizinde 5.097 sağlıklı yetişkin; farklı direnç antrenmanı programları",
+      "finding": "İncelenen tüm program türleri, egzersiz yapmayan kontrole göre kuvvet ve kas büyümesini artırdı.",
+      "interpretation": "Yorum: Önce hangi sonucu hedeflediğinizi netleştirin.",
+      "limitation": "Ağ meta-analizi ortalama etkileri karşılaştırır; bireysel program veya kesin başarı sıralaması değildir.",
+      "text": "Bir programın internette birinci sırada görünmesi, sizin için de en uygun program olduğu anlamına gelir mi?\n\nCurrier ve arkadaşlarının 2023 tarihli ağ meta-analizi bu soruyu düşünmek için iyi bir başlangıç sunuyor. Sağlıklı yetişkinlerde yük, set sayısı ve haftalık sıklığı farklı direnç antrenmanı programları karşılaştırıldı. Kuvvet analizinde 178 çalışma ve 5.097 kişi; kas büyümesi analizinde 119 çalışma ve 3.364 kişi yer aldı.\n\nÖnemli bulgu şu: İncelenen bütün antrenman türleri, egzersiz yapmayan kontrol grubuna göre kuvveti ve kas büyümesini artırdı. Kuvvet kazanımında daha yüksek yükler öne çıkarken, kas büyümesi için farklı programlar benzer katkılar gösterebildi.\n\nBu iki hedefi aynı şeymiş gibi konuşmamak gerekiyor. Daha çok ağırlık kaldırabilmek ile kasın büyümesi ilişkili olsa da araştırmada ayrı sonuçlar olarak ölçülüyor.\n\nBenim çıkarımım, program arayışına “En iyisi hangisi?” sorusundan önce “Neyi geliştirmeye çalışıyorum?” sorusuyla başlamak. Bu bir kişisel antrenman reçetesi değil; kanıtı okumak için bir çerçeve.\n\nBugün tek önerim: Programınızı değiştirmeden önce hedefinizi ve onu nasıl izleyeceğinizi bir cümleyle yazın. Çalışmalardaki ortalama sonuçların kişisel sonucu garanti etmediğini de hesaba katın.\n\n#KuvvetAntrenmanı #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/37414459/",
+      "topic": "sport",
+      "reviewed_on": "2026-11-09",
+      "due": "2026-11-10T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
