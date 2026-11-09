@@ -22,7 +22,8 @@ def norm(text):
 
 def source_allowed(article):
  title=clean(article.get('title','')); abstract=clean(article.get('abstractText',''))
- return bool(article.get('id') and abstract and RELEVANT.search(title) and not EXCLUDED.search(title+' '+abstract) and article.get('isRetracted')!='Y')
+ quantitative=bool(re.search(r'confidence interval|credible interval|95\s*%|\d+(?:[.,]\d+)?\s*%|\b(?:g|es|smd)\s*[+=:]?\s*[-−]?\d',abstract,re.I))
+ return bool(quantitative and article.get('id') and abstract and RELEVANT.search(title) and not EXCLUDED.search(title+' '+abstract) and article.get('isRetracted')!='Y')
 
 def evidence_spans(abstract):
  # IDs point to source-owned snippets; the model cannot invent a quotation.
@@ -35,10 +36,11 @@ def validate_content(content,spans):
   value=content.get(key)
   if not isinstance(value,str) or not value.strip() or len(value)>limit:raise ValueError('Invalid '+key)
  if not 140<=len(content['text'].split())<=230:raise ValueError('Text must contain 140-230 words')
+ if not re.search(r'\d',content['stat']):raise ValueError('Card needs a source-supported numeric finding')
  if not 2<=len(re.findall(r'#[\w]+',content['text']))<=3:raise ValueError('Hashtag count')
  if '#MakaledenHayata' not in content['text']:raise ValueError('Missing series tag')
  if re.search(r'eyüpspor|eyupspor|demirhan eren|çalışmalarımız|pratiğimiz|kliniğimiz|hastalarım|danışanlarım|tecrübem|deneyimim|takip ediyoruz|sahada gözlem',content['text'],re.I):raise ValueError('Unverified personal or employer practice')
- if re.search(r'katlanarak|kesin sonuç|garanti|tirzepatid|semaglutid|ilaç dozu',content['text'],re.I):raise ValueError('Overstatement or drug content')
+ if re.search(r'katlanarak|kesin sonuç sağlar|garanti eder|garanti ediyor|tirzepatid|semaglutid|ilaç dozu',content['text'],re.I):raise ValueError('Overstatement or drug content')
  ids=content.get('evidence_ids')
  if not isinstance(ids,list) or not 1<=len(ids)<=8 or any(type(i) is not int or str(i) not in spans for i in ids):raise ValueError('Invalid evidence IDs')
  return [spans[str(i)] for i in ids]

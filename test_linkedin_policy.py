@@ -13,7 +13,7 @@ class PolicyTests(unittest.TestCase):
   for title in ['Tirzepatide for sleep apnea','Urinary protein and albuminuria','Diet and kidney biomarkers','Exercise and pharmacological treatment']:
    self.assertFalse(p.source_allowed(dict(id='1',title=title,abstractText='A clinical trial.')))
  def test_filter_used_before_limit(self):
-  articles=[dict(id=str(i),title='Resistance training in healthy adults',abstractText='A randomized trial.') for i in range(35)]
+  articles=[dict(id=str(i),title='Resistance training in healthy adults',abstractText='A randomized trial, effect size g=-0.21, 95% confidence interval -0.3 to -0.1.') for i in range(35)]
   class R:
    def json(self):return {'resultList':{'result':copy.deepcopy(articles)}}
   with patch.object(linkedin.a,'request',return_value=R()):found=linkedin.source_candidates(datetime(2026,11,9,18,tzinfo=linkedin.a.TZ),{str(i) for i in range(20)})
@@ -21,6 +21,9 @@ class PolicyTests(unittest.TestCase):
  def test_invalid_evidence(self):
   c=json.loads(Path('linkedin_reviewed.json').read_text())[-1];c['evidence_ids']=[9999]
   with self.assertRaisesRegex(ValueError,'evidence'):p.validate_content(c,{'0':'sample'})
+ def test_non_numeric_card_is_rejected(self):
+  c=json.loads(Path('linkedin_reviewed.json').read_text())[-1];c.update(evidence_ids=[0],stat='Orta düzeyde')
+  with self.assertRaisesRegex(ValueError,'numeric'):p.validate_content(c,{'0':'test'})
  def test_no_invented_professional_practice(self):
   c=json.loads(Path('linkedin_reviewed.json').read_text())[-1];c.update(evidence_ids=[0]);c['text']='Eyüpspor çalışmalarımızda takip ediyoruz. '+c['text']
   with self.assertRaisesRegex(ValueError,'personal'):p.validate_content(c,{'0':'test'})
