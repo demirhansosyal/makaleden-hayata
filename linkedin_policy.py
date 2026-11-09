@@ -37,6 +37,7 @@ def validate_content(content,spans):
  if not 140<=len(content['text'].split())<=230:raise ValueError('Text must contain 140-230 words')
  if not 2<=len(re.findall(r'#[\w]+',content['text']))<=3:raise ValueError('Hashtag count')
  if '#MakaledenHayata' not in content['text']:raise ValueError('Missing series tag')
+ if re.search(r'eyüpspor|eyupspor|demirhan eren|çalışmalarımız|pratiğimiz|kliniğimiz|hastalarım|danışanlarım|tecrübem|deneyimim|takip ediyoruz|sahada gözlem',content['text'],re.I):raise ValueError('Unverified personal or employer practice')
  if re.search(r'katlanarak|kesin sonuç|garanti|tirzepatid|semaglutid|ilaç dozu',content['text'],re.I):raise ValueError('Overstatement or drug content')
  ids=content.get('evidence_ids')
  if not isinstance(ids,list) or not 1<=len(ids)<=8 or any(type(i) is not int or str(i) not in spans for i in ids):raise ValueError('Invalid evidence IDs')
