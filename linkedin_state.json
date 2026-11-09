@@ -238,7 +238,8 @@
       "topic": "health",
       "reviewed_on": "2026-11-09",
       "due": "2026-11-10T18:00:00+03:00",
-      "status": "submitting"
+      "status": "scheduled",
+      "post_id": "6af19ab6f309feb7ee03de29"
     }
   ],
   "baseline": {
