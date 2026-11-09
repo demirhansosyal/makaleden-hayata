@@ -13,6 +13,7 @@ a.STATE=ROOT/'linkedin_state.json'
 a.MEDIA=ROOT/'linkedin_media'
 START='2026-11-01'
 EVENING_START='2026-10-26'
+MONITOR_FROM='2026-11-09T18:00:00+03:00' # Repaired publishing window; known earlier gaps are not retried.
 # # Existing Publer posts cover 26–31 October at 09.00.
 RESERVED={'9289978','35129580','30638909','28698222','35228201'}
 
@@ -129,6 +130,7 @@ def monitor(state,org):
   if r.get('status')=='scheduled' and datetime.fromisoformat(r['due'])<now-timedelta(minutes=45) and not any(p['id']==r['post_id'] for p in sent):problems.append('LinkedIn not confirmed sent '+r['due'])
  for hour,first in ((9,START),(18,EVENING_START)):
   due=now.replace(hour=hour,minute=0,second=0,microsecond=0)
+  if due<datetime.fromisoformat(MONITOR_FROM):continue
   if now.date().isoformat()>=first and now>=due+timedelta(minutes=45) and not any(p.get('dueAt') and datetime.fromisoformat(p['dueAt'].replace('Z','+00:00'))==due for p in sent):problems.append('LinkedIn publication not confirmed '+due.isoformat())
  state['last_monitor']=now.isoformat();state['problems']=problems;checkpoint(state)
  if problems:raise RuntimeError('; '.join(problems))

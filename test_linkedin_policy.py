@@ -24,6 +24,14 @@ class PolicyTests(unittest.TestCase):
  def test_no_invented_professional_practice(self):
   c=json.loads(Path('linkedin_reviewed.json').read_text())[-1];c.update(evidence_ids=[0]);c['text']='Eyüpspor çalışmalarımızda takip ediyoruz. '+c['text']
   with self.assertRaisesRegex(ValueError,'personal'):p.validate_content(c,{'0':'test'})
+ def test_known_gap_before_repair_window(self):
+  now=datetime(2026,11,9,19,tzinfo=linkedin.a.TZ);sent=[{'id':'sent','dueAt':'2026-11-09T18:00:00+03:00'}]
+  with patch.object(linkedin,'datetime',wraps=datetime) as clock,patch.object(linkedin.a,'posts',side_effect=lambda org,status:sent if status=='sent' else []),patch.object(linkedin,'checkpoint'):
+   clock.now.return_value=now;linkedin.monitor({'records':[]},'org')
+ def test_missing_new_slot_is_reported(self):
+  with patch.object(linkedin,'datetime',wraps=datetime) as clock,patch.object(linkedin.a,'posts',return_value=[]),patch.object(linkedin,'checkpoint'):
+   clock.now.return_value=datetime(2026,11,10,10,tzinfo=linkedin.a.TZ)
+   with self.assertRaisesRegex(RuntimeError,'publication not confirmed'):linkedin.monitor({'records':[]},'org')
  def test_no_past_or_duplicate(self):
   now=datetime(2026,11,9,14,tzinfo=linkedin.a.TZ);first=linkedin.due_date(now,set());self.assertEqual((first.day,first.hour),(9,18))
   second=linkedin.due_date(now,{first.isoformat(timespec='minutes')});self.assertEqual((second.day,second.hour),(10,9))
