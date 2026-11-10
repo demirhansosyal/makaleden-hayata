@@ -291,6 +291,21 @@
       "due": "2026-11-12T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af19ac20a95c92bf2e6a65d"
+    },
+    {
+      "text": "Antrenman planı yaparken günün geri kalanındaki hareket miktarını ne kadar hesaba katıyoruz? Fiziksel aktivite ve oturma süresinin ölüm riskiyle ilişkisini inceleyen bir sistematik derleme ve harmonize meta-analiz, bu konuya ışık tutuyor. Araştırmada prospektif kohort çalışmaları incelenmiş; sekiz çalışmadan elde edilen 36.383 katılımcının verileri analiz edildi. Katılımcıların ortalama yaşı 62,6 idi ve %72,8'i kadındı. Medyan takip süresi 5,8 yıldı ve bu süreçte 2.149 ölüm gerçekleşti.\n\nBulgulara göre, yoğunluk fark etmeksizin her türlü fiziksel aktivite, ölüm riskinde azalma ile ilişkilendirildi. En aktif çeyrek grupta, referans gruba kıyasla ölüm için tehlike oranı (HR) 0,27 olarak bulundu (%95 güven aralığı 0,23 ila 0,32). Bu veriler gözlemsel çalışmalara dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performans artışına uyarlanamaz. Çalışmanın bir kısıtlılığı, verilerin uyumlaştırma zorlukları nedeniyle bazı çalışmaların dışlanmış olmasıdır.\n\nBenim çıkarımım, hareketi yalnızca antrenman saatlerine sıkıştırmamak. Günlük rutininizde kısa yürüyüşler için fırsat yaratabilirsiniz.\n\n#SporBilimi #AktifYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/31434697/",
+      "title": "Fiziksel Aktivite ve Ölüm Riski İlişkisi",
+      "stat": "HR 0,27",
+      "stat_label": "En aktif çeyrek grupta ölüm tehlike oranı (referans 1,00)",
+      "finding": "En aktif çeyrek grupta ölüm tehlike oranı (HR) 0,27 (%95 GA 0,23 ila 0,32) olarak bulunmuştur.",
+      "interpretation": "Gözlemsel bulgular nedensellik kanıtlamaz; aktivitenin artırılması ölüm riskiyle ilişkilidir.",
+      "limitation": "Uyumlaştırma zorlukları ve dışlanan çalışmalar çalışmanın kısıtlılıkları arasındadır.",
+      "skip": false,
+      "pmid": "31434697",
+      "source_title": "Dose-response associations between accelerometry measured physical activity and sedentary time and all cause mortality: systematic review and harmonised meta-analysis.",
+      "year": "2019",
+      "due": "2026-11-12T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
