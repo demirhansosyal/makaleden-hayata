@@ -790,6 +790,29 @@
       "due": "2026-11-07T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6aef410a229bf05daf5a97f4"
+    },
+    {
+      "thread": [
+        "1/3 Hastanede uzun nöbetler bittiğinde hekim ve hemşirelerin sağlığına zaman ayırması zorlaşır. Yoğun tempoda çalışan sağlık çalışanlarında stresi azaltmak için ne işe yarıyor?\nhttps://pubmed.ncbi.nlm.nih.gov/32338522/",
+        "2/3 Yirmi dokuz çalışmayı kapsayan yeni derleme, farkındalık ve bilişsel davranışçı yaklaşımın stres, kaygı ve depresyonu azaltmada etkili olduğunu gösteriyor.",
+        "3/3 Bana göre küçük pratiklerin denenebilir olması değerli. Derleme randomize kontrollü çalışmaları inceliyor ama farklı ölçüm araçları ortak etki analizini kısıtlamış. Sizin yoğun günlerde zihni sakinleştirmek için başvurduğunuz pratik var mı?\nhttps://pubmed.ncbi.nlm.nih.gov/32338522/"
+      ],
+      "title": "Sağlık Çalışanlarında Stres ve Yaşam Tarzı",
+      "stat": "29",
+      "stat_label": "Araştırmaya dahil edilen toplam randomize kontrollü çalışma sayısı",
+      "finding": "Farkındalık ve bilişsel davranışçı terapiler hekim ve hemşirelerde stres, kaygı ve depresyonu azaltmada etkilidir.",
+      "interpretation": "Yoğun tempoda büyük değişimler yerine kısa pratiklerin denenebilmesi uygulanabilirlik açısından oldukça anlamlı.",
+      "limitation": "Randomize kontrollü çalışmaları inceleyen bu derlemede, farklı sonuç ölçütleri nedeniyle geniş kapsamlı ortak etki analizi yapılamamıştır.",
+      "skip": false,
+      "tweet": "Hastanede uzun nöbetler bittiğinde hekim ve hemşirelerin sağlığına zaman ayırması zorlaşır. Yoğun tempoda çalışan sağlık çalışanlarında stresi azaltmak için ne işe yarıyor?",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "32338522",
+      "source_title": "Interventions to Improve Mental Health, Well-Being, Physical Health, and Lifestyle Behaviors in Physicians and Nurses: A Systematic Review.",
+      "year": "2020",
+      "text": "1/3 Hastanede uzun nöbetler bittiğinde hekim ve hemşirelerin sağlığına zaman ayırması zorlaşır. Yoğun tempoda çalışan sağlık çalışanlarında stresi azaltmak için ne işe yarıyor?\nhttps://pubmed.ncbi.nlm.nih.gov/32338522/",
+      "format": "three_post_thread",
+      "due": "2026-11-10T20:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
