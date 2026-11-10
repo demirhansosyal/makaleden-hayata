@@ -307,6 +307,21 @@
       "due": "2026-11-12T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af28b83e261c09acc97db00"
+    },
+    {
+      "text": "Uyku düzenimiz üzerine konuşurken genellikle süreyi ele alıyoruz; peki ya uykunun niteliği ve kesintileri? 2016 yılında yayınlanan bir sistematik derleme ve meta-analiz, yetişkin insanlarda uyku bozuklukları, uyku süresi ve sistemik inflamasyon arasındaki küresel kanıtları değerlendirdi.\n\nAraştırma, elli binden fazla katılımcıyı içeren 72 kohort çalışmasını inceleyerek C-reaktif protein (CRP) ve interlökin-6 (IL-6) gibi dolaşımdaki belirteçleri analiz etti. Bulgulara göre, uyku bozukluğu daha yüksek CRP düzeyleriyle ilişkilendirildi; etki büyüklüğü 0,12 (%95 güven aralığı 0,05 ila 0,19) olarak raporlandı. Standardize edilmiş etki büyüklüğü, istatistiksel bir ifade olup, uygulamanın etkisinin büyüklüğünü temsil eder; asla bir yüzde veya olasılık değildir. Gözlemsel kohort verileri birliktelik gösterir, doğrudan nedensellik kurmaz.\n\nÇalışmanın bir kısıtlılığı, incelenen araştırmalar arasında bazı heterojenlikler bulunmasıdır. Bu sonuçlar doğrudan sağlıklı sporcu performansına uyarlanamaz.\n\nBenim çıkarımım, uyku değerlendirmesini yalnızca toplam süreyle sınırlamamak. Bu hafta yatış ve kalkış rutininizdeki dalgalanmaları fark etmeye çalışabilirsiniz.\n\n#Uyku #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/26140821/\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/26140821/",
+      "title": "Uyku Bozuklukları ve İnflamasyon İlişkisi",
+      "stat": "0,12",
+      "stat_label": "CRP için etki büyüklüğü (%95 GA 0,05–0,19)",
+      "finding": "72 kohort çalışmasında (n>50.000) uyku bozukluğu, daha yüksek CRP düzeyleri ile ilişkilendirildi (etki büyüklüğü 0,12).",
+      "interpretation": "Uyku değerlendirmesini sadece süreyle sınırlamayarak rutindeki dalgalanmaları fark edebilirsiniz.",
+      "limitation": "İncelenen araştırmalar arasında bazı heterojenlikler bulunması kısıtlılık oluşturur.",
+      "skip": false,
+      "pmid": "26140821",
+      "source_title": "Sleep Disturbance, Sleep Duration, and Inflammation: A Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation.",
+      "year": "2016",
+      "due": "2026-11-13T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
