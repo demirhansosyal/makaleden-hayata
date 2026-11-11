@@ -339,6 +339,21 @@
       "due": "2026-11-13T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af3de21ffe2872794ecbec4"
+    },
+    {
+      "text": "Fiziksel aktivitenin ruh sağlığı üzerindeki potansiyel etkisini konuşurken genellikle günlük hareket miktarını antrenman sürelerine sıkıştırıyoruz. 2018 yılında yayınlanan kapsamlı bir meta-analiz, 49 farklı prospektif kohort çalışmasını birleştirerek fiziksel aktivite ile depresyon gelişimi arasındaki ilişkiyi inceledi. Toplam 266.939 katılımcının 1.837.794 kişi-yılı boyunca takip edildiği bu çalışmada, veriler genel bir eğilimi yansıtıyor.\n\nBulgulara göre, düşük fiziksel aktivite düzeyine sahip kişilere kıyasla yüksek düzeyde fiziksel aktivite yapanların depresyon geliştirme olasılıkları daha düşüktü; düzeltilmiş odds oranı 0,83 olarak bulundu (%95 güven aralığı 0,79 ila 0,88). Odds oranı, iki grup arasındaki olasılık farkını gösteren istatistiksel bir orandır; mutlak risk veya olasılık değildir. Bu veriler gözlemsel kohort çalışmasına dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performans artışına uyarlanamaz. Çalışmanın bir kısıtlılığı, analiz edilen verilerde önemli düzeyde yayın yanlılığı bulunmasıdır.\n\nBenim çıkarımım, hareketi yalnızca antrenman saatleriyle sınırlamamak. Günlük rutininizde, günün akışında kısa yürüyüşler veya hareket anları için fırsat yaratmak, ruh sağlığı üzerine yapılabilecek küçük ama anlamlı bir yatırım olabilir. Hareketi bir zorunluluk değil, genel iyilik halini destekleyici bir araç olarak görebiliriz.\n\n#SporBilimi #AktifYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/29690792/",
+      "title": "Fiziksel Aktivite ve Depresyon İlişkisi",
+      "stat": "0,83",
+      "stat_label": "Düzeltilmiş Odds Oranı (Yüksek vs Düşük Aktivite)",
+      "finding": "Yüksek fiziksel aktivite, düşük aktiviteye kıyasla daha düşük depresyon gelişme olasılığıyla ilişkilendirildi (düzeltilmiş odds oranı=0,83).",
+      "interpretation": "Gözlemsel veriler, fiziksel aktivitenin depresyon gelişimi karşısında koruyucu bir ilişki taşıyabileceğini düşündürür.",
+      "limitation": "Önemli düzeyde yayın yanlılığı tespit edilmiş olması.",
+      "skip": false,
+      "pmid": "29690792",
+      "source_title": "Physical Activity and Incident Depression: A Meta-Analysis of Prospective Cohort Studies.",
+      "year": "2018",
+      "due": "2026-11-14T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
