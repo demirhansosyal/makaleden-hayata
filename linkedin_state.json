@@ -323,6 +323,21 @@
       "due": "2026-11-13T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af3241bbe42f217104f1774"
+    },
+    {
+      "text": "Yaşla birlikte gelen zihinsel gerilemeyi yavaşlatmak üzerine konuşurken, tek bir besine odaklanmak yerine desenleri incelemek daha anlamlı olabiliyor. Barselona'da yürütülen bir randomize klinik çalışmada, kardiyovasküler risk taşıyan 447 sağlıklı gönüllü incelendi.\n\nAraştırmacılar, zeytinyağı veya kuruyemişle zenginleştirilmiş Akdeniz diyeti uygulayan katılımcıların bilişsel performansını kontrol grubuyla karşılaştırdı. Medyan 4,1 yıllık takip sonucunda, zeytinyağı takviyeli diyet grubunun hafıza ve ön bölge bilişim skorlarında kontrollere kıyasla anlamlı iyileşmeler görüldü. Örneğin, kontrol grubunda tüm bilişsel kompozitler başlangıca göre anlamlı biçimde düşerken, zeytinyağı grubu küresel bilişim değişiminde 0,05 ortalama z puanı farkı gösterdi.\n\nBu bulgular randomize kontrollü bir çalışmaya dayanır ancak gözlemsel veriler gibi doğrudan nedensellik kurmaz; yaşlı popülasyondan elde edilen bu sonuçlar doğrudan genç sporcuların atletik performansına uyarlanamaz. Çalışmanın bir kısıtlılığı, katılımcıların belirli bir risk grubundan seçilmiş olmasıdır.\n\nBenim çıkarımım, beslenmeyi yalnızca fiziksel hedefler için değil, genel sağlığı destekleyen bir bütün olarak ele almak. Bu hafta sofranıza ekstra sızma zeytinyağı veya çiğ kuruyemiş ekleyerek çeşitliliği artırabilirsiniz.\n\n#Beslenme #SağlıklıYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/25961184/",
+      "title": "Akdeniz Diyeti ve Bilişsel İşlev",
+      "stat": "0,05",
+      "stat_label": "Küresel bilişim kompozit değişim farkı (zeytinyağı vs. kontrol)",
+      "finding": "Zeytinyağı takviyeli Akdeniz diyeti grubunda küresel bilişim kompozit değişimi 0,05 (kontrol grubunda −0,38) olarak ölçüldü.",
+      "interpretation": "Bu bulgular, yaşlı bireylerde zeytinyağı takviyeli Akdeniz diyetinin bilişsel işlevleri olumlu destekleyebileceğini gösterir.",
+      "limitation": "Çalışmanın bir kısıtlılığı, katılımcıların yüksek kardiyovasküler risk taşıyan belirli bir gönüllü popülasyondan oluşmasıdır.",
+      "skip": false,
+      "pmid": "25961184",
+      "source_title": "Mediterranean Diet and Age-Related Cognitive Decline: A Randomized Clinical Trial.",
+      "year": "2015",
+      "due": "2026-11-13T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
