@@ -355,6 +355,21 @@
       "due": "2026-11-14T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af47782aca5fe01c4c4068e"
+    },
+    {
+      "text": "Uyku süresini konuşurken genellikle kaç saat yattığımıza odaklanıyoruz; peki bu sürenin uzun vadeli sağlık göstergeleriyle bağını ne kadar biliyoruz? 2017 yılında yayınlanan kapsamlı bir sistematik derleme ve meta-analiz, 153 prospektif kohort çalışmasını birleştirerek kısa uyku süresi ile çeşitli sağlık sonuçları arasındaki ilişkileri değerlendirdi. Toplam 5.172.710 katılımcının verilerini içeren bu çalışmada, bir yıl veya daha uzun süreli takipler incelendi.\n\nBulgulara göre, kısa uyku süresi ölüm oranıyla anlamlı düzeyde ilişkilendirildi; risk oranı (RR) 1,12 (%95 güven aralığı 1,08-1,16) olarak bulundu. Benzer anlamlı sonuçlar diyabet, hipertansiyon, kardiyovasküler hastalıklar ve obezite gibi durumlarda da gözlendi. Bu veriler gözlemsel çalışmalara dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performans artışına uyarlanamaz. Çalışmanın bir kısıtlılığı, analiz edilen verilerde dozu belirleme zorlukları bulunmasıdır.\n\nBenim çıkarımım, uyku değerlendirmesini yalnızca tek bir geceye veya sürece sıkıştırmamak. Bu hafta yatış ve kalkış saatlerinizi not edebilir; rutininizdeki dalgalanmaları fark etme aracı olarak kullanabilirsiniz.\n\n#Uyku #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/27743803/",
+      "title": "Kısa Uyku Süresi ve Sağlık Sonuçları",
+      "stat": "RR 1,12",
+      "stat_label": "Kısa uyku süresi ve ölüm riski karşılaştırması (%95 GA 1,08-1,16)",
+      "finding": "153 prospektif kohort çalışmasından elde edilen 5.172.710 katılımcı verisine göre, kısa uyku ölüm oranıyla anlamlı düzeyde ilişkilendirildi (RR 1,12).",
+      "interpretation": "Gözlemsel verilere dayanır; nedensellik kanıtlamaz ve atletik performansa uyarlanamaz.",
+      "limitation": "Çalışmanın bir kısıtlılığı, analiz edilen verilerde dozu belirleme zorlukları bulunmasıdır.",
+      "skip": false,
+      "pmid": "27743803",
+      "source_title": "Short sleep duration and health outcomes: a systematic review, meta-analysis, and meta-regression.",
+      "year": "2017",
+      "due": "2026-11-14T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
