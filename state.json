@@ -814,6 +814,29 @@
       "due": "2026-11-10T20:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af337bfa9f33a390a495f64"
+    },
+    {
+      "thread": [
+        "1/3 Pratik paketli gıdalar günlük hayatta zaman kazandırsa da uzun vadede sağlığımızı nasıl etkiliyor? Günlük öğünlerde işlenmiş ürünlerin oranı arttıkça kronik hastalık risklerinin ne yönde değiştiği merak konusu.\nhttps://pubmed.ncbi.nlm.nih.gov/33167080/",
+        "2/3 891.723 kişiyi kapsayan 43 çalışmanın analizinde, ultra işlenmiş gıda tüketimi obezite ihtimalini 1,51 katına (OR: 1,51) çıkarırken, tüm nedenlere bağlı ölüm riskini de %28 oranında artırıyor (HR: 1,28).",
+        "3/3 Benim bu veriden anladığım, hazır gıdaları azaltmanın doğrudan koruyucu olduğudur; fakat veriler gözlemsel olduğu için kesin sebep-sonuç sunmaz. Sen paketli ürün tüketimini azaltmak için hangi adımı atıyorsun?\nhttps://pubmed.ncbi.nlm.nih.gov/33167080/"
+      ],
+      "title": "Ultra İşlenmiş Gıdalar ve Sağlık Riskleri",
+      "stat": "OR: 1,51",
+      "stat_label": "Ultra işlenmiş gıda tüketen yetişkinlerde obezite olasılığı (Odds Oranı: 1,51)",
+      "finding": "43 gözlemsel çalışmanın analizinde ultra işlenmiş gıda tüketimi obezite, metabolik sendrom ve tüm nedenlere bağlı ölüm riskiyle ilişkili bulundu.",
+      "interpretation": "Yorum: Hazır gıdaları tamamen kesmek zor olsa da temel öğünlerde taze gıdalara öncelik vermek riskleri azaltmada gerçekçi bir adım olabilir.",
+      "limitation": "Çalışmalar gözlemsel tasarıma sahip olduğu için ultra işlenmiş gıdaların doğrudan hastalık nedeni olduğunu kanıtlamaz, sadece ilişkiyi gösterir.",
+      "skip": false,
+      "tweet": "Pratik paketli gıdalar günlük hayatta zaman kazandırsa da uzun vadede sağlığımızı nasıl etkiliyor? Günlük öğünlerde işlenmiş ürünlerin oranı arttıkça kronik hastalık risklerinin ne yönde değiştiği merak konusu.",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "33167080",
+      "source_title": "Ultraprocessed food and chronic noncommunicable diseases: A systematic review and meta-analysis of 43 observational studies.",
+      "year": "2021",
+      "text": "1/3 Pratik paketli gıdalar günlük hayatta zaman kazandırsa da uzun vadede sağlığımızı nasıl etkiliyor? Günlük öğünlerde işlenmiş ürünlerin oranı arttıkça kronik hastalık risklerinin ne yönde değiştiği merak konusu.\nhttps://pubmed.ncbi.nlm.nih.gov/33167080/",
+      "format": "three_post_thread",
+      "due": "2026-11-12T10:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
