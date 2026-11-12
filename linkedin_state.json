@@ -371,6 +371,21 @@
       "due": "2026-11-14T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af52f362f7f0a6952e9c2aa"
+    },
+    {
+      "text": "Tam tahıl tüketimi söz konusu olduğunda, genellikle “ne kadar?” sorusu havada kalıyor. 2016 tarihli bir meta-analiz, 45 prospektif çalışmayı birleştirerek günlük tam tahıl alımının kronik hastalık riskiyle ilişkisini inceledi. Bu çalışmalardaki veriler, her 90 gramlık artışın —yaklaşık üç porsiyon, yani iki dilim tam buğday ekmeği ve bir kase tam tahıllı gevrek— sağlık sonuçlarıyla nasıl örtüştüğünü gösteriyor.\n\nBulgulara göre, günlük 90 gram tam tahıl artışı, koroner kalp hastalığı için 0,81’lik bir göreli risk ile ilişkilendirildi (%95 güven aralığı 0,75 ila 0,87). Bu çalışmada gözlemlenen doza bağlı ilişki, “daha fazlası her zaman daha iyi” anlamına gelmiyor; 210-225 gram gibi belirli bir tüketim seviyesine kadar risk düşüşü gözlenmiş.\n\nBuradaki veriler prospektif kohort çalışmalarından geliyor; yani değişkenler arasındaki birlikteliği gösterir, doğrudan nedensellik kanıtlamaz. Bu sonuçlar, doğrudan atletik performansın artacağı anlamına gelmez. Çalışmanın bir kısıtlılığı, analiz edilen çalışmalardaki metodolojik heterojenliğin sonuçları etkileyebilmesidir.\n\nBenim çıkarımım, tam tahılı sadece “sağlıklı bir seçenek” olarak değil, toplam beslenme kalitesini artıran bir parça olarak görmek. Bu hafta, rafine tahıllar yerine tam tahıllı alternatifleri bir veya iki öğünde denemeyi düşünebilirsiniz.\n\n#Beslenme #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/27301975/",
+      "title": "Tam Tahıl Tüketimi ve Uzun Vadeli Sağlık",
+      "stat": "0,81",
+      "stat_label": "Koroner kalp hastalığı için göreli risk (günlük 90g artış)",
+      "finding": "Günlük 90 g/gün tam tahıl artışı ile koroner kalp hastalığı riski 0,81 (%95 GA 0,75–0,87) olarak ilişkilendirildi.",
+      "interpretation": "Tam tahıl alımı kronik hastalık riskiyle ilişkili olsa da bu bulgular doğrudan atletik performansa uyarlanamaz.",
+      "limitation": "Analize dahil edilen prospektif çalışmaların metodolojik yapısındaki heterojenlik bulguları etkileyebilir.",
+      "skip": false,
+      "pmid": "27301975",
+      "source_title": "Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality: systematic review and dose-response meta-analysis of prospective studies.",
+      "year": "2016",
+      "due": "2026-11-15T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
