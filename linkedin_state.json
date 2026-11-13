@@ -387,6 +387,21 @@
       "due": "2026-11-15T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af5cd291529ce0ee250dce8"
+    },
+    {
+      "text": "Antrenman planı yaparken, günün geri kalanındaki hareket miktarını ve hareketsiz geçen süreleri ne kadar hesaba katıyoruz? Gençlerde fiziksel aktivitenin yerini inceleyen geniş kapsamlı bir sistematik derleme ve meta-analiz, bu konuya ışık tutuyor. Araştırmada randomize kontrollü çalışmalar, yarı deneysel çalışmalar, prospektif kohortlar ve kesitsel çalışmalar incelenmiş; toplam 114 orijinal makale değerlendirilmiştir.\n\nBulgulara göre, 6-18 yaş arası çocuk ve ergenlerde fiziksel aktivitenin ruh sağlığı üzerinde küçük ama anlamlı bir genel etkisi saptandı (etki büyüklüğü 0,173, %95 güven aralığı 0,106-0,239, p < 0,001, çalışmalar arası heterojenlik yüzdesi %11,3). Standardize edilmiş etki büyüklüğü, farklı testleri ortak bir ölçekte karşılaştıran istatistiksel bir değerdir; asla bir yüzde veya olasılık değildir. Bu sonuçlar gözlemsel ve girişimsel verilere dayanır; dolayısıyla yalnızca birliktelik veya müdahale yanıtı gösterir, gençlere uzanan bu bulgular doğrudan atletik performans artışına uyarlanamaz. Çalışmanın bir kısıtlılığı, okul öncesi yaş grubuna ait verilerin neredeyse hiç bulunmamasıdır.\n\nBenim çıkarımım, hareketi yalnızca antrenman saatlerine sıkıştırmamak. Günlük rutininizde gün içinde kısa hareket aralıkları yaratabilirsiniz.\n\n#SporBilimi #AktifYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/30993594/",
+      "title": "Gençlerde Fiziksel Aktivite ve Ruh Sağlığı",
+      "stat": "0,173",
+      "stat_label": "Fiziksel aktivitenin ruh sağlığına genel etki büyüklüğü (6-18 yaş)",
+      "finding": "6-18 yaş arası çocuk ve ergenlerde fiziksel aktivitenin ruh sağlığına etkisi 0,173 olarak bulundu (%95 GA 0,106-0,239, p < 0,001).",
+      "interpretation": "Girişim bulguları gençlerde ruh sağlığı desteğine işaret eder ancak atletik performansa aktarılamaz.",
+      "limitation": "Okul öncesi yaş grubuna ait verilerin neredeyse hiç bulunmaması çalışmanın bir kısıtlılığıdır.",
+      "skip": false,
+      "pmid": "30993594",
+      "source_title": "Role of Physical Activity and Sedentary Behavior in the Mental Health of Preschoolers, Children and Adolescents: A Systematic Review and Meta-Analysis.",
+      "year": "2019",
+      "due": "2026-11-15T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
