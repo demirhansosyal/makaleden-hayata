@@ -1,26 +1,24 @@
-# Haftalık X raporu — 2026-11-16
+# Haftalık X raporu — 2026-11-23
 
 Hedef: 25 Ekim başlangıcı 683 + 2.000 net takipçi = 24 Kasım sonunda 2.683 toplam takipçi. Hedef garanti değildir.
 
 Son doğrulanmış takipçi gözlemi: **683**, tarih 2026-10-26, kaynak Buffer Insights ekranı — elle doğrulanmış başlangıç gözlemi.
 Takipçi sayısı otomatik güncellenmiyor; güncel gözlem olmadan net artış veya hedefe varış tahmini hesaplanmaz.
 
-24–48 saatlik karşılaştırılabilir ölçümü bulunan gönderi/zincir kökü: 1.
+24–48 saatlik karşılaştırılabilir ölçümü bulunan gönderi/zincir kökü: 0.
 Zincirlerin yalnız kök gönderi metrikleri dönüyorsa bunlar tüm zincirin toplamı diye sunulmaz. Görüntülenme tekil kişi değildir.
 
 | Ölçüm | Toplam | Veri bulunan gönderi |
 |---|---:|---:|
-| Görüntülenme | 28 | 1/1 |
-| Beğeni | 0 | 1/1 |
-| Repost | 0 | 1/1 |
-| Yanıt | 1 | 1/1 |
+| Görüntülenme | Erişilemiyor | 0/0 |
+| Beğeni | Erişilemiyor | 0/0 |
+| Repost | Erişilemiyor | 0/0 |
+| Yanıt | Erişilemiyor | 0/0 |
 
 ## Son erişilen gönderi değerleri
 Bunlar değişken yaştaki ham gözlemlerdir; erken gönderiler içerik kararına dahil edilmez.
 | Gönderi | Yaş (saat) | Görüntülenme | Beğeni | Repost |
 |---|---:|---:|---:|---:|
-| 6af337bfa9f33a390a495f64 | 52.2 | 29 | 0 | 0 |
-| 6af53bf9bc9f3773a1bd58c8 | 14.2 | 7 | 0 | 0 |
 
 ## İçerik kararı
 En az iki anlatım biçiminde beşer olgun ve eksiksiz ölçüm yok; planı gürültüye göre değiştirmiyoruz.
