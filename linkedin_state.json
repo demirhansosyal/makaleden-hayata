@@ -419,6 +419,21 @@
       "due": "2026-11-25T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b06559cb6204bca46c158de"
+    },
+    {
+      "text": "Uyku süresini konuşurken genellikle kaç saat yattığımıza odaklanıyoruz; peki bu sürenin uzun vadeli sağlık göstergeleriyle bağını ne kadar biliyoruz? 2015 yılında yayınlanan prospektif gözlemsel çalışmaların yer aldığı bir meta-analiz, 482.502 katılımcıyı içeren 10 makaleyi inceleyerek uyku süresi ile tip 2 diyabet riski arasındaki doza bağlı ilişkiyi değerlendirdi. Katılımcıların takip süreleri 2,5 ila 16 yıl arasında değişirken, toplam 18.443 tip 2 diyabet vakası kaydedildi.\n\nBulgulara göre, en düşük tip 2 diyabet riski günde 7-8 saatlik uyku süresinde gözlendi. Günlük 7 saatlik uykuya kıyasla, 7 saatten az uyuyan bireylerde her 1 saatlik kısa uyku için havuzlanmış göreli risk 1,09 (%95 güven aralığı 1,04-1,15) olarak bulunurken; daha uzun uyuyanlarda her 1 saatlik artış için göreli risk 1,14 (%95 güven aralığı 1,03-1,26) oldu. Bu veriler gözlemsel çalışmalara dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performans artışına uyarlanamaz. Çalışmanın bir kısıtlılığı, analiz edilen verilerde doza bağlı ilişkinin sınırlarının belirlenmesindeki zorluklardır.\n\nBenim çıkarımım, uyku değerlendirmesini yalnızca tek bir geceye sıkıştırmamak. Bu hafta yatış ve kalkış saatlerinizi not edebilir; rutininizdeki dalgalanmaları fark etme aracı olarak kullanabilirsiniz.\n\n#Uyku #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/25715415/",
+      "title": "Uyku Süresi ve Tip 2 Diyabet Riski",
+      "stat": "1.09 ve 1.14",
+      "stat_label": "Günde 7 saate kıyasla her 1 saatlik sapma için tip 2 diyabet göreli riski",
+      "finding": "Günde 7-8 saat uyuyanlarda en düşük tip 2 diyabet riski gözlenirken, daha kısa veya uzun uykularda göreli risk anlamlı düzeyde artış gösterdi.",
+      "interpretation": "Uygun uyku süresi, tip 2 diyabet riskinin geciktirilmesinde veya önlenmesinde destekleyici bir rol oynayabilir.",
+      "limitation": "Prospektif gözlemsel çalışmaların doğası gereği nedensellik kurulamaması ve doza bağlı ilişkinin sınırlarındaki belirsizlikler.",
+      "skip": false,
+      "pmid": "25715415",
+      "source_title": "Sleep duration and risk of type 2 diabetes: a meta-analysis of prospective studies.",
+      "year": "2015",
+      "due": "2026-11-25T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
