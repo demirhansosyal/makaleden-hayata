@@ -403,6 +403,21 @@
       "due": "2026-11-15T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6af68061c1a0010a5bf564b4"
+    },
+    {
+      "text": "Fiziksel aktivitenin ruh sağlığı üzerindeki etkisini konuşurken, genellikle klinik gruplara odaklanıyoruz; peki ya klinik dışı yetişkinlerde durum nasıl?\n\n2015 yılında yayınlanan bir meta-meta-analiz, fiziksel aktivitenin klinik olmayan popülasyonda depresyon ve anksiyete üzerindeki etkilerini inceleyen randomize kontrollü çalışmaları birleştirdi. Araştırmada toplam 92 çalışmadan 4310 katılımcı depresyon için, 306 çalışma etkisinden 10.755 katılımcı ise anksiyete için analiz edildi.\n\nBulgulara göre, fiziksel aktivite depresyonu orta düzeyde bir etkiyle azalttı; standardize edilmiş ortalama fark −0,50 olarak bulundu (%95 güven aralığı: −0,93 ila −0,06). Anksiyete üzerinde ise küçük bir etki saptandı (standartlaştırılmış ortalama fark = −0,38; %95 güven aralığı: −0,66 ila −0,11). Standardize edilmiş etki büyüklüğü, farklı ölçekleri ortak bir paydada karşılaştıran istatistiksel bir değerdir; asla bir yüzde veya olasılık değildir. Bu bulgular randomize kontrollü çalışmalara dayanır, doğrudan nedensellik kurar ve bu sonuçlar genel popülasyona ait olup doğrudan atletik performansa uyarlanamaz. Çalışmanın bir kısıtlılığı, incelenen meta-analizler arasında az sayıda çalışma içeren alanların bulunmasıdır.\n\nBenim çıkarımım, hareketi yalnızca fiziksel form hedefi olarak görmemek. Günlük rutininize kısa yürüyüşler ekleyebilirsiniz.\n\n#SporBilimi #AktifYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/25739893/",
+      "title": "Fiziksel Aktivite ve Ruh Sağlığı",
+      "stat": "SMD = -0,50",
+      "stat_label": "Depresyon Üzerine Standardize Edilmiş Ortalama Fark (92 Çalışma, 4310 Katılımcı)",
+      "finding": "Fiziksel aktivite klinik dışı yetişkinlerde depresyonu orta düzeyde azalttı (SMD = -0,50; %95 CI: -0,93 ila -0,06).",
+      "interpretation": "Bu randomize kontrollü çalışma bulguları genel popülasyona yöneliktir ve doğrudan atletik performansa uyarlanamaz.",
+      "limitation": "İncelenen meta-analizler arasında az sayıda çalışma içeren alanların bulunması bir kısıtlılıktır.",
+      "skip": false,
+      "pmid": "25739893",
+      "source_title": "A meta-meta-analysis of the effect of physical activity on depression and anxiety in non-clinical adult populations.",
+      "year": "2015",
+      "due": "2026-11-25T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
