@@ -435,6 +435,21 @@
       "due": "2026-11-25T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b0655cf608549ccf25aa60c"
+    },
+    {
+      "text": "Diyet planlarken karbonhidrat oranını genellikle kilo verme odaklı değerlendiriyoruz; peki bu seçimin uzun vadeli sonuçları ne söylüyor?\n\n432.179 katılımcıyı kapsayan prospektif kohort çalışmalarının meta-analizinde, karbonhidrat alımı ile tüm nedenlere bağlı ölümler arasında U şeklinde bir ilişki gözlendi. Düşük karbonhidrat tüketimi (<%40 enerji), orta düzeydeki alıma kıyasla 1,20 havuzlanmış tehlike oranı (HR) ile ilişkilendirildi (%95 güven aralığı 1,09-1,32). Ancak besin kaynağı kritik bir fark yarattı: Karbonhidratlar hayvansal protein ve yağlar ile değiştirildiğinde tehlike oranı (HR) 1,18 (%95 CI 1,08-1,29) olurken, bitkisel kaynaklarla değiştirildiğinde bu oran 0,82 (%95 CI 0,78-0,87) olarak bulundu.\n\nTehlike oranı (HR), zaman içindeki bağıl olay gerçekleşme hızını kıyaslayan bir istatistiksel orandır; mutlak risk veya olasılık değildir. Bu veriler gözlemsel kohort çalışmalarına dayanır, nedensellik kanıtlamaz ve doğrudan atletik performansa uyarlanamaz. Çalışmanın kısıtlılığı, besin alımının anket yöntemiyle beyana dayalı toplanmış olmasıdır.\n\nBenim çıkarımım, besin ögesi miktarından ziyade kaynağa odaklanmak. Tabağınızdaki hayvansal proteinleri haftada birkaç öğün kuruyemiş veya baklagil gibi bitkisel seçeneklerle çeşitlendirebilirsiniz.\n\n#Beslenme #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/30122560/",
+      "title": "Karbonhidrat Kaynağı ve Sağlık İle İlişkisi",
+      "stat": "HR 1,20",
+      "stat_label": "Düşük karbonhidrat alımında tüm nedenlere bağlı ölüm tehlike oranı (HR) (vs orta alım)",
+      "finding": "432.179 katılımcılı kohort meta-analizinde, <%40 düşük karbonhidrat tüketimi orta alıma kıyasla 1,20 tehlike oranı (HR) gösterdi (%95 CI 1,09-1,32).",
+      "interpretation": "Diyet planlarında karbonhidrat kısıtlanırken hayvansal yerine bitkisel protein ve yağ kaynaklarını tercih etmek makul bir yaklaşımdır.",
+      "limitation": "Besin alımı verilerinin öz-bildirimli diyet anketlerine dayanması kohort takibinde ölçüm hatalarına yol açabilir.",
+      "skip": false,
+      "pmid": "30122560",
+      "source_title": "Dietary carbohydrate intake and mortality: a prospective cohort study and meta-analysis.",
+      "year": "2018",
+      "due": "2026-11-26T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
