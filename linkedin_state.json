@@ -451,6 +451,21 @@
       "due": "2026-11-26T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b06ee6299c096db9440a5b3"
+    },
+    {
+      "text": "Uyku düzenini ele alırken genellikle sadece kaç saat uyuduğumuza odaklanıyoruz; peki bu sürenin uzun vadeli ruh sağlığı göstergeleriyle bağını ne kadar inceliyoruz? 2015 yılında yayınlanan prospektif çalışmaların yer aldığı bir meta-analiz, kısa ve uzun uyku sürelerinin yetişkinlerde depresyon riskiyle ilişkisini inceledi. PubMed ve Web of Science veritabanlarında yapılan aramalarda yedi prospektif çalışma değerlendirildi; kısa uyku süresi için 25.271, uzun uyku süresi için ise 23.663 katılımcı sürece dahil edildi.\n\nBulgulara göre, normal uyku süresiyle karşılaştırıldığında, kısa uyku süresi genel olarak depresyon için havuzlanmış göreli risk (RR) 1,31 ile ilişkilendirildi (%95 güven aralığı 1,04-1,64). Uzun uyku süresi için ise havuzlanmış göreli risk (RR) 1,42 olarak bulundu (%95 güven aralığı 1,04-1,92). Göreli risk, iki grup arasındaki olay görülme hızını kıyaslayan bir istatistiksel orandır; mutlak risk veya olasılık değildir. Bu veriler gözlemsel prospektif çalışmalara dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performans artışına ya da sporcu popülasyonuna uyarlanamaz. Çalışmanın bir kısıtlılığı, dahil edilen çalışmaların temel olarak gözlemsel nitelikte olması nedeniyle yazar beyanına veya belirli metodolojik sınırlara dayanmasıdır.\n\nBenim çıkarımım, uyku takibini yalnızca tek gecelik performans kaygısıyla değil, genel iyilik halini izleme aracı olarak ele almak. Bu hafta uyku saatlerinizdeki dalgalanmaları fark etmek için basit bir günlük tutabilirsiniz.\n\n#Uyku #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/26047492/",
+      "title": "Uyku Süresi ve Depresyon İlişkisi",
+      "stat": "1.31",
+      "stat_label": "Kısa uyku için depresyon göreli risk (RR), normal uykuya kıyasla (%95 CI 1,04-1,64)",
+      "finding": "Yedi prospektif çalışmayı içeren meta-analizde kısa uyku süresi için depresyon göreli risk oranı 1,31 (%95 CI 1,04-1,64) olarak bulunmuştur.",
+      "interpretation": "Gözlemsel verilere dayanan bu sonuçlar doğrudan bir neden-sonuç ilişkisi göstermez; bulgular atletik performansa uyarlanamaz.",
+      "limitation": "Dahil edilen çalışmaların prospektif gözlemsel tasarımda olması nedeniyle nedensellik çıkarımı yapılamaması.",
+      "skip": false,
+      "pmid": "26047492",
+      "source_title": "SLEEP DURATION AND DEPRESSION AMONG ADULTS: A META-ANALYSIS OF PROSPECTIVE STUDIES.",
+      "year": "2015",
+      "due": "2026-11-27T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
