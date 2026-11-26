@@ -467,6 +467,21 @@
       "due": "2026-11-27T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b08adf9cce15832d7d7d720"
+    },
+    {
+      "text": "Bağırsak mikrobiyotasını şekillendirmede lif tüketiminin rolünü incelediğimizde, genellikle tüm lif kaynaklarını aynı kefeye koyma eğilimindeyiz. 2018 yılında yayınlanan kapsamlı bir sistematik derleme ve meta-analiz, sağlıklı yetişkinlerde diyet lifi müdahalelerinin bağırsak mikrobiyota kompozisyonuna etkisini değerlendirdi. Toplam 64 randomize kontrollü çalışmanın ve 2099 katılımcının dahil edildiği bu araştırmada, lif müdahaleleri plasebo veya düşük lifli karşılaştırma gruplarıyla kıyaslandı.\n\nBulgulara göre, diyet lifi müdahalesi Bifidobacterium spp. bolluğunda anlamlı bir artış sağladı; standartlaştırılmış ortalama fark (SMD) 0,64 olarak bulundu (%95 güven aralığı 0,42 ila 0,86; p < 0,00001). Standardize edilmiş etki büyüklüğü, farklı ölçüm yöntemlerini ortak bir ölçekte karşılaştıran istatistiksel bir değerdir; asla bir yüzde veya olasılık değildir. Bu bulgular randomize kontrollü çalışmalara dayanır, doğrudan müdahale yanıtı kurar ve bu sonuçlar genel sağlıklı yetişkin popülasyonuna ait olup doğrudan atletik performansa uyarlanamaz. Çalışmanın bir kısıtlılığı, analiz edilen bireysel lif türlerinin mikroorganizmaların büyümesi üzerindeki rollerinin tam olarak ayrıştırılmasındaki metodolojik zorluklardır.\n\nBenim çıkarımım, lif alımını tek tip bir kaynakla sınırlamamak. Bu hafta tabağınıza fruktan ve galakto-oligosakkarit içeren soğan, sarımsak, pırasa veya baklagil gibi farklı lif kaynaklarını dahil ederek çeşitlilik yaratabilirsiniz.\n\n#Beslenme #Mikrobiyota #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/29757343/",
+      "title": "Bağırsak Mikrobiyotasında Diyet Lifinin Rolü",
+      "stat": "SMD: 0.64",
+      "stat_label": "Bifidobacterium spp. (%95 GA: 0,42-0,86; p < 0,00001, 64 çalışma, 2099 katılımcı)",
+      "finding": "Sağlıklı yetişkinlerde diyet lifi müdahalesi, plasebo/düşük lif gruplarına kıyasla Bifidobacterium spp. bolluğunda SMD 0,64 artış sağlamıştır.",
+      "interpretation": "Diyet lifi müdahaleleri, özellikle fruktan ve galakto-oligosakkaritler, sağlıklı yetişkinlerde belirli bakteri bolluğunu artırabilir.",
+      "limitation": "Analiz edilen bireysel lif türlerinin mikroorganizmaların büyümesi üzerindeki rollerinin tam olarak ayrıştırılmasındaki zorluklar.",
+      "skip": false,
+      "pmid": "29757343",
+      "source_title": "Dietary fiber intervention on gut microbiota composition in healthy adults: a systematic review and meta-analysis.",
+      "year": "2018",
+      "due": "2026-11-27T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
