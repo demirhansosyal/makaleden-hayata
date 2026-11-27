@@ -483,6 +483,21 @@
       "due": "2026-11-27T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b08ae1dde5162ee91b51ff5"
+    },
+    {
+      "text": "Antrenman planı yaparken toplam hareket miktarımızı ne kadar doğru hesaplıyoruz? Prospektif kohort çalışmalarını inceleyen sistematik bir derleme ve doz-yanıt meta-analizi, fiziksel aktivite ile meme kanseri, kolon kanseri, diyabet, iskemik kalp hastalığı ve iskemik inme riskleri arasındaki ilişkileri değerlendirdi. 174 makalenin analiz edildiği araştırmada, toplam fiziksel aktivite düzeyi ile bu hastalıkların riskleri arasında anlamlı ilişkiler saptandı; ancak temel kazançlar daha düşük aktivite seviyelerinde ortaya çıktı.\n\nÖrneğin, günde hiç aktivite bildirmeyenlere kıyasla, haftada 600 MET dakikalık en düşük önerilen aktivite düzeyine sahip bireylerde diyabet riski %2 daha düşük bulundu. Bu veriler gözlemsel kohort çalışmalarına dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performans artışına uyarlanamaz. Çalışmanın bir kısıtlılığı, analiz edilen verilerde toplam fiziksel aktivitenin ayrıntılı ve kesin miktarlandırılmasındaki metodolojik zorluklardır.\n\nBenim çıkarımım, hareketi yalnızca antrenman salonuna veya belirli seanslara hapsetmemek. Günlük yaşamın içine kısa yürüyüşler ve aktif geçişler ekleyebilirsiniz.\n\n#SporBilimi #AktifYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/27510511/",
+      "title": "Fiziksel Aktivite ve Kronik Hastalık Riski",
+      "stat": "%2",
+      "stat_label": "Haftada 600 MET dakikalık aktivite ile diyabet riskinde azalış",
+      "finding": "Haftada 600 MET dakika aktivite, aktivite bildirmeyenlere kıyasla diyabet riskini %2 oranında azalttı (prospektif kohort meta-analizi).",
+      "interpretation": "Gözlemsel bulgulara dayanan bu sonuçlar nedensellik kanıtlamaz ve atletik performansa uyarlanamaz.",
+      "limitation": "Toplam fiziksel aktivitenin ayrıntılı miktarlandırılmasındaki zorluklar.",
+      "skip": false,
+      "pmid": "27510511",
+      "source_title": "Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke events: systematic review and dose-response meta-analysis for the Global Burden of Disease Study 2013.",
+      "year": "2016",
+      "due": "2026-11-28T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
