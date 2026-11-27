@@ -499,6 +499,21 @@
       "due": "2026-11-28T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b09642e658222306c0787ec"
+    },
+    {
+      "text": "Uyku süresini konuşurken genellikle kaç saat yattığımıza odaklanıyoruz; peki bu sürenin uzun vadeli sağlık göstergeleriyle bağını ne kadar inceliyoruz?\n\nGenellikle sağlıklı popülasyonları inceleyen prospektif kohort çalışmalarının yer aldığı bir sistematik derleme ve doz-yanıt meta-analizi, uyku süresi ile tüm nedenlere bağlı ölüm ve kardiyovasküler olaylar arasındaki ilişkileri değerlendirdi. Araştırmada en düşük risk yaklaşık 7 saatlik günlük uyku süresinde gözlendi.\n\nBulgulara göre, günde 7 saatten az uyuyan bireylerde tüm nedenlere bağlı ölüm için havuzlanmış göreli risk (RR) her 1 saatlik azalma başına 1,06 (%95 güven aralığı 1,04-1,07) olarak bulundu. Göreli risk, iki grup arasındaki olay görülme hızını kıyaslayan bir istatistiksel orandır; mutlak risk veya olasılık değildir. Bu veriler gözlemsel kohort çalışmalarına dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performans artışına uyarlanamaz. Çalışmanın bir kısıtlılığı, analiz edilen uyku sürelerinin büyük ölçüde öz bildirime dayalı olmasından kaynaklanan olası ölçüm hatalarıdır.\n\nBenim çıkarımım, uyku takibini yalnızca tek bir geceye sıkıştırmamak. Bu hafta yatış ve kalkış saatlerinizi not edebilir; rutininizdeki dalgalanmaları fark etme aracı olarak kullanabilirsiniz.\n\n#Uyku #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/28889101/",
+      "title": "Uyku Süresi ve Sağlık İlişkisi",
+      "stat": "1,06",
+      "stat_label": "Havuzlanmış Göreli Risk (RR)",
+      "finding": "Günde 7 saatten az uyuyanlarda tüm nedenlere bağlı ölüm için havuzlanmış RR 1,06 (95% CI 1,04-1,07) idi.",
+      "interpretation": "Gözlemsel verilerdir, nedensellik kanıtlamaz ve doğrudan atletik performansa uyarlanamaz.",
+      "limitation": "Analiz edilen uyku sürelerinin büyük ölçüde öz bildirime dayalı olmasından kaynaklanan olası ölçüm hatalarıdır.",
+      "skip": false,
+      "pmid": "28889101",
+      "source_title": "Relationship of Sleep Duration With All-Cause Mortality and Cardiovascular Events: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies.",
+      "year": "2017",
+      "due": "2026-11-28T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
