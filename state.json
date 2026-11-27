@@ -862,6 +862,29 @@
       "due": "2026-11-27T10:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b0865fadba28007e9f3af09"
+    },
+    {
+      "thread": [
+        "1/3 Gece uykusuz kaldığında ertesi gün sadece bedeninin yorulduğunu mu düşünürsün? Kahveyle günü geçiştirmeye çalışsak da uykusuzluk zihnimizdeki duygu dengesini zannedilenden daha derin bir şekilde etkileyebilir.\nhttps://pubmed.ncbi.nlm.nih.gov/38127505/",
+        "2/3 5.717 sağlıklı katılımcıyla yapılan 154 araştırmanın analizi; uykuyu azaltmanın olumlu duyguları düşürdüğünü ve kaygıyı artırdığını gösteriyor. Uykusuzluk, duygusal tepkilerimizi de kütleştiriyor.",
+        "3/3 Benim bu veriden anladığım, uykunun sadece bedeni dinlendirmediği, duyguları da düzenlediğidir. Ancak laboratuvar ortamı günlük yaşamı tam yansıtmayabilir. Uykusuz kaldığında sende en çok neşen mi düşer?\nhttps://pubmed.ncbi.nlm.nih.gov/38127505/"
+      ],
+      "title": "Uykusuzluk Duygularımızı Nasıl Etkiliyor?",
+      "stat": "154 çalışma",
+      "stat_label": "5.717 sağlıklı katılımcıyla yapılan 154 deneysel çalışmanın meta-analizi",
+      "finding": "Uykusuzluk olumlu duyguları azaltmakta, kaygı belirtilerini artırmakta ve duygusal uyarılara verilen tepkileri kütleştirmektedir.",
+      "interpretation": "Yorum: Yetersiz uyku sadece fiziksel yorgunluk yaratmaz, günlük hayattaki duygusal dengemizi ve kaygı seviyemizi de doğrudan olumsuz etkiler.",
+      "limitation": "Laboratuvar ortamındaki deneysel uyku kısıtlamaları, günlük yaşamın karmaşık koşullarını tamamen yansıtmayabilir.",
+      "skip": false,
+      "tweet": "Gece uykusuz kaldığında ertesi gün sadece bedeninin yorulduğunu mu düşünürsün? Kahveyle günü geçiştirmeye çalışsak da uykusuzluk zihnimizdeki duygu dengesini zannedilenden daha derin bir şekilde etkileyebilir.",
+      "editorial_angle": "somut gündelik gözlem",
+      "pmid": "38127505",
+      "source_title": "Sleep loss and emotion: A systematic review and meta-analysis of over 50 years of experimental research.",
+      "year": "2024",
+      "text": "1/3 Gece uykusuz kaldığında ertesi gün sadece bedeninin yorulduğunu mu düşünürsün? Kahveyle günü geçiştirmeye çalışsak da uykusuzluk zihnimizdeki duygu dengesini zannedilenden daha derin bir şekilde etkileyebilir.\nhttps://pubmed.ncbi.nlm.nih.gov/38127505/",
+      "format": "three_post_thread",
+      "due": "2026-11-27T17:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "health": {
