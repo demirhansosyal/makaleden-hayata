@@ -531,6 +531,21 @@
       "due": "2026-11-29T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b09fb0a2ea34800c2992732"
+    },
+    {
+      "text": "Günlük hareket miktarımızı değerlendirirken genellikle antrenman seanslarına odaklanıyoruz; peki ya tüm fiziksel aktivite türlerinin uzun vadeli sağlık göstergeleriyle bağı?\n\nProspektif çalışmalar ve randomize kontrollü çalışmaları içeren bir sistematik derleme ve doz-yanıt meta-analizi, 81 çalışmayı inceleyerek toplam fiziksel aktivite, boş zaman aktiviteleri ve yürüyüş gibi alt tiplerin tip 2 diyabet riskiyle ilişkisini değerlendirdi. Araştırmada yüksek ile düşük aktivite düzeyleri karşılaştırıldı.\n\nBulgulara göre, toplam fiziksel aktivite için özet göreli risk (RR) 0,65 olarak bulundu (%95 güven aralığı 0,59-0,71, n=14). Göreli risk, iki grup arasındaki olay görülme hızını kıyaslayan bir istatistiksel orandır; mutlak risk veya olasılık değildir. Bu veriler gözlemsel çalışmalar ve randomize kontrollü çalışmalara dayanır; dolayısıyla yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performansa uyarlanamaz. Çalışmanın bir kısıtlılığı, analiz edilen bazı alt gruplarda yüksek heterojenlik (I² değerlerinin yüksek olması) gözlenmesidir.\n\nBenim çıkarımım, hareketi yalnızca antrenman salonuyla sınırlamamak. Günlük rutininize kısa yürüyüşler ve aktif geçişler ekleyebilirsiniz.\n\n#SporBilimi #AktifYaşam #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/26092138/",
+      "title": "Fiziksel Aktivite ve Tip 2 Diyabet Riski",
+      "stat": "0.65",
+      "stat_label": "Yüksek vs düşük toplam aktivite için özet göreli risk (RR)",
+      "finding": "Yüksek vs düşük toplam fiziksel aktivite için özet göreli risk (RR) 0,65 (%95 CI 0,59-0,71, n=14) olarak bulundu.",
+      "interpretation": "Fiziksel aktivite, tip 2 diyabet riskinde düşüşle ilişkilendirilmiştir ancak bu sonuçlar doğrudan atletik performansa uyarlanamaz.",
+      "limitation": "Analiz edilen bazı alt gruplarda yüksek heterojenlik (I² değerlerinin yüksek olması) gözlenmesidir.",
+      "skip": false,
+      "pmid": "26092138",
+      "source_title": "Physical activity and the risk of type 2 diabetes: a systematic review and dose-response meta-analysis.",
+      "year": "2015",
+      "due": "2026-11-29T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
