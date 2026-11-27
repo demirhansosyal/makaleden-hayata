@@ -515,6 +515,21 @@
       "due": "2026-11-28T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b096482658222306c07b0d4"
+    },
+    {
+      "text": "Kalp sağlığını korumada beslenme tercihlerini konuşurken genellikle yağ kısıtlamasına odaklanıyoruz; peki uzun vadeli klinik sonuçlar bize ne söylüyor?\n\nKoroner kalp hastalığı olan 20-75 yaş arası 1002 katılımcıyla (ortalama yaş 59,5, %82,5 erkek) İspanya'da yürütülen 7 yıllık tek merkezli randomize klinik çalışmada (CORDIOPREV), Akdeniz diyeti ile düşük yağlı diyetin ikincil korumadaki etkileri 1:1 oranında karşılaştırıldı. Çalışmada birincil sonlanım noktası miyokard enfarktüsü, reaskülarizasyon, iskemik inme, periferik arter hastalığı ve kardiyovasküler ölüm gibi majör kardiyovasküler olayları içeren bir bileşke olarak değerlendirildi.\n\nBulgulara göre, birincil sonlanım noktası Akdeniz diyeti grubunda 87, düşük yağlı diyet grubunda ise 111 katılımcıda görüldü; kaba oran bin kişi-yılı başına Akdeniz diyetinde 28,1 iken düşük yağlı diyette 37,7 oldu (log-rank p=0,039). Çok değişkenli ayarlanmış tehlike oranları (HR) Akdeniz diyeti lehine 0,719 ile 0,753 arasında değişti. Tehlike oranı (HR), zaman içindeki bağıl olay gerçekleşme hızını kıyaslayan bir istatistiksel orandır; mutlak risk veya olasılık değildir. Bu veriler randomize klinik çalışmalara dayanır ve bu sonuçlar doğrudan atletik performansa uyarlanamaz. Çalışmanın bir kısıtlılığı, katılımcıların tedavi atamasına karşı maskelenmemiş olmasıdır.\n\nBenim çıkarımım, diyetsel yaklaşımlarda tek bir makro besin öğesini kısmaktan öte kalıpların bütününe odaklanmak. Tabağınızda zeytinyağı, kuruyemiş ve balık gibi Akdeniz diyeti bileşenlerine yer verebilirsiniz.\n\n#Beslenme #KalpSağlığı #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/35525255/",
+      "title": "Akdeniz Diyeti ve İkincil Koruma",
+      "stat": "0,719 - 0,753",
+      "stat_label": "Çok değişkenli ayarlanmış tehlike oranı (HR) aralığı",
+      "finding": "Majör kardiyovasküler olaylar 7 yıllık takipte Akdeniz diyetinde 87, düşük yağlı diyette 111 kişide görüldü (kaba oran 28,1 vs 37,7 / bin kişi-yılı).",
+      "interpretation": "İkincil korumada Akdeniz diyeti, majör kardiyovasküler olayların önlenmesinde düşük yağlı diyete kıyasla üstünlık gösterdi.",
+      "limitation": "Klinik araştırmada katılımcıların tedavi atamasına karşı maskelenmemiş olması",
+      "skip": false,
+      "pmid": "35525255",
+      "source_title": "Long-term secondary prevention of cardiovascular disease with a Mediterranean diet and a low-fat diet (CORDIOPREV): a randomised controlled trial.",
+      "year": "2022",
+      "due": "2026-11-29T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
