@@ -563,6 +563,21 @@
       "due": "2026-11-30T09:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b0aaffae897dadb1d73928a"
+    },
+    {
+      "text": "Kalp yetmezliği olan yaşlı bireylerde egzersiz intoleransı yaşam kalitesini doğrudan etkiler; peki kalori kısıtlaması veya egzersiz bu kapasiteyi nasıl değiştirebilir?\n\nKentsel bir akademik tıp merkezinde yürütülen randomize, dikkat kontrollü 2x2 faktöriyel tasarımlı klinik çalışmada, ortalama 67 yaşındaki 100 obez ve kronik kalp yetmezliği olan katılımcı 20 hafta boyunca diyet, egzersiz veya her ikisine tabi tutuldu.\n\nBulgulara göre, peak oksijen tüketimi egzersiz grubunda 1,2 mL/kg vücut kütlesi/dakika (%95 güven aralığı 0,7 ila 1,7; P < 0,001) ve diyet grubunda 1,3 mL/kg vücut kütlesi/dakika (%95 güven aralığı 0,8 ila 1,8; P < 0,001) oranında anlamlı düzeyde arttı. Egzersiz ve diyetin birleşimi bu artış için eklemeli bir ortak etki (2,5 mL/kg/min) gösterdi. Bu veriler randomize kontrollü çalışmalara dayanır ve doğrudan atletik performansa uyarlanamaz. Çalışmanın bir kısıtlılığı, çalışmanın tasarımsal olarak körlenmemiş olmasıdır.\n\nBenim çıkarımım, hareket ve beslenme planlamasını birbirinin alternatifi olarak değil, birbirini tamamlayan unsurlar olarak ele almak. Günlük rutininize kısa tempolu yürüyüşler ve porsiyon farkındalığı ekleyebilirsiniz.\n\n#Beslenme #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/26746456/",
+      "title": "Kalp Yetmezliğinde Diyet ve Egzersiz",
+      "stat": "2.5 mL/kg/min",
+      "stat_label": "Peak Oksijen Tüketimi Ortak Etkisi",
+      "finding": "20 haftalık diyet veya egzersiz peak oksijen tüketimini sırasıyla 1,3 ve 1,2 mL/kg/dk artırmıştır.",
+      "interpretation": "Kalori kısıtlaması ve egzersiz egzersiz kapasitesini artırabilir; ancak bu sonuçlar atletik performansa uyarlanamaz.",
+      "limitation": "Çalışmanın bir kısıtlılığı, körleme yapılmamış olmasıdır.",
+      "skip": false,
+      "pmid": "26746456",
+      "source_title": "Effect of Caloric Restriction or Aerobic Exercise Training on Peak Oxygen Consumption and Quality of Life in Obese Older Patients With Heart Failure With Preserved Ejection Fraction: A Randomized Clinical Trial.",
+      "year": "2016",
+      "due": "2026-11-30T18:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
