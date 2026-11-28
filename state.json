@@ -889,12 +889,13 @@
     }
   ],
   "health": {
-    "checked_at": "2026-11-28T14:47:52.739747+03:00",
+    "checked_at": "2026-11-28T18:36:19.504150+03:00",
     "active_problems": [
       "Yayımlanmayan veya doğrulanamayan saat: 2026-11-27T13:00:00+03:00",
       "Yayımlanmayan veya doğrulanamayan saat: 2026-11-27T20:00:00+03:00",
       "Yayımlanmayan veya doğrulanamayan saat: 2026-11-28T10:00:00+03:00",
-      "Yayımlanmayan veya doğrulanamayan saat: 2026-11-28T13:00:00+03:00"
+      "Yayımlanmayan veya doğrulanamayan saat: 2026-11-28T13:00:00+03:00",
+      "Yayımlanmayan veya doğrulanamayan saat: 2026-11-28T17:00:00+03:00"
     ]
   }
 }
