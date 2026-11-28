@@ -547,6 +547,21 @@
       "due": "2026-11-29T18:00:00+03:00",
       "status": "scheduled",
       "post_id": "6b09fb1f71e8cc12a6d26535"
+    },
+    {
+      "text": "Beslenme düzenini şekillendirirken genellikle tekli öğelere odaklanıyoruz; peki bu kalıpların uzun vadeli sağlık sonuçlarıyla bağını ne kadar inceliyoruz?\n\n2,1 milyonun üzerinde katılımcıyı kapsayan randomize kontrollü çalışmalar ve gözlemsel araştırmaların yer aldığı güncellenmiş bir sistematik derleme ve meta-analiz, Akdeniz diyeti uyumu ile kanser riski arasındaki ilişkiyi değerlendirdi. En yüksek Akdeniz diyeti uyum puanına sahip bireylerde, en düşük uyuma kıyasla, kohort çalışmalarında kanser mortalitesi için havuzlanmış göreli risk (RR) 0,86 (%95 güven aralığı 0,81-0,91) olarak bulundu.\n\nGöreli risk, iki grup arasındaki olay görülme hızını kıyaslayan bir istatistiksel orandır; mutlak risk veya olasılık değildir. Bu veriler randomize kontrollü ve gözlemsel çalışmalara dayanır; dolayısıyla gözlemsel kısımları yalnızca birliktelik gösterir, nedensellik kanıtlamaz ve bu sonuçlar doğrudan atletik performansa uyarlanamaz. Çalışmanın bir kısıtlılığı, dahil edilen bazı çalışmalarda yüksek heterojenlik (I² değerlerinin yüksek olması) gözlenmesidir.\n\nBenim çıkarımım, beslenmeyi tek bir besin öğesine indirgememek. Tabağınızda sebze, meyve ve tam tahıl gibi lifli ve koruyucu bileşenlere yer vererek kalıbı bütününde zenginleştirebilirsiniz.\n\n#Beslenme #SporBilimi #MakaledenHayata\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/28954418/\n\nMakale: https://pubmed.ncbi.nlm.nih.gov/28954418/",
+      "title": "Akdeniz Diyeti ve Kanser Riski İlişkisi",
+      "stat": "RR 0,86",
+      "stat_label": "Kanser mortalitesi havuzlanmış göreli risk (en yüksek vs en düşük uyum)",
+      "finding": "En yüksek Akdeniz diyeti uyumuna sahip bireylerde kanser mortalitesi havuzlanmış göreli risk RR 0,86 (%95 CI 0,81-0,91) olarak bulundu.",
+      "interpretation": "Akdeniz diyeti örüntüsüne yüksek uyum, kanser riskine karşı koruyucu bir eğilimle ilişkilendirilebilir.",
+      "limitation": "Çalışmanın bir kısıtlılığı, analiz edilen bazı çalışmalarda yüksek heterojenlik gözlenmesidir.",
+      "skip": false,
+      "pmid": "28954418",
+      "source_title": "Adherence to Mediterranean Diet and Risk of Cancer: An Updated Systematic Review and Meta-Analysis.",
+      "year": "2017",
+      "due": "2026-11-30T09:00:00+03:00",
+      "status": "prepared"
     }
   ],
   "baseline": {
